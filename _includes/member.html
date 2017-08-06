@@ -1,0 +1,19 @@
+
+<div class="container02">
+	<div class="about_member_container">
+		{% for member in site.data.members %}
+		<div class="about_member_item">
+			<p class="member_name clearfix">
+			<span class="name">
+			{{ member.name }}
+			</span>
+			<span class="member_jobtitle">{{ member.jobtitle }}</span>
+			</p>
+			<img src="{{ member.imgpath }}" alt="" onmouseover="this.src='{{ member.imgpathon }}'" onmouseout="this.src='{{ member.imgpath }}'">
+			<p class="message">
+			{{ member.message }}
+			</p>
+		</div>
+		{% endfor %}
+	</div>
+</div>

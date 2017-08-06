@@ -1,0 +1,8 @@
+<div class="container03">
+	<dl class="faq_contents">
+	{% for qanda in site.data.faq %}
+	<dt><p><span class="question">Q.</span>{{ qanda.question}}</p></dt>
+	<dd><p>{{ qanda.answer}}</p></dd>
+	{% endfor %}
+	</dl>
+</div>

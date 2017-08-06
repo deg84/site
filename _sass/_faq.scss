@@ -1,0 +1,43 @@
+.faq_contents {
+	@media screen and (max-width: 1024px) {
+		padding: 30px;
+	}
+	p {
+		position: relative;
+		padding-left: 50px;
+		line-height: 2;
+	}
+	span.question {
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: solid 1px $brand_color;
+		color: $brand_color;
+		padding: 0 6px 0 8px;
+	}
+	dt {
+		min-height: 34px;
+		margin-bottom: 20px;
+	}
+	dd {
+		position: relative;
+		background: $background_color;
+		padding: 26px 26px 26px 70px;
+		margin-bottom: 30px;
+		p {
+			padding-left: 0;
+			font-size: 13px;
+		}
+		&:before {
+			position: absolute;
+			top: 28px;
+			left: 30px;
+			display: block;
+			content: "";
+			background: url(../images/logom.svg) no-repeat;
+			background-size: contain;
+			width: 20px;
+			height: 20px;
+		}
+	}
+}

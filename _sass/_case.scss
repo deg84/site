@@ -1,0 +1,190 @@
+.content_inner {
+	padding: 50px 0;
+}
+
+.ttl_case {
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	color: $brand-color;
+	text-align: center;
+	.main_ttl {
+		display: inline-block;
+		font-size: 30px;
+		text-align: center;
+		border-bottom: solid 1px $brand-color;
+		margin-bottom: 10px;
+	}
+	.sub_ttl {
+		display: block;
+		font-weight: normal;
+		font-size: 16px;
+	}
+	@media screen and (max-width: 1024px) {
+		padding: 30px;
+		margin-bottom: 30px;
+		.main_ttl {
+			font-size: 20px;
+		}
+		.sub_ttl {
+			font-size: 10px;
+		}
+	}
+}
+
+.case_headline {
+	font-size: 16px;
+	text-align: center;
+	color: $brand-color;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: 16px;
+	font-family: $title-font-family;
+	display: block;
+	background-image: linear-gradient(to right, #029AAA 55%, rgba(255, 255, 255, 0) 0%);
+    background-position: top;
+    background-size: 4px 1px;
+    background-repeat: repeat-x;
+    @media screen and (max-width: 1024px) {
+    	padding-bottom: 0;
+    }
+}
+
+.background_txt {
+	padding-bottom: 50px;
+	span {
+		color: $brand-color;
+	}
+	@media screen and (max-width: 1024px) {
+		padding: 30px;
+	}
+}
+
+.case_cause {
+	background: $background-color;
+	padding: 40px;
+	.cause {
+		float: left;
+		border-right: solid 1px #000;
+		line-height: 42px;
+		padding-right: 30px;
+	}
+	.reason {
+		float: right;
+		list-style-type: none;
+		width: 490px;
+	}
+	@media screen and (max-width: 1024px) {
+		padding: 20px 30px;
+		.cause,.reason {
+			font-weight: normal;
+			width: auto;
+		}
+		.cause {
+			border-right: none;
+		}
+	}
+}
+
+.case_arrow {
+	text-align: center;
+	padding: 50px 0;
+	@media screen and (max-width: 1024px) {
+		padding: 20px 0;
+	}
+	img {
+		width: 14px;
+		height: 25px;
+	}
+}
+
+.item_box {
+	position: relative;
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #029AAA 55%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 4px 1px;
+    background-repeat: repeat-x;
+	padding: 50px 0;
+	@media screen and (max-width: 1024px) {
+		display: block;
+		padding-bottom: 20px;
+	}
+}
+
+
+.check_box {
+	position: relative;
+	width: 180px;
+	padding: 36px 30px;
+	border: solid 1px $brand-color;
+	&:after {
+		display: block;
+		content: "";
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		top: -20px;
+		left: 101px;
+		background: url(/case/images/checkmark.svg) no-repeat;
+		background-size: contain;
+	}
+	@media screen and (max-width: 1024px) {
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+}
+
+.label_round {
+	border-radius: 20px 20px 20px 20px;
+	background: $yellow-color;
+	font-size: 16px;
+	width: 364px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 37px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.case_voice {
+	padding: 40px;
+	margin-bottom: 70px;
+	background: $background-color;
+	.case_voice_txt {
+		float: left;
+		width: 540px;
+	}
+	.case_voice_img {
+		text-align: center;
+		float: right;
+		color: $brand-color;
+		span {
+			display: block;
+			text-align: center;
+			padding-top: 25px;
+			@media screen and (max-width: 1024px) {
+				padding-top: 10px;
+			}
+		}
+		img {
+			width: 73px;
+			height: 108px;
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		.case_voice_txt,.case_voice_img {
+			font-weight: normal;
+			width: auto;
+		}
+	}
+}
+
+

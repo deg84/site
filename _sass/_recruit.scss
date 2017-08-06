@@ -1,0 +1,140 @@
+.ttl_recruit {
+	position: relative;
+	border-top: solid 1px $brand-color;
+	border-bottom: solid 1px $brand-color;
+	font-size: 16px;
+	padding: 38px 30px;
+	margin-top: 50px;
+	&:first-child{
+		margin-top: 0;
+	}
+	@media screen and (max-width: 1024px) {
+		background: #fff;
+		font-size: 12px;
+		padding: 20px;
+		margin-top: 10px;
+	}
+	&:after {
+		position: absolute;
+		display: block;
+		content: "";
+		top: 0;
+		right: 20px;
+		width: 20px;
+		height: 100%;
+		background: url(/images/button_open.svg) no-repeat center;
+		background-size: contain;
+	}
+}
+
+.ttl_recruit.open {
+	border-bottom: none;
+	&:after {
+		background: url(/images/button_close.svg) no-repeat center;
+	}
+}
+.displaynone {
+    display: none;
+}
+
+.content_recruit {
+	margin-bottom: 50px;
+}
+
+
+.content_recruit_inner {
+	background: url(/images/bg.svg);
+	padding: 50px 0;
+	p {
+		padding-bottom: 50px;
+	}
+	@media screen and (max-width: 1024px) {
+		font-size: 12px;
+		padding: 20px;
+		background: #fff;
+	}
+}
+
+.content_info.recruit {
+	width: 700px;
+	margin: 0 auto;
+	dl dd {
+		margin-left: 10em;
+		padding-left: 0;
+	}
+	dl {
+		margin-bottom: 50px;
+	}
+	dt {
+		padding-left: 0;
+		width: 10.3em;
+	}
+	@media screen and (max-width: 1024px) {
+		width: 100%;
+		dl dd {
+			margin-left: 9em;
+		}
+		dt {
+			width: 10em;
+		}
+	}
+}
+
+.button_entry {
+	position: relative;
+	display: block;
+	width: 250px;
+	height: 60px;
+	line-height: 60px;
+	margin: 0 auto;
+	padding: 0 26px;
+	background: transparent;
+	text-align: left;
+	border: solid 1px $brand-color;
+	color: $text-link-color;
+	@media screen and (max-width: 1024px) {
+		width: 200px;
+		height: 40px;
+		line-height: 40px;
+	}
+	&:after {
+		display: block;
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 26px;
+		width: 11px;
+		height: 60px;
+		background: url(/images/arrow.svg) no-repeat center;
+		background-size: contain;
+		@media screen and (max-width: 1024px) {
+			height: 40px;
+			width: 11px;
+		}
+	}
+}
+
+.contact_text.entry_text {
+	float: right;
+}
+
+.contact_notice.entry {
+	text-align: left;
+	@media screen and (max-width: 1024px) {
+		padding: 0 30px;
+	}
+}
+
+.contact_form.entry_form {
+	float: left;
+}
+
+.button.submit.entry {
+	float: right;
+}
+
+
+
+
+
+

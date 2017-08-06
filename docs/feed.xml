@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mofmofinc</title>
+    <description>mofmofinc corporate site
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 06 Aug 2017 21:58:44 +0900</pubDate>
+    <lastBuildDate>Sun, 06 Aug 2017 21:58:44 +0900</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
+    
+      <item>
+        <title>Interview05</title>
+        <description>&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;interview_main&quot;&gt;
+		&lt;div class=&quot;interview_title clearfix&quot;&gt;
+			&lt;p class=&quot;interview_main_title&quot;&gt;わずか3日でMVPを作りきる&lt;br /&gt;合宿型爆速開発サービス「いきなりMVP」&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;interview_img&quot;&gt;
+			&lt;img src=&quot;/interview/images/interview_base.png&quot; alt=&quot;&quot; /&gt;
+		&lt;/div&gt;
+		&lt;p class=&quot;interview_interviewer&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+		&lt;p class=&quot;interview_speaker&quot;&gt;&lt;span&gt;株式会社ABEJA&lt;/span&gt;CTO 緒方 貴紀&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;page_title&quot;&gt;クライアントインタビュー&lt;/h1&gt;
+	&lt;div class=&quot;container_daialog&quot;&gt;
+	&lt;p&gt;わずか3日でプロトタイプを作りきる合宿型爆速開発サービスの「いきなりMVP」。その「いきなりMVP」で初となるクライアントインタビューに行って来ました！&lt;/p&gt;
+	&lt;p&gt;mofmof広報の藤方です。&lt;/p&gt;
+	&lt;p&gt;今回のクライアント様は、IoT、ビッグデータ、人工知能技術ソリューションをあらゆる産業に最適化し提供する、あのABEJAさん。そしてインタビューにご対応いただいたのは取締役CTOの緒方さんです！
+	&lt;/p&gt;
+	&lt;p&gt;是非ご一読下さい！&lt;/p&gt;
+	&lt;/div&gt;
+
+&lt;div class=&quot;container_daialog&quot;&gt;
+
+	&lt;div class=&quot;clearfix&quot;&gt;
+	&lt;p class=&quot;ttl_dialog&quot;&gt;いきなりMVPでの開発をご依頼頂いた一番の理由を教えてください。&lt;/p&gt;
+	&lt;img class=&quot;img_fr&quot; src=&quot;/interview/images/ogatacto.png&quot; alt=&quot;&quot; /&gt;
+	&lt;p&gt;自分たちのビジネスにおいて、今回は研究開発という位置づけで新しい設計を立てていたが、その設計が正しいのかどうかを検証する上で、既存システムではなく新しくフルスクラッチでのシステムが必要でした。&lt;br /&gt;
+	新システムをいち早く開発し、運用に乗せてその仮説が正しいのかどうか、早く検証したかったというのが理由ですね。&lt;br /&gt;
+	わずか3日で新システムがほぼ完成したことには、非常に満足しています。
+	&lt;/p&gt;
+	&lt;p class=&quot;ttl_dialog&quot;&gt;最も良かった点は？&lt;/p&gt;
+	&lt;p&gt;開発スピードももちろん期待どおりだったのですが、mofmofさんと弊社で開発チームを組んで開発を行う中で、チームのメンバーが全員同じ最終ゴールに向かってプロジェクトに取り組めた点が、最も良かったなと思っています。 &lt;br /&gt;
+	一般的な受託開発会社に頼んだ場合は、こちらで全て座組みを立ててからじゃないと発注できないわけですが、mofmofさんの場合は弊社のやりたいビジョンに対して、しっかりとプロダクト開発に向き合ったうえで、どこを一番のバリューポイントにおいて開発を進めていくべきかというところまで一緒になって考えてくれました。
+	&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;&quot;&gt;
+	&lt;p class=&quot;ttl_dialog&quot;&gt;もっとこうすれば良くなるのでは？というポイントがあればお聞かせください。&lt;/p&gt;
+	&lt;p&gt;開発合宿に入る前にチーム全体での事前準備はして行くのですが、エンジニアリングの部分においては、事前にソロで準備できるところがもう少しあったのかなとも思います。&lt;br /&gt;
+	ただ、微妙な線引きになるので一概には言いきれないですね。参考程度にしてくださいね　笑&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section class=&quot;section_dialog&quot;&gt;
+	&lt;div class=&quot;container04 profile_bg clearfix&quot;&gt;
+	&lt;div class=&quot;title_left_small&quot;&gt;CLIENT PROFILE &lt;span&gt;クライアントプロフィール&lt;/span&gt;&lt;/div&gt;
+	&lt;p&gt;株式会社ABEJA&lt;/p&gt;
+	&lt;p&gt;CTO 緒方 貴紀&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href=&quot;&quot;&gt;株式会社ABEJA&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;https://service.abeja.asia/?gclid=CjwKEAjwh_bLBRDehaSMyJSCj1gSJAB-GWBDRTQjpRrU9a517Nsd__WWRwRpmLssEs0-K6SWLuzM2RoCILrw_wcB&quot;&gt;ABEJA Platform for Retail&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;img class=&quot;img_profile&quot; src=&quot;/interview/images/profile_ogata.png&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;/section&gt;
+</description>
+        <pubDate>Sun, 30 Jul 2017 00:00:00 +0900</pubDate>
+        <link>/interview/interview05.html</link>
+        <guid isPermaLink="true">/interview/interview05.html</guid>
+        
+        
+        <category>interview/</category>
+        
+      </item>
+    
+      <item>
+        <title>Dialog01</title>
+        <description>&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;interview_main&quot;&gt;
+		&lt;div class=&quot;interview_title clearfix&quot;&gt;
+			&lt;p class=&quot;interview_main_title&quot;&gt;ハイブリッドクラウドが生み出す、エンタープライズ情報システム&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;interview_img&quot;&gt;
+			&lt;img src=&quot;/images/interview.png&quot; alt=&quot;&quot; /&gt;
+		&lt;/div&gt;
+		&lt;p class=&quot;interview_interviewer&quot;&gt;&lt;span&gt;株式会社mofmof&lt;/span&gt;CEO 原田 敦&lt;/p&gt;
+		&lt;p class=&quot;interview_speaker&quot;&gt;&lt;span&gt;株式会社フライングライン&lt;/span&gt;CEO 鐘ヶ江 弘章&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;section&gt;
+&lt;h1 class=&quot;page_title&quot;&gt;対談&lt;/h1&gt;
+	&lt;div class=&quot;container_daialog&quot;&gt;
+		&lt;p&gt;アジャイルの女神がいるならば、彼女はこういう開発チームにいつも微笑み続けるのだろう。&lt;/p&gt;
+		&lt;p&gt;今回、そんな気がしたクライアントインタビューでした。&lt;br /&gt;
+		mofmofマーケターのニシイです。&lt;/p&gt;
+		&lt;p&gt;アジャイル開発を軸とした弊社の月額制受託開発サービスをご利用頂いたクライアント様に突撃インタビューをするコーナー。
+		今回は、ブラウザさえあればいつでもどこでも電子書籍を読めてしまうサービス「YONDEMILL（ヨンデミル）」を運営されている株式会社フライングラインの鐘ヶ江代表です。フライングライン様の開発は現在も進行中です。
+		&lt;/p&gt;
+	&lt;/div&gt;
+
+&lt;div class=&quot;container04&quot;&gt;
+	&lt;section class=&quot;section_dialog&quot;&gt;
+	&lt;h3 class=&quot;ttl_dialog&quot;&gt;弊社に決めて頂いた一番の理由は何ですか？&lt;/h3&gt;
+	&lt;p&gt;実は初めは個人のエンジニアさんにすべて開発をお願いしていたのですが、 &lt;br /&gt;もう少しスピードアップしたいということで開発チームを作る上で、その方からmofmofさんを紹介されたのがきっかけでした。&lt;br /&gt;
+	それで一度、mofmof代表の原田さんにmofmofの開発スタイルについてお話を聞きに行ったのですが、 その内容が弊社の状況にドンピシャで、そこで「mofmofさんにお願いしよう！」と決めました。&lt;br /&gt;
+	何がドンピシャだったかと言うと、いわゆる一般的な受託開発ではなく、エンジニアさんがプロジェクトチームの中にどっぷり入り込んで開発を進めていくというやり方が、まさに私たちが求めていたやり方でした。&lt;br /&gt;
+	その場でお願いすることを即決して、早速、具体的な話に入りました。&lt;/p&gt;
+	&lt;/section&gt;
+
+	&lt;section class=&quot;section_dialog clearfix&quot;&gt;
+	&lt;h3 class=&quot;ttl_dialog&quot;&gt;最も良かった点は？&lt;/h3&gt;
+	&lt;img class=&quot;img_fr&quot; src=&quot;/interview/images/dialog01_img01.png&quot; alt=&quot;&quot; /&gt;
+	&lt;p&gt;自社プロダクトを創ろうとする会社の多くがそう考えると思いますが、弊社でもやはり初めは「社内に開発チームを持つべき」と考えており、社外のメンバーでチームを組む不安はありました。しかし、いざmofmofさんと開発をスタートさせてみると、その不安は払拭されて「これはいけるぞ」という思いに変わりました。&lt;br /&gt;
+	社内とか社外とかそういったことではなく、優秀な人材が集まれば成果を挙げるチームを作ることができる。 &lt;br /&gt;今では「自分のプロダクトを作るための開発チームをしっかりと育成できているな。」という実感があります。&lt;br /&gt;
+	どうしても、ウォーターフォール型の開発では「作るもの」を初めからカッチリと決めておく必要があるのに対して、 &lt;br /&gt;mofmofさんとやる開発チームでは「作るものをどうしていくか」という所まで一緒に考えていけるので、それが一番良いところです。&lt;br /&gt;
+	またスクラムを回していくところまでコミットして頂けるとは思っていなかったので、かなり頼りにしています。&lt;br /&gt;
+	それで私自身もスクラムが気に入ってしまって（笑）&lt;br /&gt;
+	自社の他のプロジェクトまで全部スクラムの形で進めるようになったのですが、それがまた効果を出して、今では会社全体に素晴らしい影響を与えています。
+	&lt;/p&gt;
+	&lt;/section&gt;
+	&lt;section class=&quot;section_dialog clearfix&quot;&gt;
+	&lt;h3 class=&quot;ttl_dialog&quot;&gt;最も良かった点は？&lt;/h3&gt;
+	&lt;img class=&quot;img_fl&quot; src=&quot;/interview/images/dialog01_img02.png&quot; alt=&quot;&quot; /&gt;
+	&lt;p&gt;自社プロダクトを創ろうとする会社の多くがそう考えると思いますが、弊社でもやはり初めは「社内に開発チームを持つべき」と考えており、社外のメンバーでチームを組む不安はありました。しかし、いざmofmofさんと開発をスタートさせてみると、その不安は払拭されて「これはいけるぞ」という思いに変わりました。&lt;br /&gt;
+	社内とか社外とかそういったことではなく、優秀な人材が集まれば成果を挙げるチームを作ることができる。 &lt;br /&gt;今では「自分のプロダクトを作るための開発チームをしっかりと育成できているな。」という実感があります。&lt;br /&gt;
+	どうしても、ウォーターフォール型の開発では「作るもの」を初めからカッチリと決めておく必要があるのに対して、 &lt;br /&gt;mofmofさんとやる開発チームでは「作るものをどうしていくか」という所まで一緒に考えていけるので、それが一番良いところです。&lt;br /&gt;
+	またスクラムを回していくところまでコミットして頂けるとは思っていなかったので、かなり頼りにしています。&lt;br /&gt;
+	それで私自身もスクラムが気に入ってしまって（笑）&lt;br /&gt;
+	自社の他のプロジェクトまで全部スクラムの形で進めるようになったのですが、それがまた効果を出して、今では会社全体に素晴らしい影響を与えています。
+	&lt;/p&gt;
+	&lt;/section&gt;
+
+	&lt;section class=&quot;section_dialog&quot;&gt;
+	&lt;h3 class=&quot;ttl_dialog&quot;&gt;改善ポイントがあれば教えて下さい&lt;/h3&gt;
+	&lt;p&gt;改善すべきポイントがあるというよりかは、予めチームとして認識しておかなければいけない点はあるのかなと思います。 &lt;br /&gt;例えば、チーム内のコミュニケーションにしても、いつも隣にいるわけではないし、リモートの難しさもある。 &lt;br /&gt;そういった従来とは違う新しい開発チームの形に対するお互いの事前のコンセンサスは重要で、それが揺らぐと危ういことも出てくるのかもしれないとは思っています。 ただ、そういった意識合わせがしっかりできているチームであるならば、問題はないのではないでしょうか。
+	&lt;/p&gt;
+	&lt;/section&gt;
+&lt;/div&gt;
+
+&lt;section class=&quot;section_dialog&quot;&gt;
+	&lt;div class=&quot;container04 profile_bg clearfix&quot;&gt;
+	&lt;div class=&quot;title_left_small&quot;&gt;CLIENT PROFILE &lt;span&gt;クライアントプロフィール&lt;/span&gt;&lt;/div&gt;
+	&lt;p&gt;株式会社フライングライン&lt;/p&gt;
+	&lt;p&gt;CEO 鐘ヶ江 弘章&lt;/p&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href=&quot;https://www.flyingline.co.jp/&quot;&gt;株式会社フライングライン&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href=&quot;https://yondemill.jp/info/publisher/&quot;&gt;つながりで読むWebの本YONDEMILL（ヨンデミル）&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;img class=&quot;img_profile&quot; src=&quot;&quot; alt=&quot;&quot; /&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;/section&gt;
+</description>
+        <pubDate>Sun, 30 Jul 2017 00:00:00 +0900</pubDate>
+        <link>/interview/dialog/dialog01.html</link>
+        <guid isPermaLink="true">/interview/dialog/dialog01.html</guid>
+        
+        
+        <category>interview/dialog</category>
+        
+      </item>
+    
+      <item>
+        <title>test</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 15 Oct 2014 19:30:52 +0900</pubDate>
+        <link>/dialogue/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/dialogue/welcome-to-jekyll.html</guid>
+        
+        
+        <category>dialogue</category>
+        
+      </item>
+    
+      <item>
+        <title>test</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 15 Oct 2014 19:30:52 +0900</pubDate>
+        <link>/interview/interview01.html</link>
+        <guid isPermaLink="true">/interview/interview01.html</guid>
+        
+        
+        <category>interview</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<div class="container02">
+
+{% for works in site.data.works %}
+<section class="works_project_item">
+	<h2 class="title_left_small works">{{ works.project }} <span>{{ works.subtitle }}</span></h2>
+	<div class="clearfix">
+	<div class="works_image">
+	<img src="{{ works.imgpath }}" alt="">
+	<p class="sercive_link"><a href="{{ works.servicelink }}">{{ works.servicelink }}</a></p>
+	</div>
+	<div class="works_discription">{{ works.discription }}</div>
+	</div>
+	<a class="button worksitem_button" href="">クライアントインタビュー</a>
+</section>
+{% endfor %}
+
+
+
+</div>

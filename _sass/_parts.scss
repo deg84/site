@@ -1,0 +1,28 @@
+// _parts.scss
+
+
+.button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    font-family: inherit;
+    padding: 1.5em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: $yellow-color;
+    color: $text-color;
+}
+
+.middle {
+	width: 200px;
+}
+.large {
+	width: 300px;
+}

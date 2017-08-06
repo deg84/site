@@ -1,0 +1,190 @@
+.top_main_slider {
+	margin-bottom: 50px;
+	position: relative;
+	margin-bottom: 150px;
+	@media screen and (max-width: 1024px) {
+		margin-bottom: 30px;
+	}
+}
+
+.main_slide_area {
+	width: 1200px;
+	@media screen and (max-width: 1024px) {
+		width: auto;
+		height: 380px;
+	}
+}
+
+.ttl_main_top {
+	position: absolute;
+	bottom: 50px;
+	left: 590px;
+	text-align: left;
+	span {
+		font-family: $title-font-family;
+		font-size: 60px;
+		background: $brand-color;
+		text-align: left;
+		color: #fff;
+		padding: 6px 40px;
+	}
+	@media screen and (max-width: 1024px) {
+		left: 30px;
+		bottom: 0;
+		z-index: 1;
+		span {
+			font-size: 25px;
+			padding: 6px 20px;
+			line-height: 2;
+		}
+	}
+}
+
+$linear: cubic-bezier(0.250, 0.250, 0.750, 0.750);
+$ease: cubic-bezier(0.250, 0.100, 0.250, 1.000);
+$ease-in: cubic-bezier(0.420, 0.000, 1.000, 1.000);
+$ease-out: cubic-bezier(0.000, 0.000, 0.580, 1.000);
+$ease-in-out: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+
+$easeOutQuad: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+$easeOutCubic: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+$easeOutQuart: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+$easeOutQuint: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+$easeOutSine: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+$easeOutExpo: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+$easeOutCirc: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+.top_main_images {
+	position: relative;
+	width: 900px;
+	height: 550px;
+	text-align: center;
+	z-index: -1;
+	@media screen and (max-width: 1024px) {
+		// position: relative;
+		// height: 380px;
+		// left: -50%;
+	}
+}
+
+.main_image_item {
+	width: 900px;
+	overflow: hidden;
+	opacity: 1;
+	-webkit-transition: opacity 1s ease-out;
+	-moz-transition: opacity 1s ease-out;
+	-ms-transition: opacity 1s ease-out;
+	transition: opacity 1s ease-out;
+	@media screen and (max-width: 1024px) {
+		width: 100%;
+		height: 400px;
+		overflow: auto;
+		span {
+			display: block;
+			height: 380px;
+			overflow: hidden;
+		}
+		img {
+			position: relative;
+			width: 800px;
+			left: -45%;
+		}
+	}
+}
+
+.main_image_item.hover {
+	opacity: 0.8;
+	transition: transform 1s $easeOutQuart 0.2s,
+                    opacity 1s $easeOutSine 0.2s;
+}
+
+.main_visial_title {
+	line-height: 4;
+	color: $brand-color;
+	font-size: 19px;
+	letter-spacing: 2.5px;
+	font-weight: bold;
+	@media screen and (max-width: 1024px) {
+		display: none;
+		// position: relative;
+		// position: absolute;
+	 //    top: -380px;
+	 //    left: 20%;
+	}
+}
+
+.main_visial_title_top {
+	display: none;
+	z-index: 1;
+	@media screen and (max-width: 1024px) {
+		display: block;
+		position: absolute;
+		top: 30px;
+		left: 0;
+		width: 100%;
+		color: $brand_color;
+		text-align: center;
+		font-size: 16px;
+		letter-spacing: 4px;
+	}
+}
+
+.top_main_menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 300px;
+	text-align: right;
+	z-index: 1;
+	@media screen and (max-width: 1024px) {
+		position: relative;
+		width: auto;
+	}
+	ul.top_main_nav {
+		padding-left: 50px;
+		font-family: $title-font-family;
+		list-style-type: none;
+		li {
+			line-height: 2.8;
+			letter-spacing: 7px;
+			padding-right: 25px;
+			position: relative;
+			a {
+				&:hover {
+					color: $brand-color;
+					text-decoration: none;
+				}
+			}
+			&:hover {
+				&:after {
+					position: absolute;
+					top: 20px;
+					right: 0;
+					content: "";
+					width: 350px;
+					height: 1px;
+					background: $brand-color;
+					z-index: -1;
+				}
+			}
+			span {
+				padding: 0 10px;
+				background: #fff;
+				z-index: 2;
+			}
+		}
+		@media screen and (max-width: 1024px) {
+			padding-left: 0;
+			text-align: left;
+			position: relative;
+			top: 30px;
+			li {
+				display: inline;
+				letter-spacing: -1px;
+				padding: 5px;
+				font-size: 12px;
+			}
+		}
+	}
+}

@@ -1,0 +1,96 @@
+section.works_project_item {
+	position: relative;
+	margin-bottom: 70px;
+	padding-bottom: 40px;
+	background: url(/images/bg.svg) center repeat-y;
+	background-size: 800px;
+	@media screen and (max-width: 1024px) {
+		padding: 30px;
+	}
+}
+
+.title_left_small.works {
+	display: block;
+	max-width: 600px;
+	line-height: 1.2;
+	letter-spacing: 4px;
+	font-size: 43px;
+	span {
+		padding-top: 20px;
+		line-height: 1.8;
+		letter-spacing: 0;
+	}
+}
+
+.works_image {
+	float: left;
+	width: 500px;
+	@media screen and (max-width: 1024px) {
+		float: none;
+		width: 100%;
+	}
+}
+
+.works_discription {
+	float: right;
+	width: 479px;
+	@media screen and (max-width: 1024px) {
+		float: none;
+		width: 100%;
+		p {
+			font-size: 12px;
+			padding-bottom: 1rem;
+		}
+	}
+}
+
+.button.worksitem_button {
+	display: block;
+	position: absolute;
+	top: 117px;
+	right: 0;
+	width: 280px;
+	height: 1rem;
+	text-align: left;
+	@media screen and (max-width: 1024px) {
+		position: relative;
+		top: auto;
+		right: auto;
+		width: 180px;
+		padding: 1.2em;
+		margin-right: 0;
+    	margin-left: auto;
+		height: 0.8em;
+		font-size: 12px;
+	}
+	&:after {
+			position: absolute;
+			right: 20px;
+			content: "";
+			width: 10px;
+			height: 10px;
+			background: url(/images/arrow_black.svg);
+			background-size: cover;
+		}
+		&:hover {
+			background: $brand-color;
+			color: #fff;
+			text-decoration: none;
+			&:after {
+				background: url(/images/arrow_white.svg);
+				background-size: cover;
+			}
+		}
+}
+
+.sercive_link {
+	padding-top: 20px;
+	padding-left: 130px;
+	@media screen and (max-width: 1024px) {
+		padding: 10px 20px;
+		text-align: center;
+	}
+	a {
+		color: $text-link-color;
+	}
+}

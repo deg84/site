@@ -1,0 +1,95 @@
+.container_daialog {
+	width: 900px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+	p {
+		margin-bottom: 1em;
+		}
+	@media screen and (max-width: 1024px) {
+		width: auto;
+		padding: 0 30px;
+	}
+}
+
+img.img_fl {
+    float: left;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    @media screen and (max-width: 1024px) {
+		padding-bottom: 20px;
+		padding-right: 20px;
+		width: 40%;
+    }
+}
+
+img.img_fr {
+    float: right;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    @media screen and (max-width: 1024px) {
+		padding-bottom: 20px;
+		padding-left: 20px;
+		width: 40%;
+    }
+}
+
+section.section_dialog {
+	margin-bottom: 70px;
+	@media screen and (max-width: 1024px) {
+		padding: 30px;
+		margin-bottom: 0;
+	}
+}
+
+.section_dialog {
+	margin-bottom: 30px;
+}
+
+.ttl_dialog {
+	font-size: 16px;
+	color: $text-link-color;
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+
+.profile_bg {
+	position: relative;
+	background: url(/images/bg.svg) repeat-y right;
+	background-size: 750px;
+	min-height: 393px;
+	.title_left_small {
+		margin-bottom: 50px;
+		@media screen and (max-width: 1024px) {
+			margin-bottom: 10px;
+		}
+	}
+	p {
+		font-size: 16px;
+	}
+	ul {
+		padding: 40px 1em;
+		@media screen and (max-width: 1024px) {
+			padding: 20px 1em;
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		width: auto;
+	    padding: 0 30px;
+	    padding-bottom: 30px;
+	}
+}
+
+img.img_profile {
+	position: absolute;
+	top: 70px;
+	right: 70px;
+	width: 200px;
+	@media screen and (max-width: 1024px) {
+		position: relative;
+		width: 50%;
+		float: right;
+		top: auto;
+		right: auto;
+	}
+}
+

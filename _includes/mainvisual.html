@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="main_visual">
+		<img src="{{page.main_visual_path}}" alt="">
+		{%if page.main_title_text_jp %}
+		<p class="main_text_jp">{{page.main_title_text_jp}}</p>
+		{% endif %}
+		<div class="main_text_en_wrap">
+			<p><span class="main_text_en1">{{page.main_title_text_en1}}</span></p>
+			{%if page.main_title_text_en2 %}
+			<p><span class="main_text_en2">{{page.main_title_text_en2}}</span></p>
+			{% endif %}
+			{%if page.main_title_text_en3 %}
+			<p><span class="main_text_en3">{{page.main_title_text_en3}}</span></p>
+			{% endif %}
+		</div>
+		{%if page.main_service_text %}
+		<div><img class="main_service_text" src="{{page.main_service_text}}" alt=""></div>
+		{% endif %}
+	</div>
+</div>

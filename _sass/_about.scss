@@ -1,0 +1,188 @@
+.about_member_01 {
+	position: relative;
+	width: 1000px;
+	height: 450px;
+	margin-bottom: 100px;
+	background: url(/about/images/about_harada.png) no-repeat;
+  	-webkit-transition: .3s ease-in-out;
+ 	transition: .3s ease-in-out;
+	&:hover {
+		background: url(/about/images/about_harada_on.png) no-repeat;
+		.about_member_message {
+			color: #fff;
+		}
+	}
+	@media screen and (max-width: 1024px) {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.about_member_meta {
+	position: relative;
+	width: 360px;
+	height: 450px;
+	float: left;
+	@media screen and (max-width: 1024px) {
+		float: none;
+		width: 100%;
+	}
+
+	.about_member_name {
+		position: absolute;
+		bottom: 0;
+		padding: 30px;
+		@media screen and (max-width: 1024px) {
+			bottom: auto;
+			right: 0;
+			text-align: center;
+		}
+		.name_jp {
+			font-size: 20px;
+			line-height: 3;
+			@media screen and (max-width: 1024px) {
+				font-size: 28px;
+				line-height: 1.6;
+			}
+		}
+		.job_title {
+			font-size: 10px;
+		}
+		.name_en {
+			font-size: 10px;
+			margin-bottom: 20px;
+		}
+		span {
+			margin-right: 10px;
+			@media screen and (max-width: 1024px) {
+				margin: 1px;
+			}
+			img {
+				width: auto;
+			}
+		}
+	}
+}
+
+.about_member_message {
+	float: right;
+	width: 580px;
+	height: 450px;
+	padding-right: 60px;
+	padding-top: 60px;
+	@media screen and (max-width: 1024px) {
+		float: none;
+		width: 100%;
+		height: auto;
+		padding-top: 40px;
+		p {
+			padding: 0 30px;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.about_member_container {
+	width: 1000px;
+	display:-webkit-flex;
+    display:flex;
+	-webkit-justify-content: space-between;
+  	justify-content: space-between;
+  	-webkit-box-lines:multiple;
+    -moz-box-lines:multiple;
+    -webkit-flex-wrap:wrap;
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    @media screen and (max-width: 1024px) {
+    	width: 100%;
+    }
+}
+
+.about_member_item {
+	width: 300px;
+	border-top: solid 1px $brand-color;
+	margin-bottom: 50px;
+	img {
+ 		&:hover {
+ 			opacity: 0.8;
+			-webkit-transition: .6s ease-in-out;
+	 		transition: .5s ease-in-out;
+ 		}
+	}
+	.member_name {
+		span.name {
+			float: left;
+			font-size: 13px;
+			line-height: 3;
+		}
+		span.member_jobtitle {
+			float: right;
+			font-size: 11px;
+			line-height: 3.5;
+			color: $brand-color;
+		}
+	}
+	.message {
+		font-size: 12px;
+		padding-top: 20px;
+	}
+	@media screen and (max-width: 1024px) {
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+}
+
+.content_info {
+	width: 600px;
+	margin: 0 auto;
+	@media screen and (max-width: 1024px) {
+		width: 80%;
+	}
+	dl {
+		background-image: linear-gradient(to right, $brand-color 55%, rgba(255,255,255,0) 0%);
+		background-position: bottom;
+		background-size: 4px 1px;
+		background-repeat: repeat-x;
+	}
+	dl dt {
+		float:left;
+		width:8em;
+		background-image: linear-gradient(to right, $brand-color 55%, rgba(255,255,255,0) 0%);
+		background-position: top;
+		background-size: 4px 1px;
+		background-repeat: repeat-x;
+		padding: 15px 0 15px 7em;
+		padding-top:17px;
+		padding-left:100px;
+		padding-bottom:0;
+		padding-right:0;
+		@media screen and (max-width: 1024px) {
+			width: 6rem;
+			padding-left: 0;
+			padding: 15px 0 15px 0.8em;
+		}
+	}
+
+	dl dd {
+		margin-left:10em;
+		padding:10px;
+		background-image: linear-gradient(to right, $brand-color 55%, rgba(255,255,255,0) 0%);
+		background-position: top;
+		background-size: 4px 1px;
+		background-repeat: repeat-x;
+		padding: 17px 0 15px 5.5em;
+		@media screen and (max-width: 1024px) {
+			padding: 17px 0 15px 0;
+			margin-left: 7.4em;
+		}
+	}
+}
+
+#map {
+	width: 100%;
+	height: 450px;
+}
+
+
+
