@@ -46,8 +46,8 @@ URL: localhost:4000/interview/dialog/dialog01.html
 #### jquery
 
 - [googleマップAPI](http://maps.google.com/maps/api/js?key=AIzaSyC4uyAacIM5kK-qPRDw3tJfEBYtdbhAJgo)
-- [query本体](https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js)
-- queryプラグイン
+- [jquery本体](https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js)
+- jqueryプラグイン
 	- [easing](https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js)
  	- feed取得（クロスドメイン対応）
   		- [https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js](https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js)
