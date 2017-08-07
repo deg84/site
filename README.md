@@ -19,7 +19,7 @@ _config.yml を参照し、適宜変更してください。
 
 ### _postsのURL
 
-_postsで生成されるファイルの出力先は、個別のmdファイル内、ymlformatterに記載。  
+_postsで生成されるファイルの出力先は、個別のmdファイル内、yml front matterに記載。  
 ファイル名の"yyyy-mm-dd-"の部分は表示されない。  
 
 ex. /_posts/2017-07-30-interview05.md
