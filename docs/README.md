@@ -1,36 +1,64 @@
-# gulpfile.js for Livereload on Jekyll.
-# This is not gulp plugin.
+# mofmof site
 
-1. You can livereload on jekyll by copying "gulpfile.js" & "package.json".
+## Quickstart
 
-2. `npm install` for node_modules
+- jekyllをインストール
+[https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
-3. `gulp` start static server and livereload
+- プロジェクト内でjekyllコマンド実行
 
-4. If you want to use javascripts, edit gulp.task('watch').
+```
+jekyll s
+```
 
-5. Fix path, css and javascript.
+## Settings
+
+### サイト全体
+
+_config.yml を参照し、適宜変更してください。
+
+### _postsのURL
+
+_postsで生成されるファイルの出力先は、個別のmdファイル内、yml front matterに記載。  
+ファイル名の"yyyy-mm-dd-"の部分は表示されない。  
+
+ex. /_posts/2017-07-30-interview05.md
+
+```
+# Posts destination
+categories: interview/
+```
+URL: localhost:4000/interview/interview05.html  
+
+ex. /_posts/2017-07-30-dialog01.md
+
+```
+# Posts destination
+categories: interview/dialog
+
+```
+URL: localhost:4000/interview/dialog/dialog01.html
+
+## Notes
+
+### 使用しているプラグイン等
+
+#### jquery
+
+- [googleマップAPI](http://maps.google.com/maps/api/js?key=AIzaSyC4uyAacIM5kK-qPRDw3tJfEBYtdbhAJgo)
+- [jquery本体](https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js)
+- jqueryプラグイン
+	- [easing](https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js)
+ 	- feed取得（クロスドメイン対応）
+  		- [https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js](https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js)
+  		- [https://rawgit.com/padolsey-archive/jquery.fn/master/cross-domain-ajax/jquery.xdomainajax.js](https://rawgit.com/padolsey-archive/jquery.fn/master/cross-domain-ajax/jquery.xdomainajax.js)
+ 	- スライダー
+  		- [slick](http://kenwheeler.github.io/slick/)
 
 
+#### gulp
 
-##The MIT License (MIT)
+gulpで静的サーバ＋ライブリロード開始。使用しなくても可。
+[gulp-jekyll-livereload](https://github.com/roana0229/gulp-jekyll-livereload)
 
-Copyright (c) 2014 roana0229
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
