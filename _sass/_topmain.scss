@@ -137,6 +137,21 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 	width: 300px;
 	text-align: right;
 	z-index: 1;
+	.slick-slide.slick-current.slick-active {
+		a {
+			color: $brand-color;
+		}
+		&:after {
+				position: absolute;
+				top: 20px;
+				right: 0;
+				content: "";
+				width: 350px;
+				height: 1px;
+				background: $brand-color;
+				z-index: -1;
+			}
+	}
 	@media screen and (max-width: 1024px) {
 		position: relative;
 		width: auto;
@@ -188,3 +203,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 		}
 	}
 }
+
+
+
+

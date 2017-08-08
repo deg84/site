@@ -2260,6 +2260,17 @@ img.img_profile {
   width: 300px;
   text-align: right;
   z-index: 1; }
+  .top_main_menu .slick-slide.slick-current.slick-active a {
+    color: #029AAA; }
+  .top_main_menu .slick-slide.slick-current.slick-active:after {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    content: "";
+    width: 350px;
+    height: 1px;
+    background: #029AAA;
+    z-index: -1; }
   @media screen and (max-width: 1024px) {
     .top_main_menu {
       position: relative;
