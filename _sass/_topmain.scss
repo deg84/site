@@ -151,6 +151,16 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 				background: $brand-color;
 				z-index: -1;
 			}
+		@media screen and (max-width: 1024px) {
+			 a {
+			 	padding-bottom: 4px;
+			 	border-bottom: solid 2px $brand-color;
+			 }
+			&:after {
+				display: none;
+			}
+
+		}
 	}
 	@media screen and (max-width: 1024px) {
 		position: relative;
@@ -199,6 +209,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 				letter-spacing: -1px;
 				padding: 5px;
 				font-size: 12px;
+				text-align: center;
 			}
 		}
 	}

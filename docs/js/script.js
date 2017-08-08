@@ -30,7 +30,7 @@ $(function(){
 			{ "opacity" : "0","width" : "0px" }, 500,"easeOutCirc");
 	});
 
-
+	// PCのとき
 	var w = $(window).width();
 	if(w >= 1000){
 
@@ -89,7 +89,7 @@ $(function(){
 	    });
 
 	} else {
-
+		// SPのとき
 		// トップページスライド
 		$(".js_main_slide").slick({
 		    infinite: true,
@@ -97,16 +97,17 @@ $(function(){
 		    slidesToShow: 1,
 		    slidesToScroll: 1,
 		    responsive: true,
-		    autoplay: false,
+		    autoplay: true,
 		  	autoplaySpeed: 3000,
 		  	asNavFor: '#js_main_nav'
 		  });
 
 	// スライドナビゲーション
 		$("#js_main_nav").slick({
+			vertical: false,
 			slidesToShow: 4,
 		    slidesToScroll: 1,
-		    autoplay: false,
+		    autoplay: true,
 		    asNavFor: 'js_main_slide'
 		});
 

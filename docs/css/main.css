@@ -2272,6 +2272,12 @@ img.img_profile {
     background: #029AAA;
     z-index: -1; }
   @media screen and (max-width: 1024px) {
+    .top_main_menu .slick-slide.slick-current.slick-active a {
+      padding-bottom: 4px;
+      border-bottom: solid 2px #029AAA; }
+    .top_main_menu .slick-slide.slick-current.slick-active:after {
+      display: none; } }
+  @media screen and (max-width: 1024px) {
     .top_main_menu {
       position: relative;
       width: auto; } }
@@ -2310,7 +2316,8 @@ img.img_profile {
           display: inline;
           letter-spacing: -1px;
           padding: 5px;
-          font-size: 12px; } }
+          font-size: 12px;
+          text-align: center; } }
 
 body {
   -webkit-font-smoothing: antialiased;
