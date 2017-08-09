@@ -4,6 +4,7 @@
   interviewlink:
   imgpath: /works/images/works_abeja.png
   servicelink: https://service.abeja.asia/
+  worksno: works01
 
 - project: RiLi.tokyo
   subtitle: 女性向け、トレンドをいち早くキャッチできる、発信型オンラインショッピングモールサービス
@@ -11,6 +12,7 @@
   interviewlink:
   imgpath: /works/images/works_rili.png
   servicelink: https://rili.tokyo/
+  worksno: works02
 
 - project: Yondemill
   subtitle: ブラウザ上で電子書籍を購入・閲覧できるサービス
@@ -18,6 +20,7 @@
   interviewlink:
   imgpath: /works/images/works_yondemill.png
   servicelink: https://yondemill.jp/
+  worksno: works03
 
 - project: QSUKE
   subtitle: 中小企業向けホームページリクルーティングサービス
@@ -25,6 +28,7 @@
   interviewlink:
   imgpath: /works/images/works_qsuke.png
   servicelink: http://www.qsuke.biz/
+  worksno: works04
 
 - project: なでしこナース
   subtitle: ナースに新しい働き方を提案する看護師マッチングサイト
@@ -32,6 +36,7 @@
   interviewlink:
   imgpath: /works/images/works_nadeshiko.png
   servicelink: https://nadeshikonurse.jp/
+  worksno: works05
 
 - project: Carrier live
   subtitle: 新卒・企業のマッチングサービス
@@ -39,6 +44,7 @@
   interviewlink:
   imgpath: /works/images/works_careerlive.png
   servicelink: http://www.careerlive.jp/
+  worksno: works06
 
 - project: 時限調整
   subtitle: 制限時間付き日程調整サービス
@@ -46,3 +52,4 @@
   imgpath: /works/images/works_jigen.png
   interviewlink:
   servicelink: http://www.zigenchosei.com/
+  worksno: works07

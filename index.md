@@ -27,21 +27,21 @@ description: mofmofinc site home
 	</div>
 	<div class="container">
 		<div class="merit_items">
-		<a class="merit_link_area" href="#">
+		<a class="merit_link_area" href="/service/#merit01">
 			<div class="merit01">
 			<img src="images/merit01.png" />
 			</div>
 			<button class="button middle middle_sp">MERIT.01</button>
 			<p>高速で開発ができるため、<br>新規事業に向いている</p>
 		</a>
-		<a class="merit_link_area" href="#">
+		<a class="merit_link_area" href="/service/#merit02">
 			<div class="merit02">
 			<img src="images/merit02.png" />
 			</div>
 			<button class="button middle middle_sp">MERIT.02</button>
 			<p>開発チームの進捗を可視化</p>
 		</a>
-		<a class="merit_link_area" href="#">
+		<a class="merit_link_area" href="/service/#merit03">
 			<div class="merit03">
 			<img src="images/merit03.png" />
 			</div>
@@ -58,7 +58,7 @@ description: mofmofinc site home
 	</div>
 	<div class="container">
 		<div class="interview_items">
-			<a href="#">
+			<a href="/interview/interview05.html">
 			<div class="interview01">
 			<span class="interview_img"><img src="images/interview01.png" /></span>
 			<div class="interview_text">
@@ -95,7 +95,7 @@ description: mofmofinc site home
 			</div>
 			</a>
 			<div class="more_link more_link_interview">
-			<a class="button_more" href="#"><span>MORE</span></a>
+			<a class="button_more" href="/interview"><span>MORE</span></a>
 			</div>
 		</div>
 	</div>
@@ -105,28 +105,28 @@ description: mofmofinc site home
 	<div class="container02">
 		<h2 class="ttl_left">WORKS<span>開発実績</span></h2>
 		<div class="works_items">
-			<a href="#">
+			<a href="/works/#works01">
 			<div class="works_item_box">
 			<span class="works_img"><img src="images/works01.png" /></span>
 			<p>WORKS.01</p>
 			<div class="button works_button">ABEJA Platform for Retail</div>
 			</div>
 			</a>
-			<a href="#">
+			<a href="/works/#works02">
 			<div class="works_item_box works02">
 			<span class="works_img"><img src="images/works02.png" /></span>
 			<p>WORKS.02</p>
 			<div class="button works_button">RiLi.tokyo</div>
 			</div>
 			</a>
-			<a href="#">
+			<a href="/works/#works03">
 			<div class="works_item_box">
 			<span class="works_img"><img src="images/works03.png" /></span>
 			<p>WORKS.03</p>
 			<div class="button works_button">Yondemill</div>
 			</div>
 			</a>
-			<a href="#">
+			<a href="/works/#works04">
 			<div class="works_item_box">
 			<span class="works_img"><img src="images/works04.png" /></span>
 			<p>WORKS.04</p>
@@ -134,7 +134,7 @@ description: mofmofinc site home
 			</div>
 			</a>
 			<div class="more_link more_link_works">
-			<a class="button_more" href="#"><span>MORE</span></a>
+			<a class="button_more" href="/works"><span>MORE</span></a>
 			</div>
 		</div>
 	</div>
@@ -270,13 +270,13 @@ description: mofmofinc site home
 			</div>
 			<div class="page_nav_items clearfix">
 				<div class="page_nav_inner">
-				<a class="page_nav_left" href="#">
+				<a class="page_nav_left" href="/about">
 				<div class="page_nav_item_box">
 				<img src="/images/small_about.png" />
 				<button class="button page_nav_button">mofmofとは</button>
 				</div>
 				</a>
-				<a class="page_nav_right" href="#">
+				<a class="page_nav_right" href="/recruit">
 				<div class="page_nav_item_box">
 				<img src="/images/small_recruit.png" />
 				<button class="button page_nav_button">採用情報</button>

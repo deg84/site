@@ -31,7 +31,7 @@ page_nav_btn_right_text: 開発実績
 <div class="container03">
 
 <section>
-<h2 class="ttl_case"><span class="main_ttl">スタートアップ起業家 Aさんの場合</span> <span class="sub_ttl">〜Webでお見合いを仲介する新規ビジネスの立ち上げ〜</span></h2>
+<h2 id="case01" class="ttl_case"><span class="main_ttl">スタートアップ起業家 Aさんの場合</span> <span class="sub_ttl">〜Webでお見合いを仲介する新規ビジネスの立ち上げ〜</span></h2>
 
 <p class="case_headline">CASE.1</p>
 <div class="background_txt">

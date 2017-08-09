@@ -60,14 +60,14 @@ page_nav_btn_right_text: ケーススタディ
 		<h2 class="ttl_left case_studies">CASE STUDIES<span>ケーススタディー</span></h2>
 		<div class="sercive_case_img"><img src="/service/images/cards.png" alt=""></div>
 		<div class="sercive_case_txt">
-			<a href="#">
+			<a href="/case/#case01">
 			<div class="sercive_case_item">
 			<p class="case_no">CASE.01</p>
 			<p>スタートアップ起業家 Aさんの場合<br>
 			〜Webでお見合いを仲介する新規ビジネスの立ち上げ〜</p>
 			</div>
 			</a>
-			<a href="#">
+			<a href="/case/#case02">
 			<div class="sercive_case_item">
 			<p class="case_no">CASE.02</p>
 			<p>中規模ベンチャー企業の新規事業担当Bさんの場合<br>

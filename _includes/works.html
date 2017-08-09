@@ -1,7 +1,7 @@
 <div class="container02">
 
 {% for works in site.data.works %}
-<section class="works_project_item">
+<section id="{{ works.worksno }}" class="works_project_item">
 	<h2 class="title_left_small works">{{ works.project }} <span>{{ works.subtitle }}</span></h2>
 	<div class="clearfix">
 	<div class="works_image">

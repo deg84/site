@@ -107,7 +107,7 @@ $(function(){
 			vertical: false,
 			slidesToShow: 4,
 		    slidesToScroll: 1,
-		    autoplay: true,
+		    autoplay: false,
 		    asNavFor: 'js_main_slide'
 		});
 
@@ -122,7 +122,6 @@ $(function(){
 		.on('mouseout', function(e) {
 		    $slide.slick('slickPlay');  // 自動切り替え再開
 		});
-
 	}
 
 
