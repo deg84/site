@@ -97,7 +97,8 @@ input, select {
  */
 header {
   height: 100px;
-  padding-top: 80px; }
+  padding-top: 80px;
+  position: relative; }
   header img.logo {
     padding-right: 20px;
     vertical-align: middle; }
@@ -125,14 +126,17 @@ header {
   .container img.backtotop_logo_img {
     display: none; } }
 #gnav {
-  position: relative; }
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  top: 0; }
 
 #gnav_menu {
   position: absolute;
-  top: -38px;
+  top: 90px;
   right: 0px;
   width: 0;
-  height: 26px;
+  height: 24px;
   padding-right: 40px;
   font-size: 13px;
   overflow: hidden;
@@ -180,10 +184,11 @@ header {
   width: 25px;
   display: block !important;
   cursor: pointer;
-  float: right;
-  position: relative;
-  top: -39px;
-  background: #fff; }
+  position: absolute;
+  top: 90px;
+  right: 0;
+  background: #fff;
+  z-index: 1; }
   #gnav_btn span {
     height: 2px;
     width: 25px;
@@ -213,22 +218,23 @@ header {
     background-color: #029AAA;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease; }
-  #gnav_btn:hover span {
-    display: none; }
-  #gnav_btn:hover:before {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-    top: 9px; }
-  #gnav_btn:hover:after {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-    top: 9px; }
+
+#gnav_btn.hover span {
+  display: none; }
+#gnav_btn.hover:before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  top: 9px; }
+#gnav_btn.hover:after {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  top: 9px; }
 
 @media screen and (max-width: 1024px) {
   #gnav_btn {
-    position: relative;
-    top: -20px;
-    right: 30px;
+    position: absolute;
+    top: 27px;
+    right: 20px;
     z-index: 3; }
     #gnav_btn:hover span {
       display: block; }
@@ -1721,7 +1727,8 @@ section.works_project_item {
 
 .section_service {
   position: relative;
-  padding-bottom: 130px; }
+  padding-bottom: 130px;
+  margin-bottom: 0; }
   @media screen and (max-width: 1024px) {
     .section_service {
       padding-top: 30px;
@@ -1844,7 +1851,8 @@ section.works_project_item {
   display: -o-flex;
   display: flex;
   flex-direction: row;
-  text-align: center; }
+  text-align: center;
+  justify-content: center; }
   @media screen and (max-width: 1024px) {
     .img_other_items {
       display: block;

@@ -24,10 +24,12 @@ $(function(){
 	$("#gnav").enter(function() {
 		$("#gnav_menu").stop().animate(
 			{ "opacity" : "1","width" : "730px" }, 500,"easeOutCirc");
+		$("#gnav_btn").addClass('hover');
 	},
 	function() {
 		$("#gnav_menu").stop().animate(
 			{ "opacity" : "0","width" : "0px" }, 500,"easeOutCirc");
+		$("#gnav_btn").removeClass('hover');
 	});
 
 	// PCのとき

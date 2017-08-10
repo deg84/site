@@ -116,25 +116,13 @@ page_nav_btn_right_text: ケーススタディ
 	</div>
 </section>
 
-<section>
-
 <div class="img_other_items">
-<a class="others_link_area" href="#">
-	<div class="img_hover01">
-	<img src="/service/images/others01.png" alt=""><p class="overlay"><span>新規事業向け<br>CTO代行サービス</span></p>
-	</div>
-</a>
-<a class="others_link_area" href="#">
+<a class="others_link_area" href="https://www.my-ope.net/">
 	<div class="img_hover02">
 	<img src="/service/images/others02.png" alt=""><p class="overlay"></p>
 	</div>
 </a>
-<a class="others_link_area" href="#">
-	<div class="img_hover03">
-	<img src="/service/images/others03.png" alt=""><p class="overlay"></p>
-	</div>
-</a>
-<a class="others_link_area" href="#">
+<a class="others_link_area" href="http://www.sharing-economy-starter.biz/">
 	<div class="img_hover04">
 	<img src="/service/images/others04.png" alt=""><p class="overlay"></p>
 	</div>

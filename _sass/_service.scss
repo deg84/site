@@ -489,6 +489,7 @@
 .section_service {
 	position: relative;
 	padding-bottom: 130px;
+	margin-bottom: 0;
 	@media screen and (max-width: 1024px) {
 		padding-top: 30px;
 		padding-bottom: 0;
@@ -635,6 +636,7 @@
     display: flex;
     flex-direction: row;
     text-align: center;
+    justify-content: center;
     @media screen and (max-width: 1024px) {
     	display: block;
     	width: auto;
