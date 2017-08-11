@@ -2389,7 +2389,9 @@ img.img_profile {
           letter-spacing: -1px;
           padding: 5px;
           font-size: 12px;
-          text-align: center; } }
+          text-align: center; }
+          .top_main_menu ul.top_main_nav li:hover:after {
+            display: none; } }
 
 @media screen and (max-width: 1024px) {
   pointer-events: none; }
