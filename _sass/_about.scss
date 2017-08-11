@@ -6,17 +6,24 @@
 	background: url(/about/images/about_harada.png) no-repeat;
   	-webkit-transition: .3s ease-in-out;
  	transition: .3s ease-in-out;
-	&:hover {
-		background: url(/about/images/about_harada_on.png) no-repeat;
-		.about_member_message {
-			color: #fff;
-		}
-	}
 	@media screen and (max-width: 1024px) {
 		width: 100%;
 		height: auto;
 	}
 }
+
+.about_member_01.hover {
+	background: url(/about/images/about_harada_on.png) no-repeat;
+	.about_member_message {
+		color: #fff;
+	}
+	@media screen and (max-width: 1024px) {
+		.about_member_message {
+				color: #000;
+			}
+	}	
+}
+
 
 .about_member_meta {
 	position: relative;

@@ -1,7 +1,14 @@
 $(function(){
+	// タッチデバイス対策
+	var _touch = ('ontouchstart' in document) ? 'touchstart' : 'click';
+
+	$.fn.enter = function(enter,leave) {
+		this.on('mouseenter mouseover', enter);
+		this.on('mouseleave', leave);
+	};
 
 	// スムーススクロール
-	$('a[href^="#"]').click(function() {
+	$('a[href^="#"]').on(_touch,function(){
 	    var speed = 500;
 	    var href= $(this).attr("href");
 	    var target = $(href == "#" || href == "" ? 'html' : href);
@@ -10,17 +17,20 @@ $(function(){
 	    return false;
 	  });
 
-	// SPメニュー
-	$("#gnav_btn").click(function(){
-		$("#overlay").toggleClass('open','',3000,"easeOutCirc");
-		$(this).toggleClass('close');
-	});
+	// mofmofとは
+	$(".about_member_01").enter(function() {
+		$(this).addClass('hover');
+	},
+	function() {	
+		$(this).removeClass('hover');
+	});	
+
+
+	// PCのとき
+	var w = $(window).width();
+	if(w >= 1000){
 
 	// グローバルメニュー
-	$.fn.enter = function(enter,leave) {
-		this.on('mouseenter mouseover', enter);
-		this.on('mouseleave', leave);
-	};
 	$("#gnav").enter(function() {
 		$("#gnav_menu").stop().animate(
 			{ "opacity" : "1","width" : "730px" }, 500,"easeOutCirc");
@@ -31,10 +41,6 @@ $(function(){
 			{ "opacity" : "0","width" : "0px" }, 500,"easeOutCirc");
 		$("#gnav_btn").removeClass('hover');
 	});
-
-	// PCのとき
-	var w = $(window).width();
-	if(w >= 1000){
 
 	// トップページスライド
 	$(".js_main_slide").slick({
@@ -67,7 +73,6 @@ $(function(){
 	    $slide.slick('slickPlay');  // 自動切り替え再開
 	});
 
-
 	// インフォメーションスライド
 		  $(".section_info_slide").slick({
 		    dots: false,
@@ -79,6 +84,7 @@ $(function(){
 		    autoplay: false,
 		  	autoplaySpeed: 2000
 		  });
+
 	// フッター
 	    var ft_contact = $('#footer_contact');
 	    ft_contact.hide();
@@ -91,7 +97,20 @@ $(function(){
 	    });
 
 	} else {
+
 		// SPのとき
+		// ios対策
+		$("a").on('touchstart',function(){
+		  var url = $(this).attr("href");
+		  location.href = url;
+		});
+
+		// SPメニュー
+		$("#gnav_btn").on(_touch,function(){
+			$("#overlay").toggleClass('open','',3000,"easeOutCirc");
+			$(this).toggleClass('hover close');
+		});
+
 		// トップページスライド
 		$(".js_main_slide").slick({
 		    infinite: true,
@@ -126,12 +145,16 @@ $(function(){
 		});
 	}
 
+	// mofmofとは
+	$(".about_member_01").on(_touch,function(){
+		$(this).toggleClass('hover');
+	});	
 
 	// アコーディオン
         $(".js_accordion").each(function() {
             var accordion = $(this);
-            $(this).find(".js_switch").click(function() {
-            //$("> .js_switch", this).click(function() { // 上段の別の書き方
+            $(this).find(".js_switch").on(_touch,function(){
+            //$("> .js_switch", this).on(_touch,function(){ // 上段の別の書き方
                 var targetContentWrap = $(this).next(".js_contentwrap");
                 if ( targetContentWrap.css("display") === "none" ) {
                     accordion.find(".js_contentwrap").slideUp();

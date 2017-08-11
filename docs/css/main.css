@@ -116,7 +116,7 @@ a.header_logo {
     display: block;
     width: 183px;
     padding-left: 27px;
-    z-index: auto; }
+    z-index: 2; }
 
   .container img.logo {
     position: relative;
@@ -181,7 +181,8 @@ a.header_logo {
 
 @media screen and (max-width: 1024px) {
   #gnav {
-    width: 100%; }
+    width: 100%;
+    height: 70px; }
 
   #gnav_menu {
     display: none; } }
@@ -242,14 +243,6 @@ a.header_logo {
     top: 27px;
     right: 20px;
     z-index: 3; }
-    #gnav_btn:hover span {
-      display: block; }
-    #gnav_btn:hover:before {
-      top: 0px;
-      transform: none; }
-    #gnav_btn:hover:after {
-      top: 18px;
-      transform: none; }
 
   #gnav_btn.close {
     background: #029AAA; }
@@ -490,7 +483,7 @@ ul.sp_menu_bloglink {
     height: 100%;
     -webkit-transition: all 2s;
     transition: all 2s;
-    opacity: 0; }
+    opacity: none; }
 
   #overlay.open {
     display: block;
@@ -750,14 +743,18 @@ section.section_info {
   background: url(/about/images/about_harada.png) no-repeat;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out; }
-  .about_member_01:hover {
-    background: url(/about/images/about_harada_on.png) no-repeat; }
-    .about_member_01:hover .about_member_message {
-      color: #fff; }
   @media screen and (max-width: 1024px) {
     .about_member_01 {
       width: 100%;
       height: auto; } }
+
+.about_member_01.hover {
+  background: url(/about/images/about_harada_on.png) no-repeat; }
+  .about_member_01.hover .about_member_message {
+    color: #fff; }
+  @media screen and (max-width: 1024px) {
+    .about_member_01.hover .about_member_message {
+      color: #000; } }
 
 .about_member_meta {
   position: relative;
@@ -956,7 +953,9 @@ section.section_info {
   margin-bottom: 50px; }
   @media screen and (max-width: 1024px) {
     .client_item {
-      width: auto; } }
+      width: auto;
+      min-height: 150px;
+      margin-bottom: 30px; } }
 
 .client_img {
   float: left;
@@ -994,7 +993,7 @@ section.section_info {
   @media screen and (max-width: 1024px) {
     .client_comment_wrap {
       padding-top: 0px;
-      padding-left: 110px;
+      padding-left: 160px;
       font-size: 12px; } }
 
 .client_commnet {
@@ -1051,7 +1050,6 @@ section.section_info {
         top: 0;
         width: 74%;
         font-size: 16px;
-        background-color: rgba(255, 255, 255, 0.5);
         padding: 10px 13%; }
       .interview_main .interview_speaker, .dialog_main .interview_speaker {
         width: 100%;
@@ -1062,6 +1060,12 @@ section.section_info {
         text-align: left;
         padding: 3px 20px; } }
 
+@media screen and (max-width: 1024px) {
+  .interview_main .interview_img {
+    padding-top: 0;
+    padding-bottom: 45px; }
+  .interview_main .interview_main_title {
+    padding: 20px 13%; } }
 .interviewer_name {
   display: -webkit-flex;
   display: flex;
@@ -1389,7 +1393,7 @@ section.works_project_item {
       .contents_service .sercive_img {
         float: none;
         width: auto;
-        padding: 0 30px;
+        padding: 20px 30px;
         margin-bottom: 0; } }
   .contents_service .sercive_txt {
     float: left;
@@ -2387,6 +2391,8 @@ img.img_profile {
           font-size: 12px;
           text-align: center; } }
 
+@media screen and (max-width: 1024px) {
+  pointer-events: none; }
 body {
   -webkit-font-smoothing: antialiased;
   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
@@ -2399,9 +2405,10 @@ body {
 a {
   color: #000;
   text-decoration: none; }
-  a:hover {
-    color: #00a4b4;
-    text-decoration: underline; }
+  @media screen and (min-width: 1025px) {
+    a:hover {
+      color: #00a4b4;
+      text-decoration: underline; } }
 
 img {
   vertical-align: bottom; }
@@ -3436,4 +3443,4 @@ h1.page_title {
     padding: 30px 0; }
     h1.page_title:after {
       top: 0;
-      height: 35px; } }
+      height: 30px; } }

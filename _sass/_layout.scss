@@ -32,7 +32,7 @@ a.header_logo {
         display: block;
         width: 183px;
         padding-left: 27px;
-        z-index: auto;
+        z-index: 2;
     }
     .container {
         img.logo {
@@ -115,6 +115,7 @@ a.header_logo {
 @media screen and (max-width: 1024px) {
     #gnav  {
         width: 100%;
+        height: 70px;
     }
     #gnav_menu {
         display: none;
@@ -190,19 +191,19 @@ a.header_logo {
         top: 27px;
         right: 20px;
         z-index: 3;
-        &:hover {
-            span {
-                display: block;
-            }
-            &:before {
-                top: 0px;
-                transform: none;
-            }
-            &:after {
-                top: 18px;
-                transform: none;
-            }
-        }
+        // &:hover {
+        //     span {
+        //         display: block;
+        //     }
+        //     &:before {
+        //         top: 0px;
+        //         transform: none;
+        //     }
+        //     &:after {
+        //         top: 18px;
+        //         transform: none;
+        //     }
+        // }
     }
     #gnav_btn.close {
         background: $brand_color;
@@ -500,7 +501,7 @@ ul.sp_menu_bloglink {
         height: 100%;
         -webkit-transition: all 2s;
         transition: all 2s;
-        opacity: 0;
+        opacity: none;
    }
    #overlay.open {
         display: block;
