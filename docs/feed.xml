@@ -6,22 +6,24 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Aug 2017 22:10:11 +0900</pubDate>
-    <lastBuildDate>Thu, 10 Aug 2017 22:10:11 +0900</lastBuildDate>
+    <pubDate>Fri, 11 Aug 2017 11:48:25 +0900</pubDate>
+    <lastBuildDate>Fri, 11 Aug 2017 11:48:25 +0900</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
         <title>Interview05</title>
         <description>&lt;div class=&quot;container&quot;&gt;
 	&lt;div class=&quot;interview_main&quot;&gt;
-		&lt;div class=&quot;interview_title clearfix&quot;&gt;
+		&lt;div class=&quot;interview_title&quot;&gt;
+			&lt;div class=&quot;interview_img&quot;&gt;
+				&lt;img src=&quot;/interview/images/interview_base.png&quot; alt=&quot;&quot; /&gt;
+				&lt;div class=&quot;interviewer_name&quot;&gt;
+				&lt;p class=&quot;interview_interviewer&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+				&lt;p class=&quot;interview_speaker&quot;&gt;&lt;span&gt;株式会社ABEJA&lt;/span&gt;CTO 緒方 貴紀&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
 			&lt;p class=&quot;interview_main_title&quot;&gt;わずか3日でMVPを作りきる&lt;br /&gt;合宿型爆速開発サービス「いきなりMVP」&lt;/p&gt;
 		&lt;/div&gt;
-		&lt;div class=&quot;interview_img&quot;&gt;
-			&lt;img src=&quot;/interview/images/interview_base.png&quot; alt=&quot;&quot; /&gt;
-		&lt;/div&gt;
-		&lt;p class=&quot;interview_interviewer&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
-		&lt;p class=&quot;interview_speaker&quot;&gt;&lt;span&gt;株式会社ABEJA&lt;/span&gt;CTO 緒方 貴紀&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -57,7 +59,7 @@
 &lt;/div&gt;
 
 &lt;section class=&quot;section_dialog&quot;&gt;
-	&lt;div class=&quot;container04 profile_bg clearfix&quot;&gt;
+	&lt;div class=&quot;container04 profile_bg&quot;&gt;
 	&lt;div class=&quot;title_left_small&quot;&gt;CLIENT PROFILE &lt;span&gt;クライアントプロフィール&lt;/span&gt;&lt;/div&gt;
 	&lt;p&gt;株式会社ABEJA&lt;/p&gt;
 	&lt;p&gt;CTO 緒方 貴紀&lt;/p&gt;
@@ -84,14 +86,16 @@
         <title>Dialog01</title>
         <description>&lt;div class=&quot;container&quot;&gt;
 	&lt;div class=&quot;interview_main&quot;&gt;
-		&lt;div class=&quot;interview_title clearfix&quot;&gt;
+		&lt;div class=&quot;interview_title&quot;&gt;
+			&lt;div class=&quot;interview_img&quot;&gt;
+				&lt;img src=&quot;/interview/images/main_dialog.png&quot; alt=&quot;&quot; /&gt;
+				&lt;div class=&quot;interviewer_name&quot;&gt;
+				&lt;p class=&quot;interview_interviewer&quot;&gt;&lt;span&gt;株式会社mofmof&lt;/span&gt;CEO 原田 敦&lt;/p&gt;
+				&lt;p class=&quot;interview_speaker&quot;&gt;&lt;span&gt;株式会社フライングライン&lt;/span&gt;CEO 鐘ヶ江 弘章&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
 			&lt;p class=&quot;interview_main_title&quot;&gt;ハイブリッドクラウドが生み出す、エンタープライズ情報システム&lt;/p&gt;
 		&lt;/div&gt;
-		&lt;div class=&quot;interview_img&quot;&gt;
-			&lt;img src=&quot;/images/interview.png&quot; alt=&quot;&quot; /&gt;
-		&lt;/div&gt;
-		&lt;p class=&quot;interview_interviewer&quot;&gt;&lt;span&gt;株式会社mofmof&lt;/span&gt;CEO 原田 敦&lt;/p&gt;
-		&lt;p class=&quot;interview_speaker&quot;&gt;&lt;span&gt;株式会社フライングライン&lt;/span&gt;CEO 鐘ヶ江 弘章&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 
@@ -146,7 +150,7 @@
 &lt;/div&gt;
 
 &lt;section class=&quot;section_dialog&quot;&gt;
-	&lt;div class=&quot;container04 profile_bg clearfix&quot;&gt;
+	&lt;div class=&quot;container04 profile_bg&quot;&gt;
 	&lt;div class=&quot;title_left_small&quot;&gt;CLIENT PROFILE &lt;span&gt;クライアントプロフィール&lt;/span&gt;&lt;/div&gt;
 	&lt;p&gt;株式会社フライングライン&lt;/p&gt;
 	&lt;p&gt;CEO 鐘ヶ江 弘章&lt;/p&gt;
@@ -154,7 +158,7 @@
 		&lt;li&gt;&lt;a href=&quot;https://www.flyingline.co.jp/&quot;&gt;株式会社フライングライン&lt;/a&gt;&lt;/li&gt;
 		&lt;li&gt;&lt;a href=&quot;https://yondemill.jp/info/publisher/&quot;&gt;つながりで読むWebの本YONDEMILL（ヨンデミル）&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
-	&lt;img class=&quot;img_profile&quot; src=&quot;&quot; alt=&quot;&quot; /&gt;
+	&lt;img class=&quot;img_profile&quot; src=&quot;/interview/images/profile_ogata.png&quot; alt=&quot;&quot; /&gt;
 	&lt;/div&gt;
 &lt;/section&gt;
 

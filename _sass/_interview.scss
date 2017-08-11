@@ -80,7 +80,7 @@
 
 .interview_main {
 	position: relative;
-	height: 350px;
+	height: 550px;
 	.interview_main_title {
 		position: relative;
 		width: 620px;
@@ -99,8 +99,65 @@
 	    z-index: -1;
 	}
 	.interview_speaker {
-		text-align: center;
+		width: 300px;
+		text-align: left;
+		padding: 20px;
 	}
+	.interview_interviewer {
+		width: 300px;
+		text-align: right;
+		padding: 20px;
+	}
+	@media screen and (max-width: 1024px) {
+		position: relative;
+		height: auto;
+		padding-bottom: 20px;
+		.interview_title {
+		}
+		.interview_img {
+			padding: 80px 0;
+			position: relative;
+		}
+		.interview_main_title {
+			position: absolute;
+			top: 0;
+			width: 74%;
+			font-size: 16px;
+			background-color: rgba(255,255,255,0.5);
+			padding: 10px 13%;
+		}
+		.interview_speaker  {
+			width: 100%;
+			text-align: left;
+			padding: 3px 20px;
+		}
+		.interview_interviewer {
+			width: 100%;
+			text-align: left;	
+			padding: 3px 20px;
+		}
+	}
+}
+
+.interviewer_name {
+	display:-webkit-flex;
+    display:flex;
+	-webkit-justify-content: space-between;
+  	justify-content: space-between;
+  	-webkit-box-lines:multiple;
+    -moz-box-lines:multiple;
+    -webkit-flex-wrap:wrap;
+    -moz-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    justify-content:center;
+    width: 1200px;
+    position: absolute;
+    bottom: 70px;
+    @media screen and (max-width: 1024px) {
+    	width: auto;
+    	bottom: 0;
+    }
 }
 
 
