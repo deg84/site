@@ -100,9 +100,9 @@ $(function(){
 
 		// SPのとき
 		// ios対策
-		$("a").on('touchstart',function(){
-		  var url = $(this).attr("href");
-		  location.href = url;
+		$("a").on('touchend',function(){
+		  		var url = $(this).attr("href");
+				location.href = url;
 		});
 
 		// SPメニュー
