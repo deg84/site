@@ -36,7 +36,7 @@ page_nav_btn_right_text: mofmofとは
 
 <div class="client_interview_items">
 {% for client in site.data.interview %}
-<a href="#">
+<a href="{{ client.interviewpath }}">
 	<div class="client_item clearfix">
 		<span class="client_img"><img src="{{ client.imgpath }}" alt=""></span>
 		<button class="button client_label">{{ client.number }}</button>

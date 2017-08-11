@@ -78,9 +78,17 @@
 	}
 }
 
+
 .interview_main {
-	position: relative;
+	height: 440px;
+}
+
+.dialog_main {
 	height: 550px;
+}
+
+.interview_main,.dialog_main {
+	position: relative;
 	.interview_main_title {
 		position: relative;
 		width: 620px;

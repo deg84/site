@@ -1008,9 +1008,14 @@ section.section_info {
       font-size: 10px; } }
 
 .interview_main {
-  position: relative;
+  height: 440px; }
+
+.dialog_main {
   height: 550px; }
-  .interview_main .interview_main_title {
+
+.interview_main, .dialog_main {
+  position: relative; }
+  .interview_main .interview_main_title, .dialog_main .interview_main_title {
     position: relative;
     width: 620px;
     margin: 0 auto;
@@ -1020,39 +1025,39 @@ section.section_info {
     z-index: 2;
     font-size: 26px;
     color: #029AAA; }
-  .interview_main .interview_img {
+  .interview_main .interview_img, .dialog_main .interview_img {
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1; }
-  .interview_main .interview_speaker {
+  .interview_main .interview_speaker, .dialog_main .interview_speaker {
     width: 300px;
     text-align: left;
     padding: 20px; }
-  .interview_main .interview_interviewer {
+  .interview_main .interview_interviewer, .dialog_main .interview_interviewer {
     width: 300px;
     text-align: right;
     padding: 20px; }
   @media screen and (max-width: 1024px) {
-    .interview_main {
+    .interview_main, .dialog_main {
       position: relative;
       height: auto;
       padding-bottom: 20px; }
-      .interview_main .interview_img {
+      .interview_main .interview_img, .dialog_main .interview_img {
         padding: 80px 0;
         position: relative; }
-      .interview_main .interview_main_title {
+      .interview_main .interview_main_title, .dialog_main .interview_main_title {
         position: absolute;
         top: 0;
         width: 74%;
         font-size: 16px;
         background-color: rgba(255, 255, 255, 0.5);
         padding: 10px 13%; }
-      .interview_main .interview_speaker {
+      .interview_main .interview_speaker, .dialog_main .interview_speaker {
         width: 100%;
         text-align: left;
         padding: 3px 20px; }
-      .interview_main .interview_interviewer {
+      .interview_main .interview_interviewer, .dialog_main .interview_interviewer {
         width: 100%;
         text-align: left;
         padding: 3px 20px; } }

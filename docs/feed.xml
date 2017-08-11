@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Aug 2017 11:48:25 +0900</pubDate>
-    <lastBuildDate>Fri, 11 Aug 2017 11:48:25 +0900</lastBuildDate>
+    <pubDate>Fri, 11 Aug 2017 12:12:07 +0900</pubDate>
+    <lastBuildDate>Fri, 11 Aug 2017 12:12:07 +0900</lastBuildDate>
     <generator>Jekyll v3.5.1</generator>
     
       <item>
@@ -85,7 +85,7 @@
       <item>
         <title>Dialog01</title>
         <description>&lt;div class=&quot;container&quot;&gt;
-	&lt;div class=&quot;interview_main&quot;&gt;
+	&lt;div class=&quot;dialog_main&quot;&gt;
 		&lt;div class=&quot;interview_title&quot;&gt;
 			&lt;div class=&quot;interview_img&quot;&gt;
 				&lt;img src=&quot;/interview/images/main_dialog.png&quot; alt=&quot;&quot; /&gt;
