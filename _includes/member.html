@@ -2,7 +2,7 @@
 <div class="container02">
 	<div class="about_member_container">
 		{% for member in site.data.members %}
-		<div class="about_member_item">
+		<figure class="about_member_item">
 			<p class="member_name clearfix">
 			<span class="name">
 			{{ member.name }}
@@ -10,10 +10,10 @@
 			<span class="member_jobtitle">{{ member.jobtitle }}</span>
 			</p>
 			<img src="{{ member.imgpath }}" alt="" onmouseover="this.src='{{ member.imgpathon }}'" onmouseout="this.src='{{ member.imgpath }}'">
-			<p class="message">
+			<figcaption class="message">
 			{{ member.message }}
-			</p>
-		</div>
+			</figcaption>
+		</figure>
 		{% endfor %}
 	</div>
 </div>

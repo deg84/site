@@ -145,7 +145,9 @@ description: mofmofinc site home
 </section>
 
 <section class="section_info">
-	<h2 class="ttl_center_s">INFOMATION <span>mofmofのお知らせ</span></h2>
+	<div class="slider_title">
+	<h2 class="ttl_center_s clearfix"><span class="info_title">INFOMATION</span> <span class="info_oshirase">mofmofのお知らせ</span><a href="#"><span class="info_more">more</span></a></h2>
+	</div>
 	<div class="section_info_slide">
 		<a href="#">
 		<div class="info_items">

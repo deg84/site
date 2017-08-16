@@ -1,6 +1,6 @@
 $(function(){
 	// タッチデバイス対策
-	var _touch = ('ontouchstart' in document) ? 'touchstart' : 'click';
+	var _touch = ('ontouchend' in document) ? 'touchend' : 'click';
 
 	$.fn.enter = function(enter,leave) {
 		this.on('mouseenter mouseover', enter);
@@ -21,26 +21,14 @@ $(function(){
 	$(".about_member_01").enter(function() {
 		$(this).addClass('hover');
 	},
-	function() {	
+	function() {
 		$(this).removeClass('hover');
-	});	
+	});
 
 
 	// PCのとき
 	var w = $(window).width();
-	if(w >= 1000){
-
-	// グローバルメニュー
-	$("#gnav").enter(function() {
-		$("#gnav_menu").stop().animate(
-			{ "opacity" : "1","width" : "730px" }, 500,"easeOutCirc");
-		$("#gnav_btn").addClass('hover');
-	},
-	function() {
-		$("#gnav_menu").stop().animate(
-			{ "opacity" : "0","width" : "0px" }, 500,"easeOutCirc");
-		$("#gnav_btn").removeClass('hover');
-	});
+	if(w >= 1024){
 
 	// トップページスライド
 	$(".js_main_slide").slick({
@@ -100,15 +88,19 @@ $(function(){
 
 		// SPのとき
 		// ios対策
-		$("a").on('touchend',function(){
-		  		var url = $(this).attr("href");
-				location.href = url;
-		});
+		// $("a").on('touchend',function(){
+		//   		var url = $(this).attr("href");
+		// 		location.href = url;
+		// });
 
 		// SPメニュー
 		$("#gnav_btn").on(_touch,function(){
+			var h = screen.availHeight
 			$("#overlay").toggleClass('open','',3000,"easeOutCirc");
+			// $("#overlay").toggleClass('open','',3000,"easeOutCirc").css({'height':h,'position':'fixed','overflow':'hidden'});
 			$(this).toggleClass('hover close');
+			$('body,html').toggleClass('ofh');
+
 		});
 
 		// トップページスライド
