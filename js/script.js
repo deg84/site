@@ -74,7 +74,7 @@ $(function(){
 		  });
 
 	// フッター
-	    var ft_contact = $('#footer_contact');
+	    var ft_contact = $('#footer_contact:not(.contact #footer_contact)');
 	    ft_contact.hide();
 	    $(window).scroll(function () {
 	        if ($(this).scrollTop() > 100) {
@@ -86,21 +86,12 @@ $(function(){
 
 	} else {
 
-		// SPのとき
-		// ios対策
-		// $("a").on('touchend',function(){
-		//   		var url = $(this).attr("href");
-		// 		location.href = url;
-		// });
-
 		// SPメニュー
 		$("#gnav_btn").on(_touch,function(){
 			var h = screen.availHeight
 			$("#overlay").toggleClass('open','',3000,"easeOutCirc");
-			// $("#overlay").toggleClass('open','',3000,"easeOutCirc").css({'height':h,'position':'fixed','overflow':'hidden'});
 			$(this).toggleClass('hover close');
 			$('body,html').toggleClass('ofh');
-
 		});
 
 		// トップページスライド

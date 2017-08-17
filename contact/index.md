@@ -2,6 +2,9 @@
 layout: default
 description: mofmofとは
 
+# Body Class
+body_class_name: contact
+
 # Main Visual
 main_title_text_jp:
 main_title_text_en1: CONTACT

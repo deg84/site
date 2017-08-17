@@ -1179,6 +1179,9 @@ textarea.form_control {
 .button.submit {
   padding: 1rem 1rem; }
 
+body.contact #footer_contact {
+  display: none; }
+
 section.works_project_item {
   position: relative;
   margin-bottom: 70px;
