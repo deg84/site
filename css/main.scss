@@ -19,6 +19,7 @@
 @import "dialog";
 @import "case";
 @import "topmain";
+@import "button";
 
 // @import "button";
 // @import "slick-theme";
@@ -261,22 +262,7 @@ img {
 		position: relative;
 		z-index: 2;
 		top: -20px;
-		color: $text-link-color;
 		font-weight: bold;
-	}
-	&:hover {
-		.button {
-			position: relative;
-			color: $text-link-color;
-			&:after {
-				position: absolute;
-				right: 20px;
-				content: "";
-				width: 11px;
-				height: 12px;
-				background: url(../images/arrow.png);
-			}
-		}
 	}
 	p {
 		font-size: 14px;
@@ -394,9 +380,16 @@ img {
 		margin-bottom: 30px;
 		img {
 			width: 80%;
+			max-width: 397px;
 			height: auto;
 		}
 	}
+}
+
+.service_button {
+	position: absolute;
+	top: 50%;
+	right: 0;
 }
 
 .merit01,.merit02,.merit03 {
@@ -406,29 +399,6 @@ img {
 	-webkit-transition-duration:0.3s;
 	-o-transition-duration:0.3s;
 	-ms-transition-duration:0.3s;
-}
-
-.merit_items {
-	a {
-		&:hover {
-			.merit01,.merit02,.merit03 {
-				padding: 10px 20px;
-				transition-property:transform;
-				-moz-transition-duration:0.3s;
-				-webkit-transition-duration:0.3s;
-				-o-transition-duration:0.3s;
-				-ms-transition-duration:0.3s;
-		        background:#fff;
-		        transform:scale(1.05);
-		        transition-property:transform,background;
-		        transition-duration:.0.3s;
-		        position:relative;
-		        z-index:1;
-		        border: solid 1px #ddd;
-		        box-shadow: 1px 1px 1px rgba(0,0,0,0.4);
-			}
-		}
-	}
 }
 
 .interview01,.interview02,.interview03,.interview04 {
@@ -608,22 +578,7 @@ img {
 		height: 315px;
 		background: $text-link-color;
 	}
-	&:hover {
-		.works_button {
-			color: $text-link-color;
-			&:after {
-				position: absolute;
-				right: 20px;
-				content: "";
-				width: 11px;
-				height: 12px;
-				background: url(../images/arrow.png);
-			}
-		}
-	}
 }
-
-
 
 .works_button {
 	position: absolute;
@@ -868,27 +823,6 @@ img {
 			width: 100%;
 		}
 	}
-	.button.page_nav_button {
-		color: $text-link-color;
-		text-align: left;
-		&:after {
-			position: absolute;
-			right: 20px;
-			content: "";
-			width: 11px;
-			height: 12px;
-			background: url(../images/arrow.svg);
-			background-size: cover;
-		}
-		&:hover {
-			background: $brand-color;
-			color: #fff;
-			&:after {
-				background: url(../images/arrow_white.svg);
-				background-size: cover;
-			}
-		}
-	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -954,14 +888,16 @@ img {
 	margin-bottom: 30px;
 	&:hover {
 		.page_nav_button {
-			color: $text-link-color;
+			background: $text-link-color;
+			color: #fff;
 			&:after {
 				position: absolute;
 				right: 20px;
 				content: "";
-				width: 11px;
-				height: 12px;
-				background: url(../images/arrow.png);
+				width: 9px;
+				height: 100%;
+				background: url(../images/arrow_white.svg) no-repeat center center;
+            	background-size: contain;
 			}
 		}
 	}
@@ -972,6 +908,7 @@ img {
 	bottom: 0;
 	right: 30px;
 	width: 220px;
+	height: 60px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -310,8 +310,10 @@ a.header_logo {
   font-size: 10px; }
   .footer_sns span {
     padding-right: 10px; }
-  .footer_sns:hover {
+  .footer_sns a:hover img {
     opacity: 0.6; }
+  .footer_sns img.ico_sns:first-child {
+    padding-right: 5px; }
 
 @media screen and (max-width: 1024px) {
   .footer_sns {
@@ -672,7 +674,7 @@ section.section_info {
   height: 400px;
   margin: 0 auto;
   background: url(../images/service_link_bg.png) no-repeat left;
-  background-size: 851px;
+  background-size: coantain;
   margin-bottom: 150px; }
 
 .button.service_link_button {
@@ -688,7 +690,7 @@ section.section_info {
     height: 100%;
     width: 9px;
     top: 0;
-    right: 15px;
+    right: 20px;
     background: url(../images/arrow.svg) no-repeat center;
     background-size: contain; }
   .button.service_link_button:hover {
@@ -1177,7 +1179,9 @@ textarea.form_control {
     background-size: contain; }
 
 .button.submit {
-  padding: 1rem 1rem; }
+  padding: 1rem 1rem;
+  position: absolute;
+  right: 0; }
 
 body.contact #footer_contact {
   display: none; }
@@ -1367,7 +1371,8 @@ section.works_project_item {
         width: 11px; } }
 
 .contact_text.entry_text {
-  float: right; }
+  float: right;
+  width: 330px; }
 
 .contact_notice.entry {
   text-align: left; }
@@ -1379,7 +1384,10 @@ section.works_project_item {
   float: left; }
 
 .button.submit.entry {
-  float: right; }
+  float: right;
+  bottom: 100px;
+  width: 330px;
+  height: 60px; }
 
 .contents_service {
   width: 1000px;
@@ -2298,11 +2306,7 @@ img.img_profile {
       .main_image_item span {
         display: block;
         height: 380px;
-        overflow: hidden; }
-      .main_image_item img {
-        position: relative;
-        width: 800px;
-        left: -45%; } }
+        overflow: hidden; } }
 
 .main_image_item.hover {
   opacity: 0.8;
@@ -2400,6 +2404,27 @@ img.img_profile {
           text-align: center; }
           .top_main_menu ul.top_main_nav li:hover:after {
             display: none; } }
+
+.button_primary {
+  text-align: left;
+  background: #f4f212;
+  color: #00a4b4; }
+  .button_primary:after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 100%;
+    width: 9px;
+    top: 0;
+    right: 20px;
+    background: url(../images/arrow.svg) no-repeat center;
+    background-size: contain; }
+  .button_primary:hover {
+    background: #00a4b4;
+    color: #fff; }
+    .button_primary:hover:after {
+      background: url(../images/arrow_white.svg) no-repeat center;
+      background-size: contain; }
 
 @media screen and (max-width: 1024px) {
   pointer-events: none; }
@@ -2586,18 +2611,7 @@ img {
     position: relative;
     z-index: 2;
     top: -20px;
-    color: #00a4b4;
     font-weight: bold; }
-  .merit_items:hover .button, .interview_items:hover .button {
-    position: relative;
-    color: #00a4b4; }
-    .merit_items:hover .button:after, .interview_items:hover .button:after {
-      position: absolute;
-      right: 20px;
-      content: "";
-      width: 11px;
-      height: 12px;
-      background: url(../images/arrow.png); }
   .merit_items p, .interview_items p {
     font-size: 14px;
     width: 260px;
@@ -2693,7 +2707,13 @@ img {
     margin-bottom: 30px; }
     .merit_link_area img {
       width: 80%;
+      max-width: 397px;
       height: auto; } }
+.service_button {
+  position: absolute;
+  top: 50%;
+  right: 0; }
+
 .merit01, .merit02, .merit03 {
   padding: 10px 5px;
   transition-property: transform;
@@ -2701,22 +2721,6 @@ img {
   -webkit-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   -ms-transition-duration: 0.3s; }
-
-.merit_items a:hover .merit01, .merit_items a:hover .merit02, .merit_items a:hover .merit03 {
-  padding: 10px 20px;
-  transition-property: transform;
-  -moz-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  -ms-transition-duration: 0.3s;
-  background: #fff;
-  transform: scale(1.05);
-  transition-property: transform,background;
-  transition-duration: 0 0.3s;
-  position: relative;
-  z-index: 1;
-  border: solid 1px #ddd;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
 
 .interview01, .interview02, .interview03, .interview04 {
   position: relative;
@@ -2863,15 +2867,6 @@ img {
     width: 1px;
     height: 315px;
     background: #00a4b4; }
-  .works_item_box:hover .works_button {
-    color: #00a4b4; }
-    .works_item_box:hover .works_button:after {
-      position: absolute;
-      right: 20px;
-      content: "";
-      width: 11px;
-      height: 12px;
-      background: url(../images/arrow.png); }
 
 .works_button {
   position: absolute;
@@ -3066,23 +3061,6 @@ img {
       margin-left: 20px; }
   .page_nav_items.common .page_nav_item_box img {
     width: 100%; }
-  .page_nav_items.common .button.page_nav_button {
-    color: #00a4b4;
-    text-align: left; }
-    .page_nav_items.common .button.page_nav_button:after {
-      position: absolute;
-      right: 20px;
-      content: "";
-      width: 11px;
-      height: 12px;
-      background: url(../images/arrow.svg);
-      background-size: cover; }
-    .page_nav_items.common .button.page_nav_button:hover {
-      background: #029AAA;
-      color: #fff; }
-      .page_nav_items.common .button.page_nav_button:hover:after {
-        background: url(../images/arrow_white.svg);
-        background-size: cover; }
 
 @media screen and (max-width: 1024px) {
   .page_nav_items.common .page_nav_left .page_nav_item_box {
@@ -3131,20 +3109,23 @@ img {
   padding-bottom: 30px;
   margin-bottom: 30px; }
   .page_nav_item_box:hover .page_nav_button {
-    color: #00a4b4; }
+    background: #00a4b4;
+    color: #fff; }
     .page_nav_item_box:hover .page_nav_button:after {
       position: absolute;
       right: 20px;
       content: "";
-      width: 11px;
-      height: 12px;
-      background: url(../images/arrow.png); }
+      width: 9px;
+      height: 100%;
+      background: url(../images/arrow_white.svg) no-repeat center center;
+      background-size: contain; }
 
 .page_nav_button {
   position: absolute;
   bottom: 0;
   right: 30px;
-  width: 220px; }
+  width: 220px;
+  height: 60px; }
 
 @media screen and (max-width: 1024px) {
   .page_nav_button {

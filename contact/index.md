@@ -64,7 +64,7 @@ page_nav_btn_right_text: ケーススタディー
 "></textarea>
 </div>
 
-<button class="button submit">送信</button>
+<button class="button submit button_primary">送信</button>
 </form>
 </div>
 

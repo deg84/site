@@ -282,8 +282,17 @@ a.header_logo {
     span {
         padding-right: 10px;
     }
-    &:hover {
-        opacity: 0.6;
+    a {
+        &:hover {
+            img {
+                opacity: 0.6;
+            }
+        }
+    }
+    img.ico_sns {
+        &:first-child {
+            padding-right: 5px;
+        }
     }
 }
 
@@ -724,7 +733,7 @@ section.section_info {
     height: 400px;
     margin: 0 auto;
     background: url(../images/service_link_bg.png) no-repeat left;
-    background-size: 851px;
+    background-size: coantain;
     margin-bottom: 150px;
 }
 
@@ -741,7 +750,7 @@ section.section_info {
         height: 100%;
         width: 9px;
         top: 0;
-        right: 15px;
+        right: 20px;
         background: url(../images/arrow.svg) no-repeat center;
         background-size: contain;
     }

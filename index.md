@@ -16,7 +16,7 @@ description: mofmofinc site home
 <div class="container">
 	<a href="/service">
 	<div class="service_link">
-	<button class="button middle service_link_button">サービス</button>
+	<button class="button middle service_button button_primary">サービス</button>
 	</div>
 	</a>
 </div>
@@ -31,21 +31,21 @@ description: mofmofinc site home
 			<div class="merit01">
 			<img src="images/merit01.png" />
 			</div>
-			<button class="button middle middle_sp">MERIT.01</button>
+			<button class="button middle button_primary">MERIT.01</button>
 			<p>高速で開発ができるため、<br>新規事業に向いている</p>
 		</a>
 		<a class="merit_link_area" href="/service/#merit02">
 			<div class="merit02">
 			<img src="images/merit02.png" />
 			</div>
-			<button class="button middle middle_sp">MERIT.02</button>
+			<button class="button middle button_primary">MERIT.02</button>
 			<p>開発チームの進捗を可視化</p>
 		</a>
 		<a class="merit_link_area" href="/service/#merit03">
 			<div class="merit03">
 			<img src="images/merit03.png" />
 			</div>
-			<button class="button middle middle_sp">MERIT.03</button>
+			<button class="button middle button_primary">MERIT.03</button>
 			<p>1人ではなく開発チームで<br>対応するため安心</p>
 		</a>
 		</div>
@@ -109,28 +109,28 @@ description: mofmofinc site home
 			<div class="works_item_box">
 			<span class="works_img"><img src="images/works01.png" /></span>
 			<p>WORKS.01</p>
-			<div class="button works_button">ABEJA Platform for Retail</div>
+			<button class="button button_primary works_button">ABEJA Platform for Retail</button>
 			</div>
 			</a>
 			<a href="/works/#works02">
 			<div class="works_item_box works02">
 			<span class="works_img"><img src="images/works02.png" /></span>
 			<p>WORKS.02</p>
-			<div class="button works_button">RiLi.tokyo</div>
+			<button class="button button_primary works_button">RiLi.tokyo</button>
 			</div>
 			</a>
 			<a href="/works/#works03">
 			<div class="works_item_box">
 			<span class="works_img"><img src="images/works03.png" /></span>
 			<p>WORKS.03</p>
-			<div class="button works_button">Yondemill</div>
+			<button class="button button_primary works_button">Yondemill</button>
 			</div>
 			</a>
 			<a href="/works/#works04">
 			<div class="works_item_box">
 			<span class="works_img"><img src="images/works04.png" /></span>
 			<p>WORKS.04</p>
-			<div class="button works_button">QSUKE</div>
+			<button class="button button_primary works_button">QSUKE</button>
 			</div>
 			</a>
 			<div class="more_link more_link_works">
@@ -275,13 +275,13 @@ description: mofmofinc site home
 				<a class="page_nav_left" href="/about">
 				<div class="page_nav_item_box">
 				<img src="/images/small_about.png" />
-				<button class="button page_nav_button">mofmofとは</button>
+				<button class="button button_primary page_nav_button">mofmofとは</button>
 				</div>
 				</a>
 				<a class="page_nav_right" href="/recruit">
 				<div class="page_nav_item_box">
 				<img src="/images/small_recruit.png" />
-				<button class="button page_nav_button">採用情報</button>
+				<button class="button button_primary page_nav_button">採用情報</button>
 				</div>
 				</a>
 				</div>
