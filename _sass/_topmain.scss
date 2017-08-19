@@ -70,12 +70,26 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
 .main_image_item {
 	width: 900px;
+	height: 550px;
 	overflow: hidden;
-	opacity: 1;
-	-webkit-transition: opacity 1s ease-out;
-	-moz-transition: opacity 1s ease-out;
-	-ms-transition: opacity 1s ease-out;
-	transition: opacity 1s ease-out;
+	a {
+		display: block;
+		width: auto;
+	    height: 100%;
+		background-size: contain;
+	}
+	.item01 {
+		background: url(/about/images/main_about.png) no-repeat center center;
+	}
+	.item02 {
+		background: url(/service/images/main_service.png) no-repeat center center;
+	}
+	.item03 {
+		background: url(/works/images/main_works.png) no-repeat center center;
+	}
+	.item04 {
+		background: url(/interview/images/main_interview.png) no-repeat center center;
+	}
 	@media screen and (max-width: 1024px) {
 		width: 100%;
 		height: 400px;
@@ -85,14 +99,10 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 			height: 380px;
 			overflow: hidden;
 		}
-		img {
-			// position: relative;
-			// width: 130%;
-			// min-height: 100%;
-			// right: 15%;
-		}
 	}
 }
+
+
 
 .main_image_item.hover {
 	opacity: 0.8;

@@ -28,7 +28,7 @@ $(function(){
 
 	// PCのとき
 	var w = $(window).width();
-	if(w >= 1024){
+	if(w > 1024){
 
 	// トップページスライド
 	$(".js_main_slide").slick({
@@ -36,7 +36,7 @@ $(function(){
 	    arrows: false,
 	    slidesToShow: 1,
 	    slidesToScroll: 1,
-	    autoplay: true,
+	    // autoplay: true,
 	  	autoplaySpeed: 3000,
 	  	asNavFor: '#js_main_nav'
 	  });
@@ -46,7 +46,7 @@ $(function(){
 		vertical: true,
 		slidesToShow: 4,
 	    slidesToScroll: 1,
-	    autoplay: false,
+	    // autoplay: false,
 	    asNavFor: 'js_main_slide'
 	});
 	$('#js_main_nav li').on('mouseover', function(e) {

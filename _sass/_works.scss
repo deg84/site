@@ -5,6 +5,8 @@ section.works_project_item {
 	background: url(/images/bg.svg) center repeat-y;
 	background-size: 800px;
 	@media screen and (max-width: 1024px) {
+		max-width: 480px;
+		margin: 0 auto;
 		padding: 30px;
 	}
 }

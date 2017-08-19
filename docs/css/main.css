@@ -394,7 +394,7 @@ img.backtotop_logo_img {
     content: "";
     width: 11px;
     height: 12px;
-    background: url(../images/arrow_white.png); }
+    background: url(/images/arrow_white.png); }
   .contact_btn:hover {
     background: rgba(255, 255, 255, 0.5);
     color: #fff;
@@ -463,7 +463,7 @@ ul.sp_menu {
         width: 10px;
         height: 100%;
         color: #fff;
-        background: url(../images/arrow_white.svg) no-repeat center;
+        background: url(/images/arrow_white.svg) no-repeat center;
         background-size: contain; }
 
 ul.sp_menu_bloglink {
@@ -581,7 +581,9 @@ section.section_bg_center {
 
 @media screen and (max-width: 1024px) {
   section.section_contact {
-    margin-bottom: 0; } }
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px; } }
 
 .content_bg_center {
   position: relative; }
@@ -673,7 +675,7 @@ section.section_info {
   width: 900px;
   height: 400px;
   margin: 0 auto;
-  background: url(../images/service_link_bg.png) no-repeat left;
+  background: url(/images/service_link_bg.png) no-repeat left;
   background-size: coantain;
   margin-bottom: 150px; }
 
@@ -691,13 +693,13 @@ section.section_info {
     width: 9px;
     top: 0;
     right: 20px;
-    background: url(../images/arrow.svg) no-repeat center;
+    background: url(/images/arrow.svg) no-repeat center;
     background-size: contain; }
   .button.service_link_button:hover {
     background: #00a4b4;
     color: #fff; }
     .button.service_link_button:hover:after {
-      background: url(../images/arrow_white.svg) no-repeat center;
+      background: url(/images/arrow_white.svg) no-repeat center;
       background-size: contain; }
 
 @media screen and (max-width: 1024px) {
@@ -710,11 +712,11 @@ section.section_info {
   .service_link {
     position: relative;
     width: 100%;
-    height: 210px;
+    height: 300px;
     margin: 0 auto;
-    background: url(../images/service_link_bg_sp.png) no-repeat top center;
-    background-size: 85%;
-    margin-bottom: 50px; }
+    background: url(/images/service_link_bg_sp.png) no-repeat top center;
+    background-size: contain;
+    margin-bottom: 30px; }
 
   .button.service_link_button {
     display: none; } }
@@ -952,6 +954,8 @@ section.section_info {
   flex-wrap: wrap; }
   @media screen and (max-width: 1024px) {
     .client_interview_items {
+      max-width: 480px;
+      margin: 0 auto;
       padding: 30px; } }
 
 .client_item {
@@ -1014,10 +1018,17 @@ section.section_info {
       font-size: 10px; } }
 
 .interview_main {
-  height: 440px; }
+  height: 350px; }
 
 .dialog_main {
   height: 550px; }
+
+@media screen and (min-width: 768px) {
+  .dialog_img {
+    height: 230px; } }
+@media screen and (max-width: 1024px) {
+  .dialog_img {
+    height: 420px; } }
 
 .interview_main, .dialog_main {
   position: relative; }
@@ -1038,7 +1049,7 @@ section.section_info {
     z-index: -1; }
   .interview_main .interview_speaker, .dialog_main .interview_speaker {
     width: 300px;
-    text-align: left;
+    text-align: center;
     padding: 20px; }
   .interview_main .interview_interviewer, .dialog_main .interview_interviewer {
     width: 300px;
@@ -1051,13 +1062,14 @@ section.section_info {
       padding-bottom: 20px; }
       .interview_main .interview_img, .dialog_main .interview_img {
         padding: 80px 0;
-        position: relative; }
+        position: relative;
+        height: 100px; }
       .interview_main .interview_main_title, .dialog_main .interview_main_title {
         position: absolute;
         top: 0;
         width: 74%;
         font-size: 16px;
-        padding: 10px 13%; }
+        padding: 40px 13%; }
       .interview_main .interview_speaker, .dialog_main .interview_speaker {
         width: 100%;
         text-align: left;
@@ -1087,7 +1099,8 @@ section.section_info {
   justify-content: center;
   width: 1200px;
   position: absolute;
-  bottom: 70px; }
+  bottom: 70px;
+  text-shadow: 2px 2px 3px #fff; }
   @media screen and (max-width: 1024px) {
     .interviewer_name {
       width: auto;
@@ -1121,7 +1134,7 @@ section.section_info {
       float: none;
       width: 100%;
       padding-top: 0;
-      padding-bottom: 50px; }
+      padding-bottom: 60px; }
       .contact_form form {
         width: 80%;
         margin: 0 auto; } }
@@ -1181,7 +1194,8 @@ textarea.form_control {
 .button.submit {
   padding: 1rem 1rem;
   position: absolute;
-  right: 0; }
+  right: 10%;
+  bottom: 30px; }
 
 body.contact #footer_contact {
   display: none; }
@@ -1194,6 +1208,8 @@ section.works_project_item {
   background-size: 800px; }
   @media screen and (max-width: 1024px) {
     section.works_project_item {
+      max-width: 480px;
+      margin: 0 auto;
       padding: 30px; } }
 
 .title_left_small.works {
@@ -1375,19 +1391,25 @@ section.works_project_item {
   width: 330px; }
 
 .contact_notice.entry {
-  text-align: left; }
-  @media screen and (max-width: 1024px) {
-    .contact_notice.entry {
-      padding: 0 30px; } }
+  text-align: left;
+  padding: 0 30px; }
 
 .contact_form.entry_form {
   float: left; }
+  @media screen and (max-width: 1024px) {
+    .contact_form.entry_form {
+      padding-bottom: 80px; } }
 
 .button.submit.entry {
   float: right;
   bottom: 100px;
   width: 330px;
   height: 60px; }
+  @media screen and (max-width: 1024px) {
+    .button.submit.entry {
+      width: 200px;
+      bottom: 30px;
+      right: 10%; } }
 
 .contents_service {
   width: 1000px;
@@ -1399,6 +1421,7 @@ section.works_project_item {
   @media screen and (max-width: 1024px) {
     .contents_service {
       width: auto;
+      max-width: 550px;
       padding: 50px 0;
       margin-bottom: 0; } }
   .contents_service .sercive_img {
@@ -1410,7 +1433,9 @@ section.works_project_item {
         float: none;
         width: auto;
         padding: 20px 30px;
-        margin-bottom: 0; } }
+        margin: 0 auto; }
+        .contents_service .sercive_img img {
+          max-width: 330px; } }
   .contents_service .sercive_txt {
     float: left;
     width: 560px; }
@@ -1438,6 +1463,9 @@ section.works_project_item {
 
 .contents_service.right .sercive_img {
   float: left; }
+  @media screen and (max-width: 1024px) {
+    .contents_service.right .sercive_img {
+      float: none; } }
 .contents_service.right .sercive_txt {
   float: right; }
 
@@ -1460,7 +1488,10 @@ section.works_project_item {
     .contents_service_case .sercive_case_img {
       float: none;
       width: auto;
-      padding: 0 30px; } }
+      padding: 0 30px;
+      text-align: center; }
+      .contents_service_case .sercive_case_img img {
+        max-width: 400px; } }
 .contents_service_case .sercive_case_txt {
   float: right;
   width: 490px; }
@@ -1468,6 +1499,8 @@ section.works_project_item {
     .contents_service_case .sercive_case_txt {
       float: none;
       width: auto;
+      max-width: 400px;
+      margin: 0 auto;
       padding: 30px;
       font-size: 14px; } }
 .contents_service_case .sercive_case_item {
@@ -1486,6 +1519,11 @@ section.works_project_item {
       .contents_service_case .sercive_case_item .case_no {
         font-size: 14px; } }
 
+@media screen and (max-width: 1024px) {
+  .sercive_img {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 450px; } }
 .service_solution {
   width: 1300px;
   margin: 0 auto;
@@ -1502,7 +1540,9 @@ section.works_project_item {
     .service_solution {
       display: block;
       width: auto;
-      padding: 30px; } }
+      padding: 30px;
+      max-width: 500px;
+      margin: 0 auto; } }
 
 .sercive_issue {
   width: 630px;
@@ -1635,7 +1675,9 @@ section.works_project_item {
   position: relative; }
   @media screen and (max-width: 1024px) {
     .diff_item_wrapper {
-      padding: 20px; } }
+      padding: 20px;
+      max-width: 500px;
+      margin: 0 auto; } }
 
 .diff_item {
   position: relative;
@@ -1793,7 +1835,9 @@ section.works_project_item {
   margin: 0; }
   @media screen and (max-width: 1024px) {
     .diff_title {
-      margin-bottom: 20px; } }
+      margin-bottom: 20px;
+      max-width: 500px;
+      margin: 0 auto; } }
 
 .ttl_service {
   font-size: 28px;
@@ -1847,6 +1891,8 @@ section.works_project_item {
   @media screen and (max-width: 1024px) {
     .service_prosecss_items {
       width: auto;
+      max-width: 500px;
+      margin: 0 auto;
       padding: 30px;
       display: block;
       margin-bottom: 30px; } }
@@ -2031,14 +2077,18 @@ img.img_fr {
     img.img_fr {
       padding-bottom: 20px;
       padding-left: 20px;
-      width: 40%; } }
+      width: 40%;
+      max-width: 300px; } }
 
-section.section_dialog {
+.section_dialog {
   margin-bottom: 70px; }
   @media screen and (max-width: 1024px) {
-    section.section_dialog {
+    .section_dialog {
       padding: 30px;
-      margin-bottom: 0; } }
+      padding-bottom: 0;
+      margin-bottom: 0;
+      max-width: 600px;
+      margin: 0 auto; } }
 
 .section_dialog {
   margin-bottom: 30px; }
@@ -2073,17 +2123,38 @@ section.section_dialog {
       padding-bottom: 30px; } }
 
 img.img_profile {
-  position: absolute;
-  top: 70px;
-  right: 70px;
-  width: 200px; }
+  max-width: 200px; }
+
+.profile_wrap {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   @media screen and (max-width: 1024px) {
-    img.img_profile {
-      position: relative;
-      width: 50%;
-      float: right;
-      top: auto;
-      right: auto; } }
+    .profile_wrap {
+      max-width: 600px;
+      margin: 0 auto; } }
+  @media screen and (max-width: 380px) {
+    .profile_wrap {
+      display: block; } }
+
+.profile_txt, .profile_img {
+  width: 50%; }
+  @media screen and (max-width: 380px) {
+    .profile_txt, .profile_img {
+      width: 100%; } }
+
+.profile_img {
+  text-align: right; }
+  @media screen and (max-width: 380px) {
+    .profile_img {
+      text-align: center; } }
 
 .content_inner {
   padding: 50px 0; }
@@ -2292,12 +2363,21 @@ img.img_profile {
 
 .main_image_item {
   width: 900px;
-  overflow: hidden;
-  opacity: 1;
-  -webkit-transition: opacity 1s ease-out;
-  -moz-transition: opacity 1s ease-out;
-  -ms-transition: opacity 1s ease-out;
-  transition: opacity 1s ease-out; }
+  height: 550px;
+  overflow: hidden; }
+  .main_image_item a {
+    display: block;
+    width: auto;
+    height: 100%;
+    background-size: contain; }
+  .main_image_item .item01 {
+    background: url(/about/images/main_about.png) no-repeat center center; }
+  .main_image_item .item02 {
+    background: url(/service/images/main_service.png) no-repeat center center; }
+  .main_image_item .item03 {
+    background: url(/works/images/main_works.png) no-repeat center center; }
+  .main_image_item .item04 {
+    background: url(/interview/images/main_interview.png) no-repeat center center; }
   @media screen and (max-width: 1024px) {
     .main_image_item {
       width: 100%;
@@ -2425,6 +2505,10 @@ img.img_profile {
     .button_primary:hover:after {
       background: url(../images/arrow_white.svg) no-repeat center;
       background-size: contain; }
+    @media screen and (max-width: 1024px) {
+      .button_primary:hover {
+        background: transparent;
+        color: #029AAA; } }
 
 @media screen and (max-width: 1024px) {
   pointer-events: none; }
@@ -2616,6 +2700,10 @@ img {
     font-size: 14px;
     width: 260px;
     margin: 0 auto; }
+  @media screen and (max-width: 1024px) {
+    .merit_items, .interview_items {
+      max-width: 600px;
+      margin: 0 auto; } }
 
 .more_link {
   width: 200px;
@@ -2713,6 +2801,9 @@ img {
   position: absolute;
   top: 50%;
   right: 0; }
+  @media screen and (max-width: 1024px) {
+    .service_button {
+      right: 30px; } }
 
 .merit01, .merit02, .merit03 {
   padding: 10px 5px;
@@ -2768,8 +2859,7 @@ img {
       float: left;
       width: 30%; }
       .interview01 span.interview_img img, .interview02 span.interview_img img, .interview03 span.interview_img img, .interview04 span.interview_img img {
-        width: 100%;
-        height: 100%; }
+        max-width: 150px; }
     .interview01:before, .interview02:before, .interview03:before, .interview04:before {
       display: none; }
     .interview01:after, .interview02:after, .interview03:after, .interview04:after {
@@ -2835,7 +2925,8 @@ img {
 
 @media screen and (max-width: 1024px) {
   .works_items {
-    top: 0; } }
+    top: 0;
+    display: block; } }
 .works_right {
   position: relative;
   top: -50px; }
@@ -2883,14 +2974,20 @@ img {
       top: auto; }
 
   .works_item_box {
+    position: relative;
     padding: 0 30px;
-    margin-bottom: 0;
-    height: auto; }
+    margin: 0 auto;
+    flex: auto;
+    max-width: 440px;
+    height: auto;
+    margin-bottom: 20px; }
     .works_item_box p {
-      position: relative;
+      position: absolute;
       margin: 0 auto;
       padding-left: 0;
-      top: -164px;
+      top: -10px;
+      left: 0;
+      right: 0;
       width: 120px;
       height: 30px;
       line-height: 30px;
@@ -2901,12 +2998,10 @@ img {
     .works_item_box span.works_img {
       position: relative;
       display: block;
-      width: 100%;
-      height: 150px;
-      overflow: hidden; }
+      text-align: center;
+      max-width: 100%; }
       .works_item_box span.works_img img {
-        position: absolute;
-        top: -10%; }
+        position: relative; }
     .works_item_box .button {
       background: transparent;
       padding: 1rem; }
@@ -2914,13 +3009,17 @@ img {
       position: relative;
       margin: 0 auto;
       right: auto;
-      bottom: 30px; }
+      bottom: 0;
+      color: #000;
+      text-align: center;
+      width: 100%; }
+      .works_item_box .works_button:after {
+        display: none; }
 
   .merit_items, .interview_items, .works_items {
     display: block; } }
 .interview_banner {
-  position: relative;
-  height: 300px; }
+  position: relative; }
   .interview_banner .interview_title {
     position: relative;
     width: 350px;
@@ -2951,6 +3050,13 @@ img {
     position: absolute;
     bottom: 20px;
     right: 30px; }
+
+.interview_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(/interview/images/interview_base.png) no-repeat center;
+  background-size: cover; }
 
 @media screen and (max-width: 1024px) {
   .interview_banner {
@@ -3084,7 +3190,9 @@ img {
 
   .blog_items, .blog_post_items {
     float: none;
-    width: 100%; }
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; }
 
   .page_nav_items {
     float: none; }
@@ -3103,7 +3211,9 @@ img {
 
   .page_nav_button {
     background: transparent;
-    color: #00a4b4; } }
+    color: #00a4b4; }
+    .page_nav_button:hover {
+      background: transparent; } }
 .page_nav_item_box {
   position: relative;
   padding-bottom: 30px;
@@ -3246,7 +3356,9 @@ ul.article_list li {
 @media screen and (max-width: 1024px) {
   .blog_list_title01 {
     width: 100%;
-    padding-top: 40px; }
+    padding-top: 40px;
+    max-width: 440px;
+    margin: 0 auto; }
     .blog_list_title01 a {
       padding-right: 30px; }
     .blog_list_title01 h3 {
@@ -3307,7 +3419,8 @@ ul.article_list li {
 
 @media screen and (max-width: 1024px) {
   .section_info_slide {
-    width: 100%; }
+    width: 100%;
+    max-width: 340px; }
 
   .info_items {
     position: relative;
@@ -3393,6 +3506,61 @@ button.slick-next {
   width: 100%;
   height: 550px;
   text-align: center; }
+  @media screen and (max-width: 1024px) {
+    .main_visual {
+      height: 400px;
+      overflow: hidden; }
+      .main_visual .main_img {
+        width: auto;
+        height: 100%; } }
+
+.about .main_visual .main_img {
+  background: url(/about/images/main_about.png) no-repeat center center;
+  background-size: cover;
+  width: auto;
+  height: 100%; }
+
+.service .main_visual .main_img {
+  background: url(/service/images/main_service.png) no-repeat center center;
+  background-size: cover;
+  width: auto;
+  height: 100%; }
+
+.works .main_visual .main_img {
+  background: url(/works/images/main_works.png) no-repeat center center;
+  background-size: cover;
+  width: auto;
+  height: 100%; }
+
+.interview .main_visual .main_img {
+  background: url(/interview/images/main_interview.png) no-repeat center center;
+  background-size: cover;
+  width: auto;
+  height: 100%; }
+
+.faq .main_visual .main_img {
+  background: url(/interview/images/main_interview.png) no-repeat center center;
+  background-size: cover;
+  width: auto;
+  height: 100%; }
+
+.recruit .main_visual .main_img {
+  background: url(/interview/images/main_interview.png) no-repeat center center;
+  background-size: cover;
+  width: auto;
+  height: 100%; }
+
+.contact .main_visual .main_img {
+  background: url(/interview/images/main_interview.png) no-repeat center center;
+  background-size: cover;
+  width: auto;
+  height: 100%; }
+
+.case .main_visual .main_img {
+  background: url(/case/images/main_case.png) no-repeat center center;
+  background-size: cover;
+  width: auto;
+  height: 100%; }
 
 .main_service_text {
   position: absolute;
@@ -3433,8 +3601,7 @@ button.slick-next {
     overflow: hidden; }
     .main_visual img {
       position: relative;
-      width: 800px;
-      left: -50%; }
+      width: 800px; }
 
   img.main_service_text {
     position: absolute;

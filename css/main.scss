@@ -269,6 +269,10 @@ img {
 	    width: 260px;
 	    margin: 0 auto;
 	}
+	@media screen and (max-width: 1024px) {
+		max-width: 600px;
+		margin: 0 auto;
+	}
 }
 
 .more_link {
@@ -390,6 +394,9 @@ img {
 	position: absolute;
 	top: 50%;
 	right: 0;
+	@media screen and (max-width: 1024px) {
+		right: 30px;
+	}
 }
 
 .merit01,.merit02,.merit03 {
@@ -454,8 +461,7 @@ img {
 			float: left;
 			width: 30%;
 			img {
-				width: 100%;
-				height: 100%;
+				max-width: 150px;
 			}
 		}
 		&:before {
@@ -536,6 +542,7 @@ img {
 @media screen and (max-width: 1024px) {
 	.works_items {
 		top: 0;
+		display: block;
 	}
 }
 
@@ -599,14 +606,20 @@ img {
 		}
 	}
 	.works_item_box {
+		position: relative;
 		padding: 0 30px;
-		margin-bottom: 0;
+		margin: 0 auto;
+		flex: auto;
+		max-width: 440px;
 		height: auto;
+		margin-bottom: 20px;
 		p {
-			position: relative;
+			position: absolute;
 			margin: 0 auto;
 			padding-left: 0;
-			top: -164px;
+			top: -10px;
+			left: 0;
+			right: 0;
 			width: 120px;
 			height: 30px;
 			line-height: 30px;
@@ -619,12 +632,12 @@ img {
 		span.works_img {
 			position: relative;
 			display: block;
-			width: 100%;
-			height: 150px;
-			overflow: hidden;
+			text-align: center;
+			max-width: 100%;
+			// height: 150px;
+			// overflow: hidden;
 			img {
-				position: absolute;
-				top: -10%;
+				position: relative;
 			}
 		}
 		.button {
@@ -635,7 +648,13 @@ img {
 			position: relative;
 			margin: 0 auto;
 			right: auto;
-			bottom: 30px;
+			bottom: 0;
+			color: #000;
+			text-align: center;
+			width: 100%;
+			&:after {
+				display: none;
+			}
 		}
 	}
 	.merit_items, .interview_items, .works_items {
@@ -645,7 +664,7 @@ img {
 
 .interview_banner {
 	position: relative;
-	height: 300px;
+	// height: 300px;
 	.interview_title {
 		position: relative;
 		width: 350px;
@@ -684,6 +703,14 @@ img {
 		bottom: 20px;
 		right: 30px;
 	}
+}
+
+.interview_img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(/interview/images/interview_base.png) no-repeat center;
+	background-size: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -858,6 +885,8 @@ img {
 	.blog_items,.blog_post_items {
 		float: none;
 		width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
 	}
 	.page_nav_items {
 		float: none;
@@ -879,6 +908,9 @@ img {
 	.page_nav_button {
 		background: transparent;
 		color: $text-link-color;
+		&:hover {
+			background: transparent;
+		}
 	}
 }
 
@@ -1067,6 +1099,8 @@ ul.article_list {
 	.blog_list_title01 {
 		width: 100%;
 		padding-top: 40px;
+		max-width: 440px;
+		margin: 0 auto;
 		a {
 			padding-right: 30px;
 		}
@@ -1158,6 +1192,7 @@ ul.article_list {
 @media screen and (max-width: 1024px) {
 	.section_info_slide {
 		width: 100%;
+		max-width: 340px;
 	}
 	.info_items {
 		position: relative;
@@ -1258,6 +1293,95 @@ button.slick-next{
 	width: 100%;
 	height: 550px;
 	text-align: center;
+	@media screen and (max-width: 1024px) {
+		height: 400px;
+		overflow: hidden;
+		.main_img {
+			width: auto;
+			height: 100%;
+		}
+	}
+}
+
+.about {
+	.main_visual {
+		.main_img {
+			background: url(/about/images/main_about.png) no-repeat center center;
+			background-size: cover;
+			width: auto;
+			height: 100%;
+		}
+	}
+}
+.service {
+	.main_visual {
+		.main_img {
+			background: url(/service/images/main_service.png) no-repeat center center;
+			background-size: cover;
+			width: auto;
+			height: 100%;
+		}
+	}
+}
+.works {
+	.main_visual {
+		.main_img {
+			background: url(/works/images/main_works.png) no-repeat center center;
+			background-size: cover;
+			width: auto;
+			height: 100%;
+		}
+	}
+}
+.interview {
+	.main_visual {
+		.main_img {
+		background: url(/interview/images/main_interview.png) no-repeat center center;
+		background-size: cover;
+		width: auto;
+		height: 100%;
+		}
+	}
+}
+.faq {
+	.main_visual {
+		.main_img {
+		background: url(/interview/images/main_interview.png) no-repeat center center;
+		background-size: cover;
+		width: auto;
+		height: 100%;
+		}
+	}
+}
+.recruit {
+	.main_visual {
+		.main_img {
+		background: url(/interview/images/main_interview.png) no-repeat center center;
+		background-size: cover;
+		width: auto;
+		height: 100%;
+		}
+	}
+}
+.contact {
+	.main_visual {
+		.main_img {
+		background: url(/interview/images/main_interview.png) no-repeat center center;
+		background-size: cover;
+		width: auto;
+		height: 100%;
+		}
+	}
+}
+.case {
+	.main_visual {
+		.main_img {
+		background: url(/case/images/main_case.png) no-repeat center center;
+		background-size: cover;
+		width: auto;
+		height: 100%;
+		}
+	}
 }
 
 .main_service_text {
@@ -1306,7 +1430,6 @@ button.slick-next{
 		img {
 			position: relative;
 			width: 800px;
-			left: -50%;
 		}
 	}
 	img.main_service_text {

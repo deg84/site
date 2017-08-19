@@ -58,42 +58,42 @@ description: mofmofinc site home
 	</div>
 	<div class="container">
 		<div class="interview_items">
-			<a href="/interview/interview05.html">
 			<div class="interview01">
 			<span class="interview_img"><img src="images/interview01.png" /></span>
 			<div class="interview_text">
+			<a href="/interview/interview05.html">
 			<p class="interview_label"><span>株式会社ABEJA</span>緒方さま</p>
 			<p class="interview_comment">期待どおりの爆速開発。チーム全体でゴールを共有できる 体制が素晴らしい</p>
-			</div>
-			</div>
 			</a>
-			<a href="#">
+			</div>
+			</div>
 			<div class="interview02">
 			<span class="interview_img"><img src="images/interview02.png" /></span>
 			<div class="interview_text">
+			<a href="#">
 			<p class="interview_label"><span>株式会社フライングライン</span>代表取締役社長 鐘ヶ江さま</p>
 			<p class="interview_comment">自分のプロダクト開発チームをしっかりと育成できているという実感</p>
-			</div>
-			</div>
 			</a>
-			<a href="#">
+			</div>
+			</div>
 			<div class="interview03">
 			<span class="interview_img"><img src="images/interview03.png" /></span>
 			<div class="interview_text">
+			<a href="#">
 			<p class="interview_label"><span>合同会社ユキサキ</span>代表 神野さま</p>
 			<p class="interview_comment">シェアリングエコノミースターターパッケージを使って迅速にサービスリリースが出来た</p>
-			</div>
-			</div>
 			</a>
-			<a href="#">
+			</div>
+			</div>
 			<div class="interview04">
 			<span class="interview_img"><img src="images/interview04.png" /></span>
 			<div class="interview_text">
+			<a href="#">
 			<p class="interview_label"><span>Career Live</span>代表 北村さま</p>
 			<p class="interview_comment">既存システム改修という制限下でうまく改善していけた技術力に満足</p>
-			</div>
-			</div>
 			</a>
+			</div>
+			</div>
 			<div class="more_link more_link_interview">
 			<a class="button_more" href="/interview"><span>MORE</span></a>
 			</div>
@@ -270,21 +270,21 @@ description: mofmofinc site home
 					</ul>
 				</section>
 			</div>
-			<div class="page_nav_items clearfix">
-				<div class="page_nav_inner">
-				<a class="page_nav_left" href="/about">
-				<div class="page_nav_item_box">
-				<img src="/images/small_about.png" />
-				<button class="button button_primary page_nav_button">mofmofとは</button>
-				</div>
-				</a>
-				<a class="page_nav_right" href="/recruit">
-				<div class="page_nav_item_box">
-				<img src="/images/small_recruit.png" />
-				<button class="button button_primary page_nav_button">採用情報</button>
-				</div>
-				</a>
-				</div>
+		</div><!-- blog_items -->
+		<div class="page_nav_items clearfix">
+			<div class="page_nav_inner">
+			<a class="page_nav_left" href="/about">
+			<div class="page_nav_item_box">
+			<img src="/images/small_about.png" />
+			<button class="button button_primary page_nav_button">mofmofとは</button>
+			</div>
+			</a>
+			<a class="page_nav_right" href="/recruit">
+			<div class="page_nav_item_box">
+			<img src="/images/small_recruit.png" />
+			<button class="button button_primary page_nav_button">採用情報</button>
+			</div>
+			</a>
 			</div>
 		</div>
 	</div>

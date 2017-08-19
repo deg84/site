@@ -2,6 +2,9 @@
 layout: default
 description: about page
 
+# Body Class
+body_class_name: faq
+
 # Main Visual
 main_visual_path: /faq/images/main_faq.png
 main_title_text_jp:

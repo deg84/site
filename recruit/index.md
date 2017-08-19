@@ -2,6 +2,9 @@
 layout: default
 description: about page
 
+# Body Class
+body_class_name: recruit
+
 # Main Visual
 main_visual_path: /recruit/images/main_recruit.png
 main_title_text_jp:
@@ -25,7 +28,7 @@ page_nav_btn_right_text: mofmofとは
 
 {% include mainvisual.html %}
 
-<section>
+<section class="section_contact">
 	<h1 class="page_title">{{page.h1_page_title}}</h1>
 
 <div class="container03">

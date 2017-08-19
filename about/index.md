@@ -2,6 +2,9 @@
 layout: default
 description: about page
 
+# Body Class
+body_class_name: about
+
 # Main Visual
 main_visual_path: /about/images/main_about.png
 main_title_text_jp: つくって人を幸せにする

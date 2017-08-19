@@ -4,10 +4,10 @@
     <title>mofmofinc</title>
     <description>mofmofinc corporate site
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Aug 2017 14:43:02 +0900</pubDate>
-    <lastBuildDate>Sat, 19 Aug 2017 14:43:02 +0900</lastBuildDate>
+    <link>http://0.0.0.0:4000/</link>
+    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 19 Aug 2017 23:27:53 +0900</pubDate>
+    <lastBuildDate>Sat, 19 Aug 2017 23:27:53 +0900</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -16,9 +16,8 @@
 	&lt;div class=&quot;interview_main&quot;&gt;
 		&lt;div class=&quot;interview_title&quot;&gt;
 			&lt;div class=&quot;interview_img&quot;&gt;
-				&lt;img src=&quot;/interview/images/interview_base.png&quot; alt=&quot;&quot; /&gt;
 				&lt;div class=&quot;interviewer_name&quot;&gt;
-				&lt;p class=&quot;interview_interviewer&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+				&lt;!-- &lt;p class=&quot;interview_interviewer&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt; --&gt;
 				&lt;p class=&quot;interview_speaker&quot;&gt;&lt;span&gt;株式会社ABEJA&lt;/span&gt;CTO 緒方 貴紀&lt;/p&gt;
 				&lt;/div&gt;
 			&lt;/div&gt;
@@ -37,7 +36,7 @@
 	&lt;p&gt;是非ご一読下さい！&lt;/p&gt;
 	&lt;/div&gt;
 
-&lt;div class=&quot;container_daialog&quot;&gt;
+&lt;div class=&quot;section_dialog&quot;&gt;
 
 	&lt;div class=&quot;clearfix&quot;&gt;
 	&lt;p class=&quot;ttl_dialog&quot;&gt;いきなりMVPでの開発をご依頼頂いた一番の理由を教えてください。&lt;/p&gt;
@@ -60,22 +59,28 @@
 
 &lt;section class=&quot;section_dialog&quot;&gt;
 	&lt;div class=&quot;container04 profile_bg&quot;&gt;
-	&lt;div class=&quot;title_left_small&quot;&gt;CLIENT PROFILE &lt;span&gt;クライアントプロフィール&lt;/span&gt;&lt;/div&gt;
-	&lt;p&gt;株式会社ABEJA&lt;/p&gt;
-	&lt;p&gt;CTO 緒方 貴紀&lt;/p&gt;
-	&lt;ul&gt;
-		&lt;li&gt;&lt;a href=&quot;&quot;&gt;株式会社ABEJA&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;https://service.abeja.asia/?gclid=CjwKEAjwh_bLBRDehaSMyJSCj1gSJAB-GWBDRTQjpRrU9a517Nsd__WWRwRpmLssEs0-K6SWLuzM2RoCILrw_wcB&quot;&gt;ABEJA Platform for Retail&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-	&lt;img class=&quot;img_profile&quot; src=&quot;/interview/images/profile_ogata.png&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;title_left_small&quot;&gt;CLIENT PROFILE &lt;span&gt;クライアントプロフィール&lt;/span&gt;&lt;/div&gt;
+		&lt;div class=&quot;profile_wrap&quot;&gt;
+			&lt;div class=&quot;profile_txt&quot;&gt;
+				&lt;p&gt;株式会社ABEJA&lt;/p&gt;
+				&lt;p&gt;CTO 緒方 貴紀&lt;/p&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;&quot;&gt;株式会社ABEJA&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://service.abeja.asia/?gclid=CjwKEAjwh_bLBRDehaSMyJSCj1gSJAB-GWBDRTQjpRrU9a517Nsd__WWRwRpmLssEs0-K6SWLuzM2RoCILrw_wcB&quot;&gt;ABEJA Platform for Retail&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;profile_img&quot;&gt;
+				&lt;img class=&quot;img_profile&quot; src=&quot;/interview/images/profile_ogata.png&quot; alt=&quot;&quot; /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/section&gt;
 
 &lt;/section&gt;
 </description>
         <pubDate>Sun, 30 Jul 2017 00:00:00 +0900</pubDate>
-        <link>/interview/interview05.html</link>
-        <guid isPermaLink="true">/interview/interview05.html</guid>
+        <link>http://0.0.0.0:4000/interview/interview05.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/interview/interview05.html</guid>
         
         
         <category>interview/</category>
@@ -87,7 +92,7 @@
         <description>&lt;div class=&quot;container&quot;&gt;
 	&lt;div class=&quot;dialog_main&quot;&gt;
 		&lt;div class=&quot;interview_title&quot;&gt;
-			&lt;div class=&quot;interview_img&quot;&gt;
+			&lt;div class=&quot;dialog_img&quot;&gt;
 				&lt;img src=&quot;/interview/images/main_dialog.png&quot; alt=&quot;&quot; /&gt;
 				&lt;div class=&quot;interviewer_name&quot;&gt;
 				&lt;p class=&quot;interview_interviewer&quot;&gt;&lt;span&gt;株式会社mofmof&lt;/span&gt;CEO 原田 敦&lt;/p&gt;
@@ -151,22 +156,28 @@
 
 &lt;section class=&quot;section_dialog&quot;&gt;
 	&lt;div class=&quot;container04 profile_bg&quot;&gt;
-	&lt;div class=&quot;title_left_small&quot;&gt;CLIENT PROFILE &lt;span&gt;クライアントプロフィール&lt;/span&gt;&lt;/div&gt;
-	&lt;p&gt;株式会社フライングライン&lt;/p&gt;
-	&lt;p&gt;CEO 鐘ヶ江 弘章&lt;/p&gt;
-	&lt;ul&gt;
-		&lt;li&gt;&lt;a href=&quot;https://www.flyingline.co.jp/&quot;&gt;株式会社フライングライン&lt;/a&gt;&lt;/li&gt;
-		&lt;li&gt;&lt;a href=&quot;https://yondemill.jp/info/publisher/&quot;&gt;つながりで読むWebの本YONDEMILL（ヨンデミル）&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-	&lt;img class=&quot;img_profile&quot; src=&quot;/interview/images/interview04.png&quot; alt=&quot;&quot; /&gt;
+		&lt;div class=&quot;title_left_small&quot;&gt;CLIENT PROFILE &lt;span&gt;クライアントプロフィール&lt;/span&gt;&lt;/div&gt;
+		&lt;div class=&quot;profile_wrap&quot;&gt;
+			&lt;div class=&quot;profile_txt&quot;&gt;
+				&lt;p&gt;株式会社フライングライン&lt;/p&gt;
+				&lt;p&gt;CEO 鐘ヶ江 弘章&lt;/p&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;https://www.flyingline.co.jp/&quot;&gt;株式会社フライングライン&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://yondemill.jp/info/publisher/&quot;&gt;つながりで読むWebの本YONDEMILL（ヨンデミル）&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;profile_img&quot;&gt;
+				&lt;img class=&quot;img_profile&quot; src=&quot;/interview/images/interview04.png&quot; alt=&quot;&quot; /&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/section&gt;
 
 &lt;/section&gt;
 </description>
         <pubDate>Sun, 30 Jul 2017 00:00:00 +0900</pubDate>
-        <link>/interview/dialog/dialog01.html</link>
-        <guid isPermaLink="true">/interview/dialog/dialog01.html</guid>
+        <link>http://0.0.0.0:4000/interview/dialog/dialog01.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/interview/dialog/dialog01.html</guid>
         
         
         <category>interview/dialog</category>
@@ -191,8 +202,8 @@
 
 </description>
         <pubDate>Wed, 15 Oct 2014 19:30:52 +0900</pubDate>
-        <link>/dialogue/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/dialogue/welcome-to-jekyll.html</guid>
+        <link>http://0.0.0.0:4000/dialogue/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/dialogue/welcome-to-jekyll.html</guid>
         
         
         <category>dialogue</category>
@@ -217,8 +228,8 @@
 
 </description>
         <pubDate>Wed, 15 Oct 2014 19:30:52 +0900</pubDate>
-        <link>/interview/interview01.html</link>
-        <guid isPermaLink="true">/interview/interview01.html</guid>
+        <link>http://0.0.0.0:4000/interview/interview01.html</link>
+        <guid isPermaLink="true">http://0.0.0.0:4000/interview/interview01.html</guid>
         
         
         <category>interview</category>

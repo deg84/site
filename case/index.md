@@ -1,6 +1,9 @@
 ---
 layout: default
-description: about page
+description: case page
+
+# Body Class
+body_class_name: case
 
 # Main Visual
 main_visual_path: /case/images/main_case.png

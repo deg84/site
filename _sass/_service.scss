@@ -7,6 +7,7 @@
 	margin-bottom: 55px;
 	@media screen and (max-width: 1024px) {
 		width: auto;
+		max-width: 550px;
 		padding: 50px 0;
 		margin-bottom: 0;
 	}
@@ -18,7 +19,10 @@
 				float: none;
 				width: auto;
 				padding: 20px 30px;
-				margin-bottom: 0;
+				margin: 0 auto;
+				img {
+					max-width: 330px;
+				}
 			}
 		}
 	.sercive_txt {
@@ -56,6 +60,9 @@
 .contents_service.right {
 	.sercive_img {
 		float: left;
+		@media screen and (max-width: 1024px) {
+			float: none;
+		}
 	}
 	.sercive_txt {
 		float: right;
@@ -86,6 +93,10 @@
 			float: none;
 			width: auto;
 			padding: 0 30px;
+			text-align: center;
+			img {
+				max-width: 400px;
+			}
 		}
 	}
 	.sercive_case_txt {
@@ -94,6 +105,8 @@
 		@media screen and (max-width: 1024px) {
 			float: none;
 			width: auto;
+			max-width: 400px;
+			margin: 0 auto;
 			padding: 30px;
 			font-size: 14px;
 		}
@@ -118,6 +131,15 @@
 	}
 }
 
+
+@media screen and (max-width: 1024px) {
+	.sercive_img {
+		margin: 0 auto;
+		text-align: center;
+		max-width: 450px;
+	}
+}
+
 .service_solution {
 	width: 1300px;
 	margin: 0 auto;
@@ -133,6 +155,8 @@
   		display: block;
   		width: auto;
   		padding: 30px;
+  		max-width: 500px;
+  		margin: 0 auto;
   	}
 }
 
@@ -293,6 +317,8 @@
 	position: relative;
 	@media screen and (max-width: 1024px) {
 		padding: 20px;
+		max-width: 500px;
+		margin: 0 auto;
 	}
 }
 
@@ -472,6 +498,8 @@
 	margin: 0;
 	@media screen and (max-width: 1024px) {
 		margin-bottom: 20px;
+		max-width: 500px;
+    	margin: 0 auto;
 	}
 }
 
@@ -533,6 +561,8 @@
   	margin-bottom: 80px;
   	@media screen and (max-width: 1024px) {
   		width: auto;
+  		max-width: 500px;
+  		margin: 0 auto;
   		padding: 30px;
   		display: block;
   		margin-bottom: 30px;

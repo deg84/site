@@ -121,13 +121,14 @@
 
 .contact_notice.entry {
 	text-align: left;
-	@media screen and (max-width: 1024px) {
-		padding: 0 30px;
-	}
+	padding: 0 30px;
 }
 
 .contact_form.entry_form {
 	float: left;
+	@media screen and (max-width: 1024px) {
+		padding-bottom: 80px;
+	}
 }
 
 .button.submit.entry {
@@ -135,6 +136,11 @@
 	bottom: 100px;
 	width: 330px;
 	height: 60px;
+	@media screen and (max-width: 1024px) {
+		width: 200px;
+		bottom: 30px;
+		right: 10%;
+	}
 }
 
 
