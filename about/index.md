@@ -6,7 +6,6 @@ description: about page
 body_class_name: about
 
 # Main Visual
-main_visual_path: /about/images/main_about.png
 main_title_text_jp: つくって人を幸せにする
 main_title_text_en1: WE "CREATE"
 main_title_text_en2: YOUR HAPPINESS

@@ -10,7 +10,6 @@ main_title_text_jp:
 main_title_text_en1: CONTACT
 main_title_text_en2:
 h1_page_title: お問い合わせ
-main_visual_path: /contact/images/main_contact.png
 
 # Page Navigation
 

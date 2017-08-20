@@ -6,7 +6,6 @@ description: case page
 body_class_name: case
 
 # Main Visual
-main_visual_path: /case/images/main_case.png
 main_title_text_jp:
 main_title_text_en1: CASE STUDIES
 main_title_text_en2:

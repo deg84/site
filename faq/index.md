@@ -6,7 +6,6 @@ description: about page
 body_class_name: faq
 
 # Main Visual
-main_visual_path: /faq/images/main_faq.png
 main_title_text_jp:
 main_title_text_en1: FREQUENTLY
 main_title_text_en2: ASKED

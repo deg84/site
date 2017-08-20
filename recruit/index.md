@@ -6,7 +6,6 @@ description: about page
 body_class_name: recruit
 
 # Main Visual
-main_visual_path: /recruit/images/main_recruit.png
 main_title_text_jp:
 main_title_text_en1: RECRUIT
 main_title_text_en2:

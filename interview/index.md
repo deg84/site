@@ -10,7 +10,6 @@ main_title_text_jp:
 main_title_text_en1: INTERVIEW
 main_title_text_en2:
 h1_page_title: インタビュー
-main_visual_path: /interview/images/main_interview.png
 
 # Page Navigation
 

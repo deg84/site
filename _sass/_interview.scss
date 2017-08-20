@@ -160,6 +160,12 @@
 	}
 }
 
+.dialog_main {
+	.interview_main_title {
+		padding-top: 0;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.interview_main {
 		.interview_img {

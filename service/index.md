@@ -10,7 +10,6 @@ main_title_text_jp:
 main_title_text_en1: SERVICE
 main_title_text_en2:
 h1_page_title: サービス
-main_visual_path: /service/images/main_service.png
 main_service_text: /service/images/main_service_text.png
 
 # Page Navigation

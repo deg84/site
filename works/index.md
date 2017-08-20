@@ -10,8 +10,6 @@ main_title_text_jp:
 main_title_text_en1: WORKS
 main_title_text_en2:
 h1_page_title: 開発実績
-main_visual_path: /works/images/main_works.png
-
 
 # Page Navigation
 
