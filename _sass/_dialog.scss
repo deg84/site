@@ -8,6 +8,7 @@
 	@media screen and (max-width: 1024px) {
 		width: auto;
 		padding: 0 30px;
+		margin-bottom: 0;
 	}
 }
 
@@ -54,6 +55,9 @@ img.img_fr {
 	color: $text-link-color;
 	margin-bottom: 30px;
 	padding-top: 30px;
+	@media screen and (max-width: 768px) {
+		padding-top: 0;
+	}
 }
 
 .profile_bg {

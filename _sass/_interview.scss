@@ -92,11 +92,11 @@
 }
 
 .dialog_img {
-	@media screen and (min-width: 768px) {
-		height: 230px;
-	}
 	@media screen and (max-width: 1024px) {
 		height: 420px;
+	}
+	@media screen and (max-width: 768px) {
+		height: 230px;
 	}
 }
 
@@ -163,6 +163,9 @@
 .dialog_main {
 	.interview_main_title {
 		padding-top: 0;
+		@media screen and (max-width: 1024px) {
+			padding-top: 20px;
+		}
 	}
 }
 

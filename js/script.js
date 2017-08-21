@@ -8,7 +8,7 @@ $(function(){
 	};
 
 	// スムーススクロール
-	$('a[href^="#"]').on(_touch,function(){
+	$('a[href^="#"]').on('click',function(){
 	    var speed = 500;
 	    var href= $(this).attr("href");
 	    var target = $(href == "#" || href == "" ? 'html' : href);
@@ -41,7 +41,7 @@ $(function(){
 	  	asNavFor: '#js_main_nav'
 	  });
 
-// スライドナビゲーション
+	// スライドナビゲーション
 	$("#js_main_nav").slick({
 		vertical: true,
 		slidesToShow: 4,
@@ -50,28 +50,36 @@ $(function(){
 	    asNavFor: 'js_main_slide'
 	});
 	$('#js_main_nav li').on('mouseover', function(e) {
-	    var $currTarget = $(e.currentTarget),
-	    index = $currTarget.data('slick-index'),
-	    slickObj = $('.js_main_slide').slick('getSlick');
-	    slickObj.slickGoTo(index, true);    // アニメーション中でも切り替える
-	    $slide.slick('slickPause');     // 自動切り替え停止
+	    var $currTarget = $(e.currentTarget),
+	    index = $currTarget.data('slick-index'),
+	    slickObj = $('.js_main_slide').slick('getSlick');
+	    slickObj.slickGoTo(index, true);    // アニメーション中でも切り替える
+	    $slide.slick('slickPause');     // 自動切り替え停止
 		$('.main_image_item').toggleClass('hover');
 	})
 	.on('mouseout', function(e) {
-	    $slide.slick('slickPlay');  // 自動切り替え再開
+	    $slide.slick('slickPlay');  // 自動切り替え再開
 	});
 
 	// インフォメーションスライド
-		  $(".section_info_slide").slick({
-		    dots: false,
-		    infinite: true,
-		    centerMode: true,
-		    // centerPadding: '10px',
-		    slidesToShow: 4,
-		    slidesToScroll: 1,
-		    autoplay: false,
-		  	autoplaySpeed: 2000
-		  });
+	  $(".section_info_slide").slick({
+	    dots: false,
+	    infinite: true,
+	    centerMode: true,
+	    slidesToShow: 4,
+	    slidesToScroll: 1,
+	    autoplay: false,
+	  	autoplaySpeed: 2000,
+	  	responsive: [
+	    {
+	      breakpoint: 1350,
+	      settings: {
+	        slidesToShow: 3,
+	        slidesToScroll: 3,
+	      }
+	    }
+	  ]
+	  });
 
 	// フッター
 	    var ft_contact = $('#footer_contact:not(.contact #footer_contact)');
@@ -87,7 +95,7 @@ $(function(){
 	} else {
 
 		// SPメニュー
-		$("#gnav_btn").on(_touch,function(){
+		$("#gnav_btn").on('click',function(){
 			var h = screen.availHeight
 			$("#overlay").toggleClass('open','',3000,"easeOutCirc");
 			$(this).toggleClass('hover close');
@@ -116,37 +124,43 @@ $(function(){
 		});
 
 		$('#js_main_nav li').on('touchend', function(e) {
-		    var $currTarget = $(e.currentTarget),
-		    index = $currTarget.data('slick-index'),
-		    slickObj = $('.js_main_slide').slick('getSlick');
-		    slickObj.slickGoTo(index, true);    // アニメーション中でも切り替える
-		    $slide.slick('slickPause');     // 自動切り替え停止
+		    var $currTarget = $(e.currentTarget),
+		    index = $currTarget.data('slick-index'),
+		    slickObj = $('.js_main_slide').slick('getSlick');
+		    slickObj.slickGoTo(index, true);    // アニメーション中でも切り替える
+		    $slide.slick('slickPause');     // 自動切り替え停止
 			$('.main_image_item').toggleClass('hover');
 		})
 		.on('mouseout', function(e) {
-		    $slide.slick('slickPlay');  // 自動切り替え再開
+		    $slide.slick('slickPlay');  // 自動切り替え再開
 		});
 	}
 
 	// mofmofとは
-	$(".about_member_01").on(_touch,function(){
+	$(".about_member_01").on('click',function(){
 		$(this).toggleClass('hover');
-	});	
+	});
 
 	// アコーディオン
-        $(".js_accordion").each(function() {
-            var accordion = $(this);
-            $(this).find(".js_switch").on(_touch,function(){
-            //$("> .js_switch", this).on(_touch,function(){ // 上段の別の書き方
-                var targetContentWrap = $(this).next(".js_contentwrap");
-                if ( targetContentWrap.css("display") === "none" ) {
-                    accordion.find(".js_contentwrap").slideUp();
-                    accordion.find(".js_switch.open").removeClass("open");
-                }
-                targetContentWrap.slideToggle();
-                $(this).toggleClass("open");
-            });
-        });
+		$('.js_switch').on('click',function(){
+			$(this).toggleClass("open");
+			var targetContentWrap = $(this).next(".js_contentwrap");
+			targetContentWrap.slideToggle();
+		});
+
+		// 一つだけOPEN
+        // $(".js_accordion").each(function() {
+        //     var accordion = $(this);
+        //     $(this).find(".js_switch").on('click',function(){
+        //         var targetContentWrap = $(this).next(".js_contentwrap");
+        //         if ( targetContentWrap.css("display") === "none" ) {
+        //             accordion.find(".js_contentwrap").slideUp();
+        //             accordion.find(".js_switch.open").removeClass("open");
+        //         }
+        //         targetContentWrap.slideToggle();
+        //         $(this).toggleClass("open");
+        //     });
+        // });
 
 	// map
 		function map_initialize() {
@@ -178,7 +192,6 @@ $(function(){
 	 map_initialize();
 
 });
-
 
 
 

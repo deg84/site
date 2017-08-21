@@ -58,8 +58,8 @@ description: mofmofinc site home
 	</div>
 	<div class="container">
 		<div class="interview_items">
-			<div class="interview01">
-			<span class="interview_img"><img src="images/interview01.png" /></span>
+			<div class="interview01 interview_item">
+			<span class="interview_sumnail"><img src="images/interview01.png" /></span>
 			<div class="interview_text">
 			<a href="/interview/interview05.html">
 			<p class="interview_label"><span>株式会社ABEJA</span>緒方さま</p>
@@ -67,8 +67,8 @@ description: mofmofinc site home
 			</a>
 			</div>
 			</div>
-			<div class="interview02">
-			<span class="interview_img"><img src="images/interview02.png" /></span>
+			<div class="interview02 interview_item">
+			<span class="interview_sumnail"><img src="images/interview02.png" /></span>
 			<div class="interview_text">
 			<a href="#">
 			<p class="interview_label"><span>株式会社フライングライン</span>代表取締役社長 鐘ヶ江さま</p>
@@ -76,8 +76,8 @@ description: mofmofinc site home
 			</a>
 			</div>
 			</div>
-			<div class="interview03">
-			<span class="interview_img"><img src="images/interview03.png" /></span>
+			<div class="interview03 interview_item">
+			<span class="interview_sumnail"><img src="images/interview03.png" /></span>
 			<div class="interview_text">
 			<a href="#">
 			<p class="interview_label"><span>合同会社ユキサキ</span>代表 神野さま</p>
@@ -85,8 +85,8 @@ description: mofmofinc site home
 			</a>
 			</div>
 			</div>
-			<div class="interview04">
-			<span class="interview_img"><img src="images/interview04.png" /></span>
+			<div class="interview04 interview_item">
+			<span class="interview_sumnail"><img src="images/interview04.png" /></span>
 			<div class="interview_text">
 			<a href="#">
 			<p class="interview_label"><span>Career Live</span>代表 北村さま</p>

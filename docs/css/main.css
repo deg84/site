@@ -475,6 +475,9 @@ ul.sp_menu_bloglink {
     ul.sp_menu_bloglink li a {
       color: #fff; }
 
+.wrapper {
+  width: 100%; }
+
 @media screen and (max-width: 1024px) {
   .wrapper {
     position: relative;
@@ -1023,12 +1026,12 @@ section.section_info {
 .dialog_main {
   height: 550px; }
 
-@media screen and (min-width: 768px) {
-  .dialog_img {
-    height: 230px; } }
 @media screen and (max-width: 1024px) {
   .dialog_img {
     height: 420px; } }
+@media screen and (max-width: 768px) {
+  .dialog_img {
+    height: 230px; } }
 
 .interview_main, .dialog_main {
   position: relative; }
@@ -1081,6 +1084,9 @@ section.section_info {
 
 .dialog_main .interview_main_title {
   padding-top: 0; }
+  @media screen and (max-width: 1024px) {
+    .dialog_main .interview_main_title {
+      padding-top: 20px; } }
 
 @media screen and (max-width: 1024px) {
   .interview_main .interview_img {
@@ -2060,7 +2066,8 @@ p.overlay:hover {
   @media screen and (max-width: 1024px) {
     .container_daialog {
       width: auto;
-      padding: 0 30px; } }
+      padding: 0 30px;
+      margin-bottom: 0; } }
 
 img.img_fl {
   float: left;
@@ -2101,6 +2108,9 @@ img.img_fr {
   color: #00a4b4;
   margin-bottom: 30px;
   padding-top: 30px; }
+  @media screen and (max-width: 768px) {
+    .ttl_dialog {
+      padding-top: 0; } }
 
 .profile_bg {
   position: relative;
@@ -2850,18 +2860,23 @@ img {
     width: auto;
     line-height: 1.4; }
 
+  .interview_item {
+    border-right: solid 1px #029AAA;
+    margin-bottom: 30px; }
+
   .interview02, .interview04 {
     top: auto; }
 
   .interview01, .interview02, .interview03, .interview04 {
     position: relative;
     min-height: 105px;
-    padding: 10px 20px; }
-    .interview01 span.interview_img, .interview02 span.interview_img, .interview03 span.interview_img, .interview04 span.interview_img {
+    padding-left: 20px;
+    margin-right: 20px; }
+    .interview01 span.interview_sumnail, .interview02 span.interview_sumnail, .interview03 span.interview_sumnail, .interview04 span.interview_sumnail {
       display: block;
       float: left;
       width: 30%; }
-      .interview01 span.interview_img img, .interview02 span.interview_img img, .interview03 span.interview_img img, .interview04 span.interview_img img {
+      .interview01 span.interview_sumnail img, .interview02 span.interview_sumnail img, .interview03 span.interview_sumnail img, .interview04 span.interview_sumnail img {
         max-width: 150px; }
     .interview01:before, .interview02:before, .interview03:before, .interview04:before {
       display: none; }
@@ -2886,15 +2901,6 @@ img {
     position: relative;
     width: 65%;
     min-height: 100px; }
-    .interview_text:after {
-      display: block;
-      content: "";
-      width: 1px;
-      height: 100%;
-      background: #00a4b4;
-      position: absolute;
-      top: 0;
-      right: 0; }
 
   .interview_comment {
     position: absolute;
@@ -3100,7 +3106,7 @@ img {
 .info_items_inner {
   position: relative;
   margin: 0 auto;
-  width: 300px; }
+  max-width: 300px; }
 
 .info_item_box {
   position: relative;
