@@ -3022,7 +3022,8 @@ img {
   .merit_items, .interview_items, .works_items {
     display: block; } }
 .interview_banner {
-  position: relative; }
+  position: relative;
+  min-height: 300px; }
   .interview_banner .interview_title {
     position: relative;
     width: 350px;
@@ -3089,6 +3090,7 @@ img {
       right: auto;
       bottom: auto;
       padding: 0 30px;
+      padding-top: 12px;
       font-size: 12px; } }
 .info_items {
   width: 100%; }

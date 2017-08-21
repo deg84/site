@@ -664,7 +664,7 @@ img {
 
 .interview_banner {
 	position: relative;
-	// height: 300px;
+	min-height: 300px;
 	.interview_title {
 		position: relative;
 		width: 350px;
@@ -746,6 +746,7 @@ img {
 			right:auto;
 			bottom: auto;
 			padding: 0 30px;
+			padding-top: 12px;
 			font-size: 12px;
 		}
 	}
