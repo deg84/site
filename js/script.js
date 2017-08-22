@@ -148,19 +148,10 @@ $(function(){
 			targetContentWrap.slideToggle();
 		});
 
-		// 一つだけOPEN
-        // $(".js_accordion").each(function() {
-        //     var accordion = $(this);
-        //     $(this).find(".js_switch").on('click',function(){
-        //         var targetContentWrap = $(this).next(".js_contentwrap");
-        //         if ( targetContentWrap.css("display") === "none" ) {
-        //             accordion.find(".js_contentwrap").slideUp();
-        //             accordion.find(".js_switch.open").removeClass("open");
-        //         }
-        //         targetContentWrap.slideToggle();
-        //         $(this).toggleClass("open");
-        //     });
-        // });
+
+	//lightbox
+
+	$('.diff_item a').simpleLightbox();
 
 	// map
 		function map_initialize() {
