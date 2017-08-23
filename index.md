@@ -1,6 +1,9 @@
 ---
 layout: default
 description: mofmofinc site home
+
+# Body Class
+body_class_name: home
 ---
 
 {% include topmain.html %}
@@ -254,7 +257,7 @@ description: mofmofinc site home
 			<div class="blog_post_items">
 				<section class="blog_list_items">
 					<div class="blog_list_title01 clearfix">
-					<h3 class="ttl_blog"><img class="logo_m" src="images/logom.svg" alt=""><img class="logo" src="images/logo.svg" alt="">BLOG</h3>
+					<h3 class="ttl_blog"><img class="logo_m" src="imfages/logom.svg" alt=""><img class="logo" src="images/logo.svg" alt="">BLOG</h3>
 					<a href="http://everyday.mof-mof.co.jp/"><span>MORE</span><img src="images/arrow.png" alt=""></a>
 					</div>
 					<ul id="hatena_feed" class="article_list clearfix">
@@ -270,7 +273,6 @@ description: mofmofinc site home
 					</ul>
 				</section>
 			</div>
-		</div><!-- blog_items -->
 		<div class="page_nav_items clearfix">
 			<div class="page_nav_inner">
 			<a class="page_nav_left" href="/about">
@@ -286,6 +288,7 @@ description: mofmofinc site home
 			</div>
 			</a>
 			</div>
-		</div>
+		</div><!-- page_nav_items -->
+		</div><!-- blog_items -->
 	</div>
 </section><!-- BLOG -->

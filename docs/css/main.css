@@ -3097,7 +3097,14 @@ img {
       bottom: auto;
       padding: 0 30px;
       padding-top: 12px;
-      font-size: 12px; } }
+      font-size: 12px; }
+
+  .home .interview_banner .interview_img {
+    padding: 0; } }
+.blog_post_items {
+  float: right;
+  width: 450px; }
+
 .info_items {
   width: 100%; }
   .info_items:hover {
@@ -3145,10 +3152,6 @@ img {
 .page_nav_items {
   float: left;
   width: 480px; }
-
-.blog_post_items {
-  float: right;
-  width: 450px; }
 
 .page_nav_items_wraper {
   width: 100%;
@@ -3203,7 +3206,13 @@ img {
     float: none;
     width: 100%;
     max-width: 500px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 70px; }
+
+  .home .blog_items {
+    margin-bottom: 0; }
+  .home .blog_post_items {
+    margin-bottom: 70px; }
 
   .page_nav_items {
     float: none; }
@@ -3212,13 +3221,17 @@ img {
     float: left;
     width: 50%; }
     .page_nav_left .page_nav_item_box {
-      margin-right: 10px; }
+      margin-right: 10px;
+      margin-bottom: 0;
+      padding-bottom: 0; }
 
   .page_nav_right {
     float: right;
     width: 50%; }
     .page_nav_right .page_nav_item_box {
-      margin-left: 10px; }
+      margin-left: 10px;
+      margin-bottom: 0;
+      padding-bottom: 0; }
 
   .page_nav_button {
     background: transparent;
