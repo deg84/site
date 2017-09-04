@@ -143,9 +143,9 @@ body_class_name: home
 	</div>
 </section><!-- WORKS -->
 
-<section>
+<!-- <section>
 {% include interview.html %}
-</section>
+</section> -->
 
 <section class="section_info">
 	<div class="slider_title">
