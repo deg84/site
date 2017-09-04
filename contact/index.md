@@ -43,7 +43,7 @@ page_nav_btn_right_text: ケーススタディー
 </div>
 
 <div class="contact_form">
-<form action="">
+<form name="contactform" action="thanks" data-netlify=”true”>
 
 <div class="row">
 	<div class="form_group">
