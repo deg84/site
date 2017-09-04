@@ -11,7 +11,7 @@ $(function() {
             console.log(xhr.status)
             console.log(status)
             console.log(error)
-            alert('Error loading XML document');
+            // alert('Error loading XML document');
         },
         success:function(xml){
                 $(xml).find("entry:lt(4)").each(function(i,entry) {
@@ -28,7 +28,7 @@ $(function() {
     // 技術blog
 
     $.ajax({
-        url: "http://tech.mof-mof.co.jp/index.html",
+        url: "https://tech.mof-mof.co.jp/index.html",
         async: true,
         cache: false,
         dataType:"html",
