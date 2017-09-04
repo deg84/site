@@ -7,7 +7,10 @@ $(function() {
         async: true,
         cache: false,
         dataType:"xml",
-        error: function(){
+        error: function(xhr, status, error) {
+            console.log(xhr.status)
+            console.log(status)
+            console.log(error)
             alert('Error loading XML document');
         },
         success:function(xml){
@@ -29,7 +32,10 @@ $(function() {
         async: true,
         cache: false,
         dataType:"html",
-        error: function(){
+        error: function(xhr, status, error) {
+            console.log(xhr.status)
+            console.log(status)
+            console.log(error)
             alert('Error loading HTML document');
         },
         success:function(data){
