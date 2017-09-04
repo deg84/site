@@ -48,18 +48,18 @@ page_nav_btn_right_text: ケーススタディー
 <div class="row">
 	<div class="form_group">
 		<label for="input_name">お名前</label>
-		<input type="text" class="form_control" id="input_name" placeholder="">
+		<input type="text" class="form_control" id="input_name" name="name" placeholder="">
 	</div>
 </div>
 
 
 <div class="form_group">
 <label for="input_mail">メールアドレス</label>
-<input type="email" class="form_control" id="input_mail" placeholder="">
+<input type="email" class="form_control" id="input_mail" name="email" placeholder="">
 </div>
 <div class="form_group">
 <label for="input_textarea">内容</label>
-<textarea class="form_control" rows="7" id="input_textarea" placeholder="開発をご希望のシステム、リリース希望時期、ご予算など可能な範囲にて具体的に記載頂けると幸いです。
+<textarea class="form_control" rows="7" id="input_textarea" name="detail" placeholder="開発をご希望のシステム、リリース希望時期、ご予算など可能な範囲にて具体的に記載頂けると幸いです。
 "></textarea>
 </div>
 
