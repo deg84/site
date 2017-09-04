@@ -28,7 +28,7 @@ $(function() {
     // 技術blog
 
     $.ajax({
-        url: "https://tech.mof-mof.co.jp/index.html",
+        url: "http://tech.mof-mof.co.jp/index.html",
         async: true,
         cache: false,
         dataType:"html",
@@ -36,7 +36,7 @@ $(function() {
             console.log(xhr.status)
             console.log(status)
             console.log(error)
-            alert('Error loading HTML document');
+            // alert('Error loading HTML document');
         },
         success:function(data){
             var p = 1;
