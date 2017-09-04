@@ -116,12 +116,12 @@
 
 .contact_text.entry_text {
 	float: right;
-	width: 330px;
+	width: 350px;
 }
 
 .contact_notice.entry {
 	text-align: left;
-	padding: 0 30px;
+	// padding: 0 30px;
 }
 
 .contact_form.entry_form {
@@ -136,15 +136,11 @@
 	bottom: 100px;
 	width: 330px;
 	height: 60px;
+	position: absolute;
+	right: 10%;
 	@media screen and (max-width: 1024px) {
 		width: 200px;
 		bottom: 30px;
 		right: 10%;
 	}
 }
-
-
-
-
-
-
