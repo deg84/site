@@ -14,7 +14,14 @@
   <body class="">
   <div class="wrapper">
 {% include header.html %}
-    {{ content }}
+    {% include interviewvisual.html %}
+    <h1 class="page_title">クライアントインタビュー</h1>
+
+    <div class="container_daialog">
+      {{ content }}
+      <br /><br /><br />
+      {% include clientprofile.html %}
+    </div>
 {% include footer.html %}
 {% include spmenu.html %}
   </div>
@@ -24,4 +31,3 @@
     <script src="/js/script.js"></script>
   </body>
 </html>
-

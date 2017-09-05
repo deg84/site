@@ -4,25 +4,27 @@ description: about page
 
 # Interview Visual
 
-interview_visual_path: /interview/images/interview_base.png
 interview_no: Vol.01
-h1_page_title: クライアントインタビュー
 
 # Interview meta
 
 interview_title: わずか3日でMVPを作りきる<br>合宿型爆速開発サービス「いきなりMVP」
-interview_interviewer_company: 
-interview_interviewer_name: 
+interview_interviewer_company:
+interview_interviewer_name:
 interview_speaker_company: 株式会社ABEJA
 interview_speaker_name: CTO 緒方 貴紀
-company_link: 
+company_link:
 sercive_name: ABEJA Platform for Retail
 service_link: https://service.abeja.asia/?gclid=CjwKEAjwh_bLBRDehaSMyJSCj1gSJAB-GWBDRTQjpRrU9a517Nsd__WWRwRpmLssEs0-K6SWLuzM2RoCILrw_wcB
 interview_profile_img: /interview/images/profile_ogata.png
 
-# Posts destination
-categories: interview/
+number: INTERVIEW.03
+company: 合同会社ユキサキ　神野さま
+comment: シェアリングエコノミースターターパッケージを使って迅速にサービスリリースが出来た
+imgpath: /interview/images/interview03.png
 
+# Posts destination
+categories: interview
 ---
 
 {% include interviewvisual.html %}
@@ -59,4 +61,3 @@ categories: interview/
 </div>
 
 {% include clientprofile.html %}
-

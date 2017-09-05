@@ -1,0 +1,61 @@
+---
+layout: default
+description: mofmofとは
+
+# Body Class
+body_class_name: interview
+
+# Main Visual
+main_title_text_jp:
+main_title_text_en1: INTERVIEW
+main_title_text_en2:
+h1_page_title: インタビュー
+
+# Page Navigation
+
+# Navigation Left
+page_nav_left_imagepath: /images/small_service.png
+page_nav_left_path: /service
+page_nav_btn_left_text: サービス
+
+# Navigation Right
+page_nav_right_imagepath: /images/small_about.png
+page_nav_right_path: /about
+page_nav_btn_right_text: mofmofとは
+---
+
+{% include mainvisual.html %}
+
+<!-- <section>
+	<h1 class="page_title">{{page.h1_page_title}}</h1>
+  {% include interview.html %}
+</section> -->
+
+<br />
+<div class="container02">
+  <section class="section_bg_center">
+    <h2 class="ttl_center">CLIENT INTERVIEW <span>クライアントインタビュー</span></h2>
+
+    <div class="client_interview_items">
+    {% for post in site.categories['interview'] %}
+    	<div class="client_item clearfix">
+    		<span class="client_img"><img src="{{ post.imgpath }}" alt=""></span>
+    		<button class="button client_label">{{ post.number }}</button>
+    		<a href="{{ post.url }}">
+      		<div class="client_comment_wrap">
+        		<p class="client_commnet">{{ post.comment }}</p>
+        		<p class="client_companname">{{ post.company }}</p>
+      	  </div>
+    		</a>
+    	</div>
+    {% endfor %}
+      </div>
+
+
+
+</section>
+</div>
+
+
+
+{% include footernav.html %}

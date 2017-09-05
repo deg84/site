@@ -50,13 +50,15 @@ img.img_fr {
 	margin-bottom: 30px;
 }
 
-.ttl_dialog {
-	font-size: 16px;
-	color: $text-link-color;
-	margin-bottom: 30px;
-	padding-top: 30px;
-	@media screen and (max-width: 768px) {
-		padding-top: 0;
+.container_daialog {
+	h2 {
+		font-size: 16px;
+		color: $text-link-color;
+		margin-bottom: 30px;
+		padding-top: 30px;
+		@media screen and (max-width: 768px) {
+			padding-top: 0;
+		}
 	}
 }
 
@@ -94,34 +96,36 @@ img.img_profile {
 
 .profile_wrap {
 	display:-webkit-flex;
-    display:flex;
+  display:flex;
 	-webkit-justify-content: space-between;
-  	justify-content: space-between;
-  	-webkit-box-lines:multiple;
-    -moz-box-lines:multiple;
-    -webkit-flex-wrap:wrap;
-    -moz-flex-wrap:wrap;
-    -ms-flex-wrap:wrap;
-    flex-wrap:wrap;
-    @media screen and (max-width: 1024px) {
-    	max-width: 600px;
-    	margin: 0 auto;
-    }
-    @media screen and (max-width: 380px) {
+	justify-content: space-between;
+	-webkit-box-lines:multiple;
+  -moz-box-lines:multiple;
+  -webkit-flex-wrap:wrap;
+  -moz-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  @media screen and (max-width: 1024px) {
+  	max-width: 600px;
+  	margin: 0 auto;
+  }
+  @media screen and (max-width: 380px) {
 		display: block;
-    }
+  }
 }
 
-.profile_txt,.profile_img {
+.profile_txt {
 	width: 50%;
 	@media screen and (max-width: 380px) {
 		width: 100%;
 	}
 }
 .profile_img {
-	text-align: right;
+	position: absolute;
+	right: 5%;
+	top: 18%;
 	@media screen and (max-width: 380px) {
+		position: static;
 		text-align: center;
 	}
 }
-
