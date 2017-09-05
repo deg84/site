@@ -183,6 +183,3 @@ $(function(){
 	 map_initialize();
 
 });
-
-
-

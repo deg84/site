@@ -149,107 +149,27 @@ body_class_name: home
 
 <section class="section_info">
 	<div class="slider_title">
-	<h2 class="ttl_center_s clearfix"><span class="info_title">INFOMATION</span> <span class="info_oshirase">mofmofのお知らせ</span><a href="#"><span class="info_more">more</span></a></h2>
+		<h2 class="ttl_center_s clearfix"><span class="info_title">INFOMATION</span> <span class="info_oshirase">mofmofのお知らせ</span><a href="#"><span class="info_more">more</span></a></h2>
 	</div>
 	<div class="section_info_slide">
-		<a href="#">
-		<div class="info_items">
-			<div class="info_items_inner">
-			<span class="info_item_tag">AIチャットボット,人工知能</span>
-			<div class="info_item_box cf">
-			<div class="info_date_box"><span class="info_item_month">DEC</span><span class="info_item_date">28</span></div>
-				<img src="images/info_post03.png" alt="">
-				<span class="info_item_text">人工知能チャットボット開催レポート。今後の人工知能の可能性について勉強会を開催いたしました。</span>
+		{% for post in site.categories['information'] %}
+			<a href="{{ post.url }}">
+			<div class="info_items">
+				<div class="info_items_inner">
+				<span class="info_item_tag">
+					{% for tag in post.tags %}{{ tag }}{% endfor %}
+				</span>
+				<div class="info_item_box cf">
+				<div class="info_date_box"><span class="info_item_month">{{ post.date | date: "%b" }}</span><span class="info_item_date">{{ post.date | date: "%d" }}</span></div>
+					<img src="images/info_post03.png" alt="">
+					<!-- <img src="{{ post.thumbnail }}" alt=""> -->
+					<span class="info_item_text">{{ post.title }}</span>
+				</div>
+				</div>
 			</div>
-			</div>
-		</div>
-		</a>
-		<a href="#">
-		<div class="info_items">
-			<div class="info_items_inner">
-			<span class="info_item_tag">AIチャットボット,人工知能</span>
-			<div class="info_item_box cf">
-			<div class="info_date_box"><span class="info_item_month">DEC</span><span class="info_item_date">28</span></div>
-				<img src="images/info_post02.png" alt="">
-				<span class="info_item_text">人工知能チャットボット開催レポート。今後の人工知能の可能性について勉強会を開催いたしました。</span>
-			</div>
-			</div>
-		</div>
-		</a>
-		<a href="#">
-		<div class="info_items">
-			<div class="info_items_inner">
-			<span class="info_item_tag">AIチャットボット,人工知能</span>
-			<div class="info_item_box cf">
-			<div class="info_date_box"><span class="info_item_month">DEC</span><span class="info_item_date">28</span></div>
-				<img src="images/info_post03.png" alt="">
-				<span class="info_item_text">人工知能チャットボット開催レポート。今後の人工知能の可能性について勉強会を開催いたしました。</span>
-			</div>
-			</div>
-		</div>
-		</a>
-		<a href="#">
-		<div class="info_items">
-			<div class="info_items_inner">
-			<span class="info_item_tag">AIチャットボット,人工知能</span>
-			<div class="info_item_box cf">
-			<div class="info_date_box"><span class="info_item_month">DEC</span><span class="info_item_date">28</span></div>
-				<img src="images/info_post01.png" alt="">
-				<span class="info_item_text">人工知能チャットボット開催レポート。今後の人工知能の可能性について勉強会を開催いたしました。</span>
-			</div>
-			</div>
-		</div>
-		</a>
-		<a href="#">
-		<div class="info_items">
-			<div class="info_items_inner">
-			<span class="info_item_tag">AIチャットボット,人工知能</span>
-			<div class="info_item_box cf">
-			<div class="info_date_box"><span class="info_item_month">DEC</span><span class="info_item_date">28</span></div>
-				<img src="images/info_post02.png" alt="">
-				<span class="info_item_text">人工知能チャットボット開催レポート。今後の人工知能の可能性について勉強会を開催いたしました。</span>
-			</div>
-			</div>
-		</div>
-		</a>
-		<a href="#">
-		<div class="info_items">
-			<div class="info_items_inner">
-			<span class="info_item_tag">AIチャットボット,人工知能</span>
-			<div class="info_item_box cf">
-			<div class="info_date_box"><span class="info_item_month">DEC</span><span class="info_item_date">28</span></div>
-				<img src="images/info_post03.png" alt="">
-				<span class="info_item_text">人工知能チャットボット開催レポート。今後の人工知能の可能性について勉強会を開催いたしました。</span>
-			</div>
-			</div>
-		</div>
-		</a>
-		<a href="#">
-		<div class="info_items">
-			<div class="info_items_inner">
-			<span class="info_item_tag">AIチャットボット,人工知能</span>
-			<div class="info_item_box cf">
-			<div class="info_date_box"><span class="info_item_month">DEC</span><span class="info_item_date">28</span></div>
-				<img src="images/info_post01.png" alt="">
-				<span class="info_item_text">人工知能チャットボット開催レポート。今後の人工知能の可能性について勉強会を開催いたしました。</span>
-			</div>
-			</div>
-		</div>
-		</a>
-		<a href="#">
-		<div class="info_items">
-			<div class="info_items_inner">
-			<span class="info_item_tag">AIチャットボット,人工知能</span>
-			<div class="info_item_box cf">
-			<div class="info_date_box"><span class="info_item_month">DEC</span><span class="info_item_date">28</span></div>
-				<img src="images/info_post01.png" alt="">
-				<span class="info_item_text">人工知能チャットボット開催レポート。今後の人工知能の可能性について勉強会を開催いたしました。</span>
-			</div>
-			</div>
-		</div>
-		</a>
+	{% endfor %}
 	</div>
-</section><!-- INFOMATION -->
+</section>
 
 <section class="section_bg section_blog">
 	<div class="container02">

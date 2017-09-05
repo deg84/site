@@ -791,8 +791,8 @@ img {
 	position: absolute;
 	width: 28px;
 	top: 32px;
-	right: 20px;
-	letter-spacing: 7px;
+	right: 8px;
+	letter-spacing: 3px;
 	text-align: center;
 }
 .info_item_date {
@@ -801,7 +801,7 @@ img {
 	line-height: 1;
 	text-align: center;
 	width: 38px;
-	font-size: 30px;
+	font-size: 25px;
 	float: right;
 	&:after {
 		display: block;
@@ -811,9 +811,20 @@ img {
 	}
 }
 
+.info_item_box {
+  img {
+		padding-bottom: 10px;
+	}
+}
+
 .info_item_tag{
 	position: relative;
 	left: 0;
+	font-size: 12px;
+}
+
+.info_item_text {
+	font-size: 12px;
 }
 
 .blog_items {
