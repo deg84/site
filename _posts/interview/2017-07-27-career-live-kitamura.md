@@ -4,56 +4,60 @@ description: about page
 
 # Interview meta
 
-interview_title: わずか3日でMVPを作りきる<br>合宿型爆速開発サービス「いきなりMVP」
+interview_title: 開発要望に合わせて機動的に作っていける＋コストパフォーマンスが決め手
 interview_interviewer_company:
 interview_interviewer_name:
-interview_speaker_company: 株式会社ABEJA
-interview_speaker_name: CTO 緒方 貴紀
+interview_speaker_company:  キャリアライブ
+interview_speaker_name: 北村様
 company_link:
-sercive_name: ABEJA Platform for Retail
-service_link: https://service.abeja.asia/?gclid=CjwKEAjwh_bLBRDehaSMyJSCj1gSJAB-GWBDRTQjpRrU9a517Nsd__WWRwRpmLssEs0-K6SWLuzM2RoCILrw_wcB
-interview_profile_img: /interview/images/profile_ogata.png
+sercive_name: 就職活動支援サービス CareerLive (キャリアライブ)
+service_link: http://www.careerlive.jp/
+interview_profile_img: /images/interview/interview02.png
 
 number: INTERVIEW.02
 company: Career Live　北村さま
 comment: 既存システム改修という制限下でうまく改善していけた技術力に満足
-imgpath: /interview/images/interview02.png
-
-# Posts destination
+imgpath: /images/interview/interview02.png
 categories: interview
 ---
 
-{% include interviewvisual.html %}
+![北村様・原田](/images/interview/kitamura-harada.jpg)
 
-<section>
-<h1 class="page_title">{{page.h1_page_title}}</h1>
-	<div class="container_daialog">
-	<p>わずか3日でプロトタイプを作りきる合宿型爆速開発サービスの「いきなりMVP」。その「いきなりMVP」で初となるクライアントインタビューに行って来ました！</p>
-	<p>mofmof広報の藤方です。</p>
-	<p>今回のクライアント様は、IoT、ビッグデータ、人工知能技術ソリューションをあらゆる産業に最適化し提供する、あのABEJAさん。そしてインタビューにご対応いただいたのは取締役CTOの緒方さんです！
-	</p>
-	<p>是非ご一読下さい！</p>
-	</div>
+こんにちは！
+mofmofマーケターのニシイです。
 
-<div class="section_dialog">
+今回、2015年8月～10月に弊社の月額制受託開発サービスをご利用頂いたクライアント様に、代表原田と一緒にインタビューに伺ってきました。
 
-	<div class="clearfix">
-	<p class="ttl_dialog">いきなりMVPでの開発をご依頼頂いた一番の理由を教えてください。</p>
-	<img class="img_fr" src="/interview/images/ogatacto.png" alt="">
-	<p>自分たちのビジネスにおいて、今回は研究開発という位置づけで新しい設計を立てていたが、その設計が正しいのかどうかを検証する上で、既存システムではなく新しくフルスクラッチでのシステムが必要でした。<br>
-	新システムをいち早く開発し、運用に乗せてその仮説が正しいのかどうか、早く検証したかったというのが理由ですね。<br>
-	わずか3日で新システムがほぼ完成したことには、非常に満足しています。
-	</p>
-	<p class="ttl_dialog">最も良かった点は？</p>
-	<p>開発スピードももちろん期待どおりだったのですが、mofmofさんと弊社で開発チームを組んで開発を行う中で、チームのメンバーが全員同じ最終ゴールに向かってプロジェクトに取り組めた点が、最も良かったなと思っています。 <br>
-	一般的な受託開発会社に頼んだ場合は、こちらで全て座組みを立ててからじゃないと発注できないわけですが、mofmofさんの場合は弊社のやりたいビジョンに対して、しっかりとプロダクト開発に向き合ったうえで、どこを一番のバリューポイントにおいて開発を進めていくべきかというところまで一緒になって考えてくれました。
-	</p>
-	</div>
-	<div class="">
-	<p class="ttl_dialog">もっとこうすれば良くなるのでは？というポイントがあればお聞かせください。</p>
-	<p>開発合宿に入る前にチーム全体での事前準備はして行くのですが、エンジニアリングの部分においては、事前にソロで準備できるところがもう少しあったのかなとも思います。<br>
-	ただ、微妙な線引きになるので一概には言いきれないですね。参考程度にしてくださいね　笑</p>
-	</div>
-</div>
+[就職活動支援サービス CareerLive (キャリアライブ)](http://www.careerlive.jp/)
 
-{% include clientprofile.html %}
+※写真は原田(左)とキャリアライブ北村様(右)
+
+弊社WEBサイトやスライド資料ではお伝えしきれない月額制受託開発の魅力について、実際のインタビューを元にお伝えできればと思います。
+
+## 数ある開発会社の中で、弊社にお任せ頂いた一番の理由をお聞かせ下さい。
+
+もともと知り合いをひとり挟んでmofmof代表の原田さんを紹介してもらったのが経緯です。
+月額制というところにひかれましたね。
+
+実は、他の開発会社さんと厳密に比べたわけではないので一概には言えないのですが、私の想定していた金額感よりもリーズナブルであり、また月々のコストになってくるため、回収スキームも組みやすいと考えました。
+
+今回はJavaで組んだ既存システムの作り変えとさらなるブラッシュアップが目的だったのですが、前回依頼した開発会社さんは一括開発で、初めにすべての仕様や要望をこちらから伝えた上で、出来上がってくるものをさらにどう作りこんでいくかというところに論点が置かれました。
+
+しかしながら、こちらで出てきた新しいアイデアや仕様変更の希望などには修正対応をしてもらうことが難しく、結局、開発自体が途中でストップしていた状況だったんです。その点で言うと、mofmofさんは月額制で相談しながら開発を進めていけるので、対応がフレキシブルですし、技術面でも充分に評価できたのではないかと思います。
+
+あと、渋谷という立地も個人的にありがたかったですね。
+
+## 一番良かった点は？
+
+既存システムの作り直しというデザインやシステムの制限がある中で、うまく改善をしていくのは技術力がいると思います。
+その点、柔軟に対応して頂けたことが一番良かったですね。
+あと正直、開発期間の前半が少し思い通りにいかなかったところもあったのですが、その軌道修正も的確に対応していただけたことが印象に残りました。一括受託開発との違いが顕著に出たシーンだったと思います。
+
+## ここが改善されるともっと良いのに、というところは？
+
+そうですね、あえて言うなら納品後の説明があればもっといいかもですね。
+どうしてこのように開発したのか、例えば「今後のこういった開発を見据えた上でこのように作りました」など、そう言った説明があればベストですね。
+
+## 最後に
+
+北村さま、大変詳しくお聞かせいただきまして、ありがとうございました！
