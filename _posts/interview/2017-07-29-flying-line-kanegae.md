@@ -2,10 +2,6 @@
 layout: dialog
 description: about page
 
-# Interview Visual
-
-interview_no: Vol.01
-
 # Interview meta
 
 interview_title: 自分のプロダクトを作るための開発チームがしっかりと育成できる
@@ -14,14 +10,14 @@ interview_interviewer_name:
 interview_speaker_company:  株式会社フライングライン
 interview_speaker_name:  鐘ヶ江様
 company_link:
-sercive_name: ABEJA Platform for Retail
-service_link: https://service.abeja.asia/?gclid=CjwKEAjwh_bLBRDehaSMyJSCj1gSJAB-GWBDRTQjpRrU9a517Nsd__WWRwRpmLssEs0-K6SWLuzM2RoCILrw_wcB
+sercive_name: YONDEMILL
+service_link: https://yondemill.jp/
 interview_profile_img: /images/interview/profile_ogata.png
 
 number: INTERVIEW.04
 company: 株式会社フライングライン　鐘ヶ江さま
 comment: 自分のプロダクト開発チームをしっかりと育成できているという実感
-imgpath: /interview/images/interview04.png
+imgpath: /images/interview/interview04.png
 categories: interview
 ---
 

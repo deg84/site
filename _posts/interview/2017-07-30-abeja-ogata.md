@@ -2,10 +2,6 @@
 layout: dialog
 description: about page
 
-# Interview Visual
-
-interview_no: Vol.01
-
 # Interview meta
 
 interview_title: わずか3日でMVPを作りきる<br>合宿型爆速開発サービス「いきなりMVP」
