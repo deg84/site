@@ -4,7 +4,7 @@ description: about page
 
 # Interview meta
 
-interview_title: わずか3日でMVPを作りきる<br>合宿型爆速開発サービス「いきなりMVP」
+title: わずか3日でMVPを作りきる<br>合宿型爆速開発サービス「いきなりMVP」
 interview_interviewer_company:
 interview_interviewer_name:
 interview_speaker_company: 株式会社ABEJA

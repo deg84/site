@@ -794,6 +794,7 @@ img {
 	right: 8px;
 	letter-spacing: 3px;
 	text-align: center;
+	z-index: 2;
 }
 .info_item_date {
 	position: relative;
@@ -808,6 +809,20 @@ img {
 		content: "";
 		height: 2px;
 		background: #000;
+	}
+}
+.info_img_trim {
+	overflow: hidden;
+  width: 300px;
+  height: 200px;
+  position: relative;
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
 	}
 }
 

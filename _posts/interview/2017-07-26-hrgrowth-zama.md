@@ -4,7 +4,7 @@ description: about page
 
 # Interview meta
 
-interview_title: 月額制アジャイル受託開発だからこそ実現できたスピード感と柔軟性
+title: 月額制アジャイル受託開発だからこそ実現できたスピード感と柔軟性
 interview_interviewer_company:
 interview_interviewer_name:
 interview_speaker_company: エイチアールグロウス

@@ -4,7 +4,7 @@ description: about page
 
 # Interview meta
 
-interview_title: 自分のプロダクトを作るための開発チームがしっかりと育成できる
+title: 自分のプロダクトを作るための開発チームがしっかりと育成できる
 interview_interviewer_company:
 interview_interviewer_name:
 interview_speaker_company:  株式会社フライングライン

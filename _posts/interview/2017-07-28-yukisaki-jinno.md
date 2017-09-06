@@ -4,7 +4,7 @@ description: about page
 
 # Interview meta
 
-interview_title: シェアリングサービスやマッチングサイトをいち早くリリースするための最短の道
+title: シェアリングサービスやマッチングサイトをいち早くリリースするための最短の道
 interview_interviewer_company:
 interview_interviewer_name:
 interview_speaker_company: 合同会社ユキサキ

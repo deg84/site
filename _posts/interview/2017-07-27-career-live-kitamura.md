@@ -4,7 +4,7 @@ description: about page
 
 # Interview meta
 
-interview_title: 開発要望に合わせて機動的に作っていける＋コストパフォーマンスが決め手
+title: 開発要望に合わせて機動的に作っていける＋コストパフォーマンスが決め手
 interview_interviewer_company:
 interview_interviewer_name:
 interview_speaker_company:  キャリアライブ
