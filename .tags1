@@ -4,6 +4,6 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-Interview Visual	/Users/harada/source_code/site/_posts/interview/2017-07-30-dialog01.md	/^# Interview Visual$/;"	function	line:5
-Interview meta	/Users/harada/source_code/site/_posts/interview/2017-07-30-dialog01.md	/^# Interview meta$/;"	function	line:11
-Posts destination	/Users/harada/source_code/site/_posts/interview/2017-07-30-dialog01.md	/^# Posts destination$/;"	function	line:23
+// .information_img	/Users/harada/source_code/site/_sass/_information.scss	/^\/\/ .information_img {$/;"	function	line:1
+.information_img	/Users/harada/source_code/site/_sass/_information.scss	/^.information_img {$/;"	function	line:9
+img	/Users/harada/source_code/site/_sass/_information.scss	/^	img {$/;"	function	line:14

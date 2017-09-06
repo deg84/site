@@ -14,7 +14,20 @@
   <body class="">
   <div class="wrapper">
 {% include header.html %}
-    {% include interviewvisual.html %}
+    <div class="container">
+      <div class="interview_main">
+        <div class="interview_title">
+          <div class="interview_img">
+            <div class="interviewer_name">
+            <!-- <p class="interview_interviewer"><span>{{ page.interview_interviewer_company }}</span>{{page.interview_interviewer_name}}</p> -->
+            <p class="interview_speaker"><span>{{page.interview_speaker_company}}</span>{{page.interview_speaker_name}}</p>
+            </div>
+          </div>
+          <p class="interview_main_title">{{ page.title }}</p>
+        </div>
+      </div>
+    </div>
+
     <h1 class="page_title">クライアントインタビュー</h1>
 
     <div class="container_daialog">
