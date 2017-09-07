@@ -62,24 +62,49 @@ $(function(){
 	});
 
 	// インフォメーションスライド
-	  $(".section_info_slide").slick({
-	    dots: false,
-	    infinite: true,
-	    centerMode: true,
-	    slidesToShow: 4,
-	    slidesToScroll: 1,
-	    autoplay: false,
-	  	autoplaySpeed: 2000,
-	  	responsive: [
+  // $(".section_info_slide").slick({
+  //   dots: false,
+  //   infinite: true,
+  //   centerMode: true,
+  //   slidesToShow: 4,
+  //   slidesToScroll: 1,
+  //   autoplay: false,
+  // 	autoplaySpeed: 2000,
+  // 	responsive: [
+  //   {
+  //     breakpoint: 1350,
+  //     settings: {
+  //       slidesToShow: 3,
+  //       slidesToScroll: 3,
+  //     }
+  //   }
+  // ]
+  // });
+	$('.section_info_slide').slick({
+	  centerMode: true,
+	  centerPadding: '140px',
+	  slidesToShow: 3,
+	  responsive: [
 	    {
-	      breakpoint: 1350,
+	      breakpoint: 768,
 	      settings: {
-	        slidesToShow: 3,
-	        slidesToScroll: 3,
+	        arrows: false,
+	        centerMode: true,
+	        centerPadding: '40px',
+	        slidesToShow: 3
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        arrows: false,
+	        centerMode: true,
+	        centerPadding: '40px',
+	        slidesToShow: 1
 	      }
 	    }
 	  ]
-	  });
+	});
 
 	// フッター
 	    var ft_contact = $('#footer_contact:not(.contact #footer_contact)');
