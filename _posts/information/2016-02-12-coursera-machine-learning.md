@@ -1,6 +1,5 @@
 ---
 layout: information
-description: about page
 title: 米スタンフォード大学がCourseraよりオンライン提供する機械学習講座「Machine Learning」にて、エンジニアスタッフが修了認定を受けました。
 image: /images/information/2016-02-12-coursera-machine-learning.jpg
 tags:

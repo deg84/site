@@ -1,8 +1,6 @@
 ---
 layout: default
-description: about page
-
-# Body Class
+title: mofmofとは
 body_class_name: about
 
 # Main Visual

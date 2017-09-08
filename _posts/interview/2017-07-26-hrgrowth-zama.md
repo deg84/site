@@ -1,7 +1,5 @@
 ---
 layout: dialog
-description: about page
-
 # Interview meta
 
 title: 月額制アジャイル受託開発だからこそ実現できたスピード感と柔軟性

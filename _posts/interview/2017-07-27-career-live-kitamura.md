@@ -1,7 +1,5 @@
 ---
 layout: dialog
-description: about page
-
 # Interview meta
 
 title: 開発要望に合わせて機動的に作っていける＋コストパフォーマンスが決め手

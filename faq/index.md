@@ -1,8 +1,6 @@
 ---
 layout: default
-description: about page
-
-# Body Class
+title: よくある質問
 body_class_name: faq
 
 # Main Visual

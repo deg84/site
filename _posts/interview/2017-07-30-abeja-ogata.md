@@ -1,7 +1,5 @@
 ---
 layout: dialog
-description: about page
-
 # Interview meta
 
 title: わずか3日でMVPを作りきる<br>合宿型爆速開発サービス「いきなりMVP」

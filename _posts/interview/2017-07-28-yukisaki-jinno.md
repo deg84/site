@@ -1,7 +1,5 @@
 ---
 layout: dialog
-description: about page
-
 # Interview meta
 
 title: シェアリングサービスやマッチングサイトをいち早くリリースするための最短の道

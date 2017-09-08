@@ -1,6 +1,5 @@
 ---
 layout: information
-description: about page
 title: 【メディア掲載情報】リモートワークマガジン様に取材いただきました。
 image: /images/information/2016-02-06-remote-work-magazine.jpg
 tags:

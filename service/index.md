@@ -1,8 +1,6 @@
 ---
 layout: default
-description: mofmofとは
-
-# Body Class
+description: サービス
 body_class_name: service
 
 # Main Visual
@@ -134,4 +132,3 @@ page_nav_btn_right_text: ケーススタディ
 </section>
 
 {% include footernav.html %}
-

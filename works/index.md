@@ -1,8 +1,6 @@
 ---
 layout: default
-description: mofmofとは
-
-# Body Class
+title: 開発実績
 body_class_name: works
 
 # Main Visual

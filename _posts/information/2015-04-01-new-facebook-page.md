@@ -1,6 +1,5 @@
 ---
 layout: information
-description: about page
 title: Facebookページを開設致しました。
 image: /images/information/2015-04-01-new-facebook-page.jpg
 tags:

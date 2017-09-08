@@ -1,6 +1,5 @@
 ---
 layout: information
-description: about page
 title: 【メディア掲載情報】ジョブクエスト様からエンジニアスタッフが取材を受けました。
 image: /images/information/2015-08-10-job-quest-interview.jpg
 tags:

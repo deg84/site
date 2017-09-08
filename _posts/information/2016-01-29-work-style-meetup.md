@@ -1,6 +1,5 @@
 ---
 layout: information
-description: about page
 title: 多様性時代、これからのエンジニアの働き方とは？ミートアップイベントを開催！
 image: /images/information/2016-01-29-work-style-meetup.png
 tags:

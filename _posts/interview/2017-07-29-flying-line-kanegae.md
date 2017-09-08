@@ -1,7 +1,5 @@
 ---
 layout: dialog
-description: about page
-
 # Interview meta
 
 title: 自分のプロダクトを作るための開発チームがしっかりと育成できる
