@@ -10,7 +10,7 @@ interview_speaker_name:  鐘ヶ江様
 company_link:
 sercive_name: YONDEMILL
 service_link: https://yondemill.jp/
-interview_profile_img: /images/interview/profile_ogata.png
+interview_profile_img: /images/interview/interview04.png
 
 number: INTERVIEW.04
 company: 株式会社フライングライン　鐘ヶ江さま

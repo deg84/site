@@ -38,7 +38,7 @@ page_nav_btn_right_text: mofmofとは
     {% for post in site.categories['interview'] %}
     	<div class="client_item clearfix">
     		<span class="client_img"><img src="{{ post.imgpath }}" alt=""></span>
-    		<button class="button client_label">{{ post.number }}</button>
+    		<a class="button client_label" href="{{ post.url }}">{{ post.number }}</a>
     		<a href="{{ post.url }}">
       		<div class="client_comment_wrap">
         		<p class="client_commnet">{{ post.comment }}</p>
