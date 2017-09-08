@@ -1,43 +1,21 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <title>{{ site.name }} ｜ {{ page.title }}</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css">
-  </head>
-  <body class="">
-  <div class="wrapper">
-{% include header.html %}
-    <div class="container">
-      <div class="interview_main">
-        <div class="interview_title">
-          <div class="information_img">
-            <img src="{{ page.image }}" alt="">
-            <div class="interviewer_name">
-              <p class="interview_speaker"><span>{{page.interview_speaker_company}}</span>{{page.interview_speaker_name}}</p>
-            </div>
-          </div>
+---
+layout: default
+---
+<div class="container">
+  <div class="interview_main">
+    <div class="interview_title">
+      <div class="information_img">
+        <img src="{{ page.image }}" alt="">
+        <div class="interviewer_name">
+          <p class="interview_speaker"><span>{{page.interview_speaker_company}}</span>{{page.interview_speaker_name}}</p>
         </div>
       </div>
     </div>
-
-    <h1 class="page_title">{{ page.title }}</h1>
-
-    <div class="container_daialog">
-      {{ content }}
-    </div>
-{% include footer.html %}
-{% include spmenu.html %}
   </div>
-    <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="/js/script.js"></script>
-  </body>
-</html>
+</div>
+
+<h1 class="page_title">{{ page.title }}</h1>
+
+<div class="container_daialog">
+  {{ content }}
+</div>
