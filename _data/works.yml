@@ -2,7 +2,7 @@
   subtitle: 飲食店や小売店など店舗における従業員同士のリアルタイムコミュニケーションを円滑にするためのビジネスチャットアプリケーション
   discription: <p>人工知能により解析された店舗情報などを受けて、従来までは外部チャットツールを使い従業員間でコミュニケーションがなされていたが、プラットフォーム内で完結できるよう、自社チャットアプリを独自に開発。</p><p>チャットならではのリアルタイム性を実現するために、RxSwiftを活用しリアクティブプログラミングで実装し開発しました。リリースまでの期間は3ヶ月。</p><p>当初はほとんどがチャット部分のみのユーザーストーリーでスタート。プロトタイプを作りながら実際に使ってみることで、他に必要な機能（売上など店舗関連の各種数値の閲覧機能や従業員タスク管理機能など）を洗い出しプライオリティを確認しながら追加開発を進めていきました。</p>
   interviewlink: /interview/abeja-ogata
-  imgpath: /works/images/works_abeja.png
+  imgpath: /images/works/works_abeja.png
   servicelink: https://service.abeja.asia/
   worksno: works01
 
@@ -10,7 +10,7 @@
   subtitle: 女性向け、トレンドをいち早くキャッチできる、発信型オンラインショッピングモールサービス
   discription: <p>クライアント側に既存開発チームがあり、増員依頼によりサーバサイド（Ruby on Rails）担当として参画</p><p>既存の開発チームとビジネスサイド間で、プロダクトのゴールのイメージを共有することで、開発期間と機能の着地点の合意形成を支援</p><p>ユーザーストーリー形式による仕様のバックログ管理手法を導入し、進捗の見える化、機能追加フローを構築し、参画から約3ヶ月でのβ版リリースを達成</p>
   interviewlink:
-  imgpath: /works/images/works_rili.png
+  imgpath: /images/works/works_rili.png
   servicelink: https://rili.tokyo/
   worksno: works02
 
@@ -18,7 +18,7 @@
   subtitle: ブラウザ上で電子書籍を購入・閲覧できるサービス
   discription: <p>個人のエンジニアに全ての開発を依頼していたが、開発のスピードアップを目的にオリジナルの開発チームを作りたいと考えていた</p><p>mofmofのチーム制開発スタイルがお客様の希望と合致。参画から3ヶ月で数々の機能追加やユーザー体験(UX)が向上。チームの運用フローも大きく改善し、開発スピードが2倍に加速</p><p>開発スタイルの確立、先を見据えたシステム構成の立案・開発実施に加え、ビジネスサイドとエンジニアサイドのスムーズな連携を実現。チーム全体でプロダクト作りに対するベクトルが一致したことで効率的な開発が実践できた</p>
   interviewlink: /interview/flying-line-kanegae
-  imgpath: /works/images/works_yondemill.png
+  imgpath: /images/works/works_yondemill.png
   servicelink: https://yondemill.jp/
   worksno: works03
 
@@ -26,7 +26,7 @@
   subtitle: 中小企業向けホームページリクルーティングサービス
   discription: <p>クラウドソーシングでベトナムにオフショアで開発依頼をしていたが、一般的な「いくらでどこまで作る」というような一括受託開発だったため、仕様の漏れやコミュニケーションの労力に悩まされていた</p><p>既存の開発チームとビジネスサイド間で、プロダクトのゴールのイメージを共有することで、開発期間と機能の着地点の合意形成を支援</p><p>開発のスピードとフレキシブルさが求められるプロジェクトだったが、アジャイルの考え方をベースとした月額制受託開発はこの案件と相性が良く、クライアントより高い評価を得る</p>
   interviewlink: /interview/hrgrowth-zama
-  imgpath: /works/images/works_qsuke.png
+  imgpath: /images/works/works_qsuke.png
   servicelink: http://www.qsuke.biz/
   worksno: works04
 
@@ -34,7 +34,7 @@
   subtitle: ナースに新しい働き方を提案する看護師マッチングサイト
   discription: <p>プロトタイプをスピーディーに立ち上げる必要があったことから、シェアリングエコノミースターターパッケージ利用</p><p>開発速度を上げるためmofmof以外の開発メンバーも独自にアサインし、管理系画面はSalseForceとの接続を行った</p><p>結果約2ヶ月でのプロトタイプリリースに成功。その後の開発はmofmof社の手を離れ内製化したチームメンバーへ引き継がれている</p>
   interviewlink:
-  imgpath: /works/images/works_nadeshiko.png
+  imgpath: /images/works/works_nadeshiko.png
   servicelink: https://nadeshikonurse.jp/
   worksno: works05
 
@@ -42,14 +42,14 @@
   subtitle: 新卒・企業のマッチングサービス
   discription: <p>PHPで開発された既存システムがあったが、新しいアイデアや仕様変更などの修正依頼に対応してもらうことが難しく、ビジネス的な成長に合わせて開発を進めることができずに困っているという背景があった</p><p>この状態でシステムメンテナンスを続けるよりもRuby on railsにリプレースした方が全体の工数が減るという判断をし、リプレースを実施</p><p>約3ヶ月間のリプレースに成功し、想定されていたよりもリーズナブルなコストでおさまった</p><p>クライアント自身の努力の成果と、弊社が開発したプロダクトで、事業のバイアウトを達成。今はまた新たな挑戦への進み出している</p>
   interviewlink: /interview/career-live-kitamura
-  imgpath: /works/images/works_careerlive.png
+  imgpath: /images/works/works_careerlive.png
   servicelink: http://www.careerlive.jp/
   worksno: works06
 
 - project: 時限調整
   subtitle: 制限時間付き日程調整サービス
   discription: <p>従来サービスやチャット等によるアナログな日程調整では実現できなかった迅速な参加メンバーの予定登録を実現。テレビ東京ワールドビジネスサテライト「トレンドたまご」でも取り上げられた話題のサービスの開発担当をさせて頂きました</p><p>開発期間は約2ヶ月。サービスの特性を考え、今後のスケーリングを自動化できるようAWS Lambdaを採用サーバレスで開発を進めることでサーバ管理や一時的なアクセス過多の心配を考える必要をなくしました</p><p>初めは必要最小限のユーザーストーリーを優先付けし、まずプロトタイプを迅速に作りきり、プロダクトオーナー側で実際に操作確認をしながら開発を進めていきました。開発当初では見えていなかった課題や着想が得られ、よりユーザビリティの高いサービスへと仕上げることができました</p>
-  imgpath: /works/images/works_jigen.png
+  imgpath: /images/works/works_jigen.png
   interviewlink:
   servicelink: http://www.zigenchosei.com/
   worksno: works07
