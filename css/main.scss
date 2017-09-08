@@ -444,6 +444,14 @@ img {
 	top: -50px;
 }
 
+.interview01,.interview02,.interview03,.interview04 {
+	span.interview_sumnail {
+		img {
+			width: 300px;
+		}
+	}
+}
+
 @media screen and (max-width: 1024px) {
 	.interview_items {
 		p {
@@ -1420,7 +1428,7 @@ button.slick-next{
 .contact {
 	.main_visual {
 		.main_img {
-		background: url(/images/main_contact.png) no-repeat center center;
+		background: url(/images/main_.png) no-repeat center center;
 		background-size: cover;
 		width: auto;
 		height: 100%;

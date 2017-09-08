@@ -60,46 +60,25 @@ body_class_name: home
 		<h2 class="ttl_right">INTERVIEW<span>クライアントインタビュー</span></h2>
 	</div>
 	<div class="container">
-		<div class="interview_items">
-			<div class="interview01 interview_item">
-			<span class="interview_sumnail"><img src="images/interview01.png" /></span>
-			<div class="interview_text">
-			<a href="/interview/interview05.html">
-			<p class="interview_label"><span>株式会社ABEJA</span>緒方さま</p>
-			<p class="interview_comment">期待どおりの爆速開発。チーム全体でゴールを共有できる 体制が素晴らしい</p>
-			</a>
-			</div>
-			</div>
-			<div class="interview02 interview_item">
-			<span class="interview_sumnail"><img src="images/interview02.png" /></span>
-			<div class="interview_text">
-			<a href="#">
-			<p class="interview_label"><span>株式会社フライングライン</span>代表取締役社長 鐘ヶ江さま</p>
-			<p class="interview_comment">自分のプロダクト開発チームをしっかりと育成できているという実感</p>
-			</a>
-			</div>
-			</div>
-			<div class="interview03 interview_item">
-			<span class="interview_sumnail"><img src="images/interview03.png" /></span>
-			<div class="interview_text">
-			<a href="#">
-			<p class="interview_label"><span>合同会社ユキサキ</span>代表 神野さま</p>
-			<p class="interview_comment">シェアリングエコノミースターターパッケージを使って迅速にサービスリリースが出来た</p>
-			</a>
-			</div>
-			</div>
-			<div class="interview04 interview_item">
-			<span class="interview_sumnail"><img src="images/interview04.png" /></span>
-			<div class="interview_text">
-			<a href="#">
-			<p class="interview_label"><span>Career Live</span>代表 北村さま</p>
-			<p class="interview_comment">既存システム改修という制限下でうまく改善していけた技術力に満足</p>
-			</a>
-			</div>
-			</div>
-			<div class="more_link more_link_interview">
-			<a class="button_more" href="/interview"><span>MORE</span></a>
-			</div>
+		{% assign idx = 0 %}
+		{% for post in site.categories['interview'] %}
+			{% if post.id == '/interview/abeja-ogata' or
+			 			post.id == '/interview/flying-line-kanegae' or
+						post.id == '/interview/yukisaki-jinno' or
+						post.id == '/interview/career-live-kitamura' %}
+				{% assign idx = idx | plus: 1 %}
+			  <div class="interview_items">
+					<div class="interview0{{ idx }} interview_item">
+						<span class="interview_sumnail"><img src="{{ post.imgpath }}" /></span>
+						<div class="interview_text">
+						<a href="{{ post.url }}">
+						<p class="interview_label"><span>{{ post.interview_speaker_company }}</span>{{ post.interview_speaker_name }}さま</p>
+						<p class="interview_comment">{{ post.comment }}</p>
+						</a>
+					</div>
+				</div>
+			{% endif %}
+		{% endfor %}
 		</div>
 	</div>
 </section><!-- INTERVIEW -->
