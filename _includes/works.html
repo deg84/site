@@ -10,7 +10,9 @@
 	</div>
 	<div class="works_discription">{{ works.discription }}</div>
 	</div>
-	<a class="button worksitem_button" href="">クライアントインタビュー</a>
+	{% if works.interviewlink %}
+		<a class="button worksitem_button" href="{{ works.interviewlink }}">クライアントインタビュー</a>
+	{% endif %}
 </section>
 {% endfor %}
 

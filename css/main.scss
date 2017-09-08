@@ -476,7 +476,7 @@ img {
 			float: left;
 			width: 30%;
 			img {
-				max-width: 150px;
+				width: 100%;
 			}
 		}
 		&:before {
@@ -1263,14 +1263,15 @@ ul.article_list {
 		margin-bottom: 20px;
 		.info_items_inner {
 			min-height: 140px;
+			max-width: inherit;
 		}
 	}
 	.info_item_box {
 		width: auto;
 		top: auto;
 		img {
-			float: right;
-			width: 40%;
+			// float: right;
+			// width: 40%;
 		}
 	}
 	.info_date_box {
@@ -1309,6 +1310,11 @@ ul.article_list {
 		position: absolute;
 		bottom: 0;
 		font-size: 10px;
+	}
+	.info_img_trim {
+	  width: 140px;
+	  height: 100px;
+		float: right;
 	}
 }
 
