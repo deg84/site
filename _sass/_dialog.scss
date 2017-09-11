@@ -60,6 +60,11 @@ img.img_fr {
 			padding-top: 0;
 		}
 	}
+	p {
+		img {
+			max-width: 100%;
+		}
+	}
 }
 
 .profile_bg {
