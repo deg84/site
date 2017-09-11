@@ -2,3 +2,18 @@
 .information_img	/Users/harada/source_code/site/_sass/_information.scss	/^.information_img {$/;"	function	line:9
 img	/Users/harada/source_code/site/_sass/_information.scss	/^	img {$/;"	function	line:14
 本件に関するお問合せ先	/Users/harada/source_code/site/_posts/information/2015-08-10-job-quest-interview.md	/^## 本件に関するお問合せ先$/;"	function	line:18
+port	/Users/harada/source_code/site/_config.yml	/^port: 4000$/;"	function	line:16
+host	/Users/harada/source_code/site/_config.yml	/^host: 0.0.0.0$/;"	function	line:17
+locale	/Users/harada/source_code/site/_config.yml	/^locale: "ja-JP"  # 日本語$/;"	function	line:18
+title	/Users/harada/source_code/site/_config.yml	/^title: mofmofinc$/;"	function	line:19
+email	/Users/harada/source_code/site/_config.yml	/^email: info@mof-mof.co.jp$/;"	function	line:20
+name	/Users/harada/source_code/site/_config.yml	/^name: 月額制受託開発の株式会社mofmof$/;"	function	line:21
+description	/Users/harada/source_code/site/_config.yml	/^description: > # this means to ignore newlines until "baseurl:"$/;"	function	line:22
+baseurl	/Users/harada/source_code/site/_config.yml	/^baseurl: "" # the subpath of your site, e.g. \/blog$/;"	function	line:24
+url	/Users/harada/source_code/site/_config.yml	/^url: "" # the base hostname & protocol for your site, e.g. http:\/\/example.com$/;"	function	line:25
+twitter_username	/Users/harada/source_code/site/_config.yml	/^twitter_username:$/;"	function	line:26
+github_username	/Users/harada/source_code/site/_config.yml	/^github_username:$/;"	function	line:27
+permalink	/Users/harada/source_code/site/_config.yml	/^permalink: none$/;"	function	line:28
+markdown	/Users/harada/source_code/site/_config.yml	/^markdown: kramdown$/;"	function	line:30
+exclude	/Users/harada/source_code/site/_config.yml	/^exclude:$/;"	function	line:31
+include	/Users/harada/source_code/site/_config.yml	/^include:$/;"	function	line:34
