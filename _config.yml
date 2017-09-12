@@ -22,7 +22,7 @@ name: 月額制受託開発の株式会社mofmof
 description: > # this means to ignore newlines until "baseurl:"
   システム開発会社ならアジャイル月額制受託のmofmofへ。高速に最小限のアプリやWebサービス等を制作し、実際に動かして検証しながら開発を繰り返し「本当に欲しかったもの」を実現します。新規IT事業にともなう開発案件の相談にも乗ります。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://www.mof-mof.co.jp
 twitter_username:
 github_username:
 permalink: none
