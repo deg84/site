@@ -10,11 +10,13 @@ interview_speaker_name: CTO 緒方 貴紀
 company_link:
 sercive_name: ABEJA Platform for Retail
 service_link: https://service.abeja.asia/?gclid=CjwKEAjwh_bLBRDehaSMyJSCj1gSJAB-GWBDRTQjpRrU9a517Nsd__WWRwRpmLssEs0-K6SWLuzM2RoCILrw_wcB
-profile_image: /images/interview/profile_ogata.png
+profile_image: /images/interview/interview05.png
 
 number: INTERVIEW.05
 company: 株式会社ABEJA　緒方さま
 comment: 期待どおりの爆速開発。チーム全体でゴールを共有できる体制が素晴らしい
+
+image: /images/interview/ogatacto.png
 categories: interview
 ---
 

@@ -15,6 +15,8 @@ profile_image: /images/interview/interview04.png
 number: INTERVIEW.04
 company: 株式会社フライングライン　鐘ヶ江さま
 comment: 自分のプロダクト開発チームをしっかりと育成できているという実感
+
+image: /images/interview/kanegae-nishi.jpg
 categories: interview
 ---
 

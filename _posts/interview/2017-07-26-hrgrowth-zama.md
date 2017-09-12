@@ -15,6 +15,8 @@ profile_image: /images/interview/interview01.png
 number: INTERVIEW.01
 company: 株式会社HRグロウス  座間さま
 comment: スピード感と対応の柔軟性に感心しました
+
+image: /images/interview/zama-tachibana.jpg
 categories: interview
 ---
 

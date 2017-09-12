@@ -15,6 +15,8 @@ profile_image: /images/interview/interview02.png
 number: INTERVIEW.02
 company: Career Live　北村さま
 comment: 既存システム改修という制限下でうまく改善していけた技術力に満足
+
+image: /images/interview/kitamura-harada.jpg
 categories: interview
 ---
 

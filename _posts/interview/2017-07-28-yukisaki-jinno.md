@@ -16,7 +16,7 @@ number: INTERVIEW.03
 company: 合同会社ユキサキ　神野さま
 comment: シェアリングエコノミースターターパッケージを使って迅速にサービスリリースが出来た
 
-# Posts destination
+image: /images/interview/ayo.jpg
 categories: interview
 ---
 
