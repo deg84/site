@@ -10,12 +10,11 @@ interview_speaker_name: 北村様
 company_link:
 sercive_name: 就職活動支援サービス CareerLive (キャリアライブ)
 service_link: http://www.careerlive.jp/
-interview_profile_img: /images/interview/interview02.png
+profile_image: /images/interview/interview02.png
 
 number: INTERVIEW.02
 company: Career Live　北村さま
 comment: 既存システム改修という制限下でうまく改善していけた技術力に満足
-imgpath: /images/interview/interview02.png
 categories: interview
 ---
 

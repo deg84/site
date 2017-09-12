@@ -10,12 +10,11 @@ interview_speaker_name: 座間様
 company_link:
 sercive_name: 求人広告の事なら｜自社サイトを活用した直接求人サービス【Qsuke】
 service_link: http://www.qsuke.biz/
-interview_profile_img: /images/interview/interview01.png
+profile_image: /images/interview/interview01.png
 
 number: INTERVIEW.01
 company: 株式会社HRグロウス  座間さま
 comment: スピード感と対応の柔軟性に感心しました
-imgpath: /images/interview/interview01.png
 categories: interview
 ---
 

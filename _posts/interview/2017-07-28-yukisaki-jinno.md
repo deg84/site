@@ -10,12 +10,11 @@ interview_speaker_name: 神野様
 company_link:
 sercive_name: エーヨ！
 service_link: https://a-yo.jp/
-interview_profile_img: /images/interview/yukisaki-jinno.jpg
+profile_image: /images/interview/yukisaki-jinno.jpg
 
 number: INTERVIEW.03
 company: 合同会社ユキサキ　神野さま
 comment: シェアリングエコノミースターターパッケージを使って迅速にサービスリリースが出来た
-imgpath: /images/interview/interview03.png
 
 # Posts destination
 categories: interview
