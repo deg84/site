@@ -1,73 +1,61 @@
 - name: 橘 周世 / Shusei Tachibana
   jobtitle: Engineer
-  imgpath: /images/about/about_tachibana.png
-  imgpathon: /images/about/about_tachibana_on.png
+  imgpath: /images/about/about_tachibana_out.png
   message: 「作ること」と、パソコンをいじることが大好きなエンジニア。Webで誰もが気軽にお金や価値を生み出す世界を夢見ている。システムは使ってなんぼ。使う人誰もが最大の価値を生み出し、気持ち良く使ってもらえるシステムを常に目指していきます。
 
 - name: zambiker
   jobtitle: Engineer
-  imgpath: /images/about/about_zambiker.png
-  imgpathon: /images/about/about_zambiker_on.png
+  imgpath: /images/about/about_zambiker_out.png
   message: 旅をこよなく愛する雑食系エンジニア。認定スクラムマスター。「楽しく作る」を極めたい。エンジニアの世界とビジネスの世界（非ITの世界）を幸せにつなげていくことをテーマに活動をしています。
 
 - name: 出口 達也 / Tatsuya Deguchi
   jobtitle: Engineer
-  imgpath: /images/about/about_deguchi.png
-  imgpathon: /images/about/about_deguchi_on.png
+  imgpath: /images/about/about_deguchi_out.png
   message: 散歩と文房具をこよなく愛するWebエンジニア。認定スクラムマスター。自分も他人も使いたいと思うプロダクトを作って、世の中をちょっとでも良くすることを目指しています。
 
 - name: 柿本 匡章 / Masaaki Kakimoto
   jobtitle: Engineer
-  imgpath: /images/about/about_kakimoto.png
-  imgpathon: /images/about/about_kakimoto_on.png
+  imgpath: /images/about/about_kakimoto_out.png
   message: こんにちは、からまげです。 ハイパーアプリクリエーターとしてスマホアプリやWebサービスを作る仕事をしています。1978年9月福岡県生まれの九州男児です。趣味は、アニメやゲームを嗜みます。
 
 - name: 川上 尚浩 / Takahiro Kawakami
   jobtitle: Engineer
-  imgpath: /images/about/about_kawakami.png
-  imgpathon: /images/about/about_kawakami_on.png
+  imgpath: /images/about/about_kawakami_out.png
   message: アフィリエイター→釣り人→エンジニア（イマココ）。釣りの傍らWebの開発やってます。この先やってみたいことは霞ヶ浦で60upを釣る。（自己記録57cm）
 
 - name: 山形 孝造 / Kozo Yamagata
   jobtitle: Engineer
-  imgpath: /images/about/about_yamagata.png
-  imgpathon: /images/about/about_yamagata_on.png
+  imgpath: /images/about/about_yamagata_out.png
   message: アイデアを形にするのが好きなソフトウェアエンジニアです。音楽と料理が好きです。ギターとかベースを弾いたり走ったりもします。
 
 - name: 岡 秀明 / Hideaki Oka
   jobtitle: 経営企画
-  imgpath: /images/about/about_oka.png
-  imgpathon: /images/about/about_oka_on.png
+  imgpath: /images/about/about_oka_out.png
   message: 証券会社にてVC、MA、事業再生に従事した後、外資金融機関でのセールスを経て起業。社会課題の解決をテーマに事業創造中。得意分野は企画営業、新規事業構築など。
 
 - name: 宮田 裕貴 / Yuki Miyata
   jobtitle: Engineer
-  imgpath: /images/about/about_miyata.png
-  imgpathon: /images/about/about_miyata_on.png
+  imgpath: /images/about/about_miyata_out.png
   message: SIerからmofmofにジョインしたエンジニア。ハイレベルなエンジニアになるべく、日々修行中。趣味は筋トレ。映画『Fight Club』のタイラー・ダーデンのような鋼の肉体を手に入れたい。
 
 - name: 田中 涼子 / Ryoko Tanaka
   jobtitle: 経営企画
-  imgpath: /images/about/about_tanaka.png
-  imgpathon: /images/about/about_tanaka_on.png
+  imgpath: /images/about/about_tanaka_out.png
   message: 縁の下の力持ちを目指して仲間入り。コケときのこがマイブームです。しばらく走っていたのですが、今度はキックボクシングを検討中。
 
 - name: 魚 振江 / Shinkou Gyo
   jobtitle: Engineer
-  imgpath: /images/about/about_gyo.png
-  imgpathon: /images/about/about_gyo_on.png
+  imgpath: /images/about/about_gyo_out.png
   message: Ruby on Rails エンジニア、RSpecでのBDD 実践者。テクノロジーで誰かの悩みを解決し、喜ばせたいと思っています。
 
 - name: 岩崎 大輔 / Daisuke Iwasaki
   jobtitle: Engineer
-  imgpath: /images/about/about_iwasaki.png
-  imgpathon: /images/about/about_iwasaki_on.png
+  imgpath: /images/about/about_iwasaki_out.png
   message: ソフトウェアを武器に問題を解決したいソフトウェアエンジニア。長くERP業界で製品開発をしていたが、ソフトウェアが欲しい人・使う人と、より「近くなる」ことに魅力を感じてmofmofに参加。顧客と二人三脚で最高のサービスを作りたいと思っています。
 
 - name: ペトロ / Petro
   jobtitle: CPO（Chief Pet Officer）
   imgpath: /images/about/about_petro.png
-  imgpathon: /images/about/about_petro.png
   message: フレンチブルドッグ。
 
 - name: どんうさぎ / Don Usagi

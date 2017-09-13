@@ -9,7 +9,9 @@
 			</span>
 			<span class="member_jobtitle">{{ member.jobtitle }}</span>
 			</p>
-			<img src="{{ member.imgpath }}" alt="" onmouseover="this.src='{{ member.imgpathon }}'" onmouseout="this.src='{{ member.imgpath }}'">
+			<div>
+				<img class="rollover" src="{{ member.imgpath }}" alt="{{ member.name }}">
+			</div>
 			<figcaption class="message">
 			{{ member.message }}
 			</figcaption>

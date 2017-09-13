@@ -21,7 +21,7 @@
 		.about_member_message {
 				color: #000;
 			}
-	}	
+	}
 }
 
 
@@ -77,6 +77,9 @@
 	height: 450px;
 	padding-right: 60px;
 	padding-top: 60px;
+	p {
+		margin-bottom: 20px;
+	}
 	@media screen and (max-width: 1024px) {
 		float: none;
 		width: 100%;
@@ -84,7 +87,6 @@
 		padding-top: 40px;
 		p {
 			padding: 0 30px;
-			margin-bottom: 20px;
 		}
 	}
 }
@@ -110,13 +112,13 @@
 	width: 300px;
 	border-top: solid 1px $brand-color;
 	margin-bottom: 50px;
-	img {
- 		&:hover {
- 			opacity: 0.8;
-			-webkit-transition: .6s ease-in-out;
-	 		transition: .5s ease-in-out;
- 		}
-	}
+	// img {
+ // 		&:hover {
+ // 			opacity: 0.8;
+	// 		-webkit-transition: .6s ease-in-out;
+	//  		transition: .5s ease-in-out;
+ // 		}
+	// }
 	.member_name {
 		span.name {
 			float: left;
@@ -190,6 +192,3 @@
 	width: 100%;
 	height: 450px;
 }
-
-
-

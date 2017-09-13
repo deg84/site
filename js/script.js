@@ -166,6 +166,12 @@ $(function(){
 		$(this).toggleClass('hover');
 	});
 
+	$('.rollover').easyRollover({
+		transition: 'fade',
+		duration: 500,
+		easing: 'swing'
+	});
+
 	// アコーディオン
 		$('.js_switch').on('click',function(){
 			$(this).toggleClass("open");
