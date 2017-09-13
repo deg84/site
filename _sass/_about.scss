@@ -3,7 +3,7 @@
 	width: 1000px;
 	height: 450px;
 	margin-bottom: 100px;
-	background: url(/about/images/about_harada.png) no-repeat;
+	background: url(/images/about/about_harada.png) no-repeat;
   	-webkit-transition: .3s ease-in-out;
  	transition: .3s ease-in-out;
 	@media screen and (max-width: 1024px) {
@@ -13,7 +13,7 @@
 }
 
 .about_member_01.hover {
-	background: url(/about/images/about_harada_on.png) no-repeat;
+	background: url(/images/about/about_harada_on.png) no-repeat;
 	.about_member_message {
 		color: #fff;
 	}

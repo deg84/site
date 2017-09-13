@@ -194,7 +194,7 @@ $(function(){
 	  // マーカーの設定
 	  // マーカー画像の設定
 		var markerImg = {
-		   url: '/about/images/map_pin.png'
+		   url: '/images/about/map_pin.png'
 		 };
 		// マーカーの設定
 		var marker = new google.maps.Marker({
