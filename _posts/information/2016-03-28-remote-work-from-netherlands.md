@@ -1,5 +1,5 @@
 ---
-layout: information
+layout: post
 title: 海外リモートワークプロジェクト始動。第一弾としてオランダ～日本間のリモートワークにより、話題のファッション系iOSアプリの開発業務を行います
 image: /images/information/2016-03-28-remote-work-from-netherlands.jpg
 tags:

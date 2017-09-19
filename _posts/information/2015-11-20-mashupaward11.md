@@ -1,5 +1,5 @@
 ---
-layout: information
+layout: post
 title: マッシュアップアワード11にて弊社代表の原田、エンジニアの橘が受賞致しました。
 image: /images/information/2015-11-20-mashupaward11.jpg
 tags:

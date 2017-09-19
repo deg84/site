@@ -1,5 +1,5 @@
 ---
-layout: information
+layout: post
 title: 米スタンフォード大学が提供するCoursera機械学習講座「Machine Learning」の修了認定を受けました。
 image: /images/information/2016-05-31-coursera-machine-learning-harada.jpg
 tags:

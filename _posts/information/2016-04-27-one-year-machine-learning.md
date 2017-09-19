@@ -1,5 +1,5 @@
 ---
-layout: information
+layout: post
 title: おかげさまで1周年！次年度は「機械学習」をキーワードに受託開発、自社プロダクト開発に注力して参ります。
 image: /images/information/2016-04-27-one-year-machine-learning.jpg
 tags:

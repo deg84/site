@@ -1,5 +1,5 @@
 ---
-layout: information
+layout: post
 title: Developers Summit 2016にて、弊社代表の原田が登壇致しました。
 image: /images/information/2016-02-19-developers-summit.jpg
 tags:

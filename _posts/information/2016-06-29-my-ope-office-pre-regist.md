@@ -1,5 +1,5 @@
 ---
-layout: information
+layout: post
 title: 人工知能チャットbot作成サービス「My-ope（マイオペ）」の事前登録を開始いたしました。
 image: /images/information/2016-06-29-my-ope-office-pre-regist.jpg
 tags: [AI,人工知能,チャットボット]
