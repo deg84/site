@@ -1,6 +1,6 @@
 ---
 layout: default
-description: サービス
+title: 開発チームレンタルとは
 body_class_name: service
 
 # Main Visual
