@@ -56,6 +56,11 @@ img {
 	vertical-align: bottom;
 }
 
+ol, ul {
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+
 .bg {
 	background: $background-color;
 	position: relative;
