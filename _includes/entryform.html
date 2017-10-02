@@ -1,39 +1,36 @@
 <section class="section_contact">
-<div class="container02 content_bg_center clearfix">
+	<div class="container02 content_bg_center clearfix">
+		<div id="entry_form" class="contact_text entry_text">
+			<h2 class="title_left_small">ENTRY FORM <span>採用応募フォーム</span></h2>
+			<p class="contact_notice entry">
+				左の項目を記入して送信してください。<br />
+				後ほど担当のものからメールでご案内致します。<br />
+				mofmof inc.への採用応募をお待ちしております。
+			</p>
+		</div>
 
-<div id="entry_form" class="contact_text entry_text">
-<h2 class="title_left_small">ENTRY FORM <span>採用応募フォーム</span></h2>
-<p class="contact_notice entry">
-	左の項目を記入して送信してください。<br />
-	後ほど担当のものからメールでご案内致します。<br />
-	mofmof inc.への採用応募をお待ちしております。
-</p>
-</div>
-
-<div class="contact_form entry_form">
-	<form name="entryform" action="thanks" data-netlify="true" netlify-honeypot="bot-field" >
-	<div class="row">
-		<div class="form_group">
-			<label for="input_name">お名前</label>
-			<input type="text" class="form_control" id="input_name" name="name" placeholder="">
+		<div class="contact_form entry_form">
+			<form name="entryform" action="thanks" data-netlify="true" netlify-honeypot="bot-field" >
+				<div class="row">
+					<div class="form_group">
+						<label for="input_name">お名前</label>
+						<input type="text" class="form_control" id="input_name" name="name" placeholder="">
+					</div>
+				</div>
+				<div class="form_group">
+					<label for="input_mail">希望職種</label>
+					<input type="text" class="form_control" id="input_mail" name="job" placeholder="">
+				</div>
+				<div class="form_group">
+					<label for="input_mail">メールアドレス</label>
+					<input type="email" class="form_control" id="input_mail" name="email" placeholder="">
+				</div>
+				<div class="form_group">
+					<label for="input_textarea">内容</label>
+					<textarea class="form_control" rows="7" id="input_textarea" name="detail" placeholder=""></textarea>
+				</div>
+				<button class="button submit entry button_primary">応募する</button>
+			</form>
 		</div>
 	</div>
-	<div class="form_group">
-	<label for="input_mail">希望職種</label>
-	<input type="text" class="form_control" id="input_mail" name="job" placeholder="">
-	</div>
-	<div class="form_group">
-	<label for="input_mail">メールアドレス</label>
-	<input type="email" class="form_control" id="input_mail" name="email" placeholder="">
-	</div>
-	<div class="form_group">
-	<label for="input_textarea">内容</label>
-	<textarea class="form_control" rows="7" id="input_textarea" name="detail" placeholder=""></textarea>
-	</div>
-
-	<button class="button submit entry button_primary">応募する</button>
-	</form>
-</div>
-
-</div>
 </section>
