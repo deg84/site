@@ -68,50 +68,50 @@ p	/Users/harada/source_code/site/_includes/accordion.html	/^				<p>新規事業�
 p	/Users/harada/source_code/site/_includes/accordion.html	/^				<p>スクラムの考え方をベースにしたチーム作りをしており、決められた期間にどこまで開発出来るかにコミットする作り方ではなく、決められた期間に対して、何を優先するか、しないかを常に見直し続けながら開発します。これにより無茶でムダな作り込みを減らしています。<\/p>$/;"	function	line:8
 p	/Users/harada/source_code/site/_includes/accordion.html	/^				<p>クライアント(プロダクトオーナー)を含めて2〜6名くらいの小規模チームで開発することが多く、週次で必ずミーティングを開催し、仕様の詳細や目的、優先順位について対話することを重要視しているため、「誰がなぜ」その機能を必要としているかがブラックボックスにならず、クライアントやエンドユーザーに近い目線で仕事をすることが出来ます。<\/p>$/;"	function	line:9
 dl	/Users/harada/source_code/site/_includes/accordion.html	/^				<dl>$/;"	function	line:10
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>業務内容<\/dt>$/;"	function	line:11
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>月額制開発チームレンタルの開発担当(Ruby on Rails)をお願いしたいと思っています。スクラムをベースにした2〜6名チームで、新規事業の開発を進めていきます。<\/dd>$/;"	function	line:12
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>雇用形態<\/dt>$/;"	function	line:13
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>正社員(中途) \/ 業務委託<\/dd>$/;"	function	line:14
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>応募資格<\/dt>$/;"	function	line:15
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>$/;"	function	line:16
-ul	/Users/harada/source_code/site/_includes/accordion.html	/^						<ul>$/;"	function	line:18
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>WEBアプリケーションフレームワークの実務経験<br \/>(Laravel, Struts, CakePHPなどでも可)<\/li>$/;"	function	line:19
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>社会人経験<\/li>$/;"	function	line:20
-ul	/Users/harada/source_code/site/_includes/accordion.html	/^						<ul>$/;"	function	line:24
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>Ruby on Railsを利用した開発経験<\/li>$/;"	function	line:25
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>AWSの各種サービスを利用した開発経験<\/li>$/;"	function	line:26
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>スクラム開発の経験<\/li>$/;"	function	line:27
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>開発ディレクション経験<\/li>$/;"	function	line:28
-ul	/Users/harada/source_code/site/_includes/accordion.html	/^						<ul>$/;"	function	line:32
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>新規サービス立ち上げにやりがいを感じる方<\/li>$/;"	function	line:33
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>開発ディレクション経験<\/li>$/;"	function	line:34
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>勤務地<\/dt>$/;"	function	line:37
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>$/;"	function	line:38
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>勤務時間<\/dt>$/;"	function	line:43
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>9:45 〜 18:45<\/dd>$/;"	function	line:44
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>給与<\/dt><dd>※ご経験・スキルを考慮して決定いたします（試用期間あり）。<\/dd>$/;"	function	line:45
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>待遇・福利厚生<\/dt>$/;"	function	line:46
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>$/;"	function	line:47
-ul	/Users/harada/source_code/site/_includes/accordion.html	/^						<ul>$/;"	function	line:48
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>交通費支給<\/li>$/;"	function	line:49
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>各種社会保険完備<\/li>$/;"	function	line:50
-li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>昇給あり<\/li>$/;"	function	line:51
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>休日・休暇<\/dt>$/;"	function	line:54
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>完全週休2日制(土日)、祝日、夏季休暇、年末年始休暇<\/dd>$/;"	function	line:55
-a	/Users/harada/source_code/site/_includes/accordion.html	/^				<a href="#entry_form" class="button button_entry">応募する<\/a>$/;"	function	line:57
-div	/Users/harada/source_code/site/_includes/accordion.html	/^		<div class="content_recruit_inner js_contentwrap displaynone">$/;"	function	line:62
-div	/Users/harada/source_code/site/_includes/accordion.html	/^				<div class="content_info recruit">$/;"	function	line:63
-p	/Users/harada/source_code/site/_includes/accordion.html	/^				<p>多くの開発相談をいただいている反面、mofmof inc.では対応可能な人員が不足しています。「十分にビジネスプランを練ってきたが、肝心の作れる人いない」「決まった仕様通りにしか作ってもらえない」といった相談が多く、我々だからこそ出来る開発スタイルで、新規事業へチャレンジする機会を増やしたいと考えています。<\/p>$/;"	function	line:64
-dl	/Users/harada/source_code/site/_includes/accordion.html	/^					<dl>$/;"	function	line:65
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>業務内容<\/dt>$/;"	function	line:66
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>月額制開発チームレンタルの開発担当(Ruby on Rails)をお願いしたいと思っています。スクラムをベースにした2〜6名チームで、新規事業の開発を進めていきます。<\/dd>$/;"	function	line:67
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>雇用形態<\/dt>$/;"	function	line:68
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>正社員(中途) \/ 業務委託<\/dd>$/;"	function	line:69
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>応募資格<\/dt>$/;"	function	line:70
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>$/;"	function	line:71
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>勤務地<\/dt><dd>mofmof本社オフィス<br>$/;"	function	line:88
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>勤務時間<\/dt>$/;"	function	line:90
-dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>9:45 〜 18:45<\/dd>$/;"	function	line:91
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>給与<\/dt><dd>※ご経験・スキルを考慮して決定いたします。　（試用期間あり）<\/dd>$/;"	function	line:92
-dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>待遇・福利厚生<\/dt><dd>交通費支給, 各種社会保険完備, 昇給あり, 休日・休暇：完全週休2日制(土日), 祝日, 夏季休暇, 年末年始休暇<\/dd>$/;"	function	line:93
-a	/Users/harada/source_code/site/_includes/accordion.html	/^					<a href="#entry_form" class="button button_entry">応募する<\/a>$/;"	function	line:95
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>募集の背景<\/dt>$/;"	function	line:11
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>$/;"	function	line:12
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>雇用形態<\/dt>$/;"	function	line:15
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>正社員(中途) \/ 業務委託<\/dd>$/;"	function	line:16
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>応募資格<\/dt>$/;"	function	line:17
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>$/;"	function	line:18
+ul	/Users/harada/source_code/site/_includes/accordion.html	/^						<ul>$/;"	function	line:20
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>WEBアプリケーションフレームワークの実務経験<br \/>(Laravel, Struts, CakePHPなどでも可)<\/li>$/;"	function	line:21
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>社会人経験<\/li>$/;"	function	line:22
+ul	/Users/harada/source_code/site/_includes/accordion.html	/^						<ul>$/;"	function	line:26
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>Ruby on Railsを利用した開発経験<\/li>$/;"	function	line:27
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>AWSの各種サービスを利用した開発経験<\/li>$/;"	function	line:28
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>スクラム開発の経験<\/li>$/;"	function	line:29
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>開発ディレクション経験<\/li>$/;"	function	line:30
+ul	/Users/harada/source_code/site/_includes/accordion.html	/^						<ul>$/;"	function	line:34
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>新規サービス立ち上げにやりがいを感じる方<\/li>$/;"	function	line:35
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>開発ディレクション経験<\/li>$/;"	function	line:36
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>勤務地<\/dt>$/;"	function	line:39
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>$/;"	function	line:40
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>勤務時間<\/dt>$/;"	function	line:45
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>9:45 〜 18:45<\/dd>$/;"	function	line:46
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>給与<\/dt><dd>※ご経験・スキルを考慮して決定いたします（試用期間あり）。<\/dd>$/;"	function	line:47
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>待遇・福利厚生<\/dt>$/;"	function	line:48
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>$/;"	function	line:49
+ul	/Users/harada/source_code/site/_includes/accordion.html	/^						<ul>$/;"	function	line:50
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>交通費支給<\/li>$/;"	function	line:51
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>各種社会保険完備<\/li>$/;"	function	line:52
+li	/Users/harada/source_code/site/_includes/accordion.html	/^							<li>昇給あり<\/li>$/;"	function	line:53
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>休日・休暇<\/dt>$/;"	function	line:56
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>完全週休2日制(土日)、祝日、夏季休暇、年末年始休暇<\/dd>$/;"	function	line:57
+a	/Users/harada/source_code/site/_includes/accordion.html	/^				<a href="#entry_form" class="button button_entry">応募する<\/a>$/;"	function	line:59
+div	/Users/harada/source_code/site/_includes/accordion.html	/^		<div class="content_recruit_inner js_contentwrap displaynone">$/;"	function	line:64
+div	/Users/harada/source_code/site/_includes/accordion.html	/^				<div class="content_info recruit">$/;"	function	line:65
+p	/Users/harada/source_code/site/_includes/accordion.html	/^				<p>多くの開発相談をいただいている反面、mofmof inc.では対応可能な人員が不足しています。「十分にビジネスプランを練ってきたが、肝心の作れる人いない」「決まった仕様通りにしか作ってもらえない」といった相談が多く、我々だからこそ出来る開発スタイルで、新規事業へチャレンジする機会を増やしたいと考えています。<\/p>$/;"	function	line:66
+dl	/Users/harada/source_code/site/_includes/accordion.html	/^					<dl>$/;"	function	line:67
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>業務内容<\/dt>$/;"	function	line:68
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>月額制開発チームレンタルの開発担当(Ruby on Rails)をお願いしたいと思っています。スクラムをベースにした2〜6名チームで、新規事業の開発を進めていきます。<\/dd>$/;"	function	line:69
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>雇用形態<\/dt>$/;"	function	line:70
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>正社員(中途) \/ 業務委託<\/dd>$/;"	function	line:71
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>応募資格<\/dt>$/;"	function	line:72
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>$/;"	function	line:73
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>勤務地<\/dt><dd>mofmof本社オフィス<br>$/;"	function	line:90
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>勤務時間<\/dt>$/;"	function	line:92
+dd	/Users/harada/source_code/site/_includes/accordion.html	/^					<dd>9:45 〜 18:45<\/dd>$/;"	function	line:93
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>給与<\/dt><dd>※ご経験・スキルを考慮して決定いたします。　（試用期間あり）<\/dd>$/;"	function	line:94
+dt	/Users/harada/source_code/site/_includes/accordion.html	/^					<dt>待遇・福利厚生<\/dt><dd>交通費支給, 各種社会保険完備, 昇給あり, 休日・休暇：完全週休2日制(土日), 祝日, 夏季休暇, 年末年始休暇<\/dd>$/;"	function	line:95
+a	/Users/harada/source_code/site/_includes/accordion.html	/^					<a href="#entry_form" class="button button_entry">応募する<\/a>$/;"	function	line:97
