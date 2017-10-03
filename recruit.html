@@ -27,16 +27,27 @@ image: /images/main_recruit.png
 {% include mainvisual.html %}
 
 <section class="section_contact">
+
 	<h1 class="page_title">{{page.h1_page_title}}</h1>
 
-<div class="container03">
+	<div class="container03">
+		<h2>採用情報コンテンツ</h2>
+		<ul>
+			<li><a href="/recruit/recruit_you.html">入社を考えているあなたへ</a></li>
+			<li><a href="/recruit/want-to-do.html">mofmofは何をしたいのか</a></li>
+			<li><a href="/recruit/how-working.html">どんな風に働いているか</a></li>
+		</ul>
+		<br />
+	</div>
 
-{% include accordion.html %}
-
-</div>
+	<div class="container03">
+	{% include accordion.html %}
+	</div>
 </section>
 
 {% include entryform.html %}
 
+
+<br />
 
 {% include footernav.html %}

@@ -29,3 +29,9 @@ mofmof inc.では毎週火曜日はリモートワークの日にしており、
 <!-- ## 社内の様子
 
 [img] -->
+
+## 採用情報コンテンツ
+- [募集要項](/recruit.html)
+- [入社を考えているあなたへ](/recruit/recruit_you.html)
+- [mofmofは何をしたいのか](/recruit/want-to-do.html)
+- [どんな風に働いているか](/recruit/how-working.html)
