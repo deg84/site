@@ -1,0 +1,20 @@
+works:
+  title: 開発実績
+  image: /images/small_works.png
+  path: /works.html
+case:
+  title: ケーススタディー
+  image: /images/small_case.png
+  path: /case.html
+faq:
+  title: よくある質問
+  image: /images/small_faq.png
+  path: /faq
+service:
+  title: サービス
+  image: /images/small_service.png
+  path: /service
+about:
+  title: mofmofとは
+  image: /images/small_about.png
+  path: /about

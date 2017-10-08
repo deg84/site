@@ -10,18 +10,8 @@ main_title_text_en2: ASKED
 main_title_text_en3: QUESTIONS
 h1_page_title: よくあるご質問
 
-# Page Navigation
-
-# Navigation Left
-page_nav_left_imagepath: /images/small_service.png
-page_nav_left_path: /service
-page_nav_btn_left_text: サービス
-
-# Navigation Right
-page_nav_right_imagepath: /images/small_works.png
-page_nav_right_path: /works
-page_nav_btn_right_text: 開発実績
-
+footer_left: service
+footer_right: works
 ---
 
 {% include mainvisual.html %}

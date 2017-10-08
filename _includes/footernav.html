@@ -2,16 +2,16 @@
 	<div class="container02 clearfix">
 		<div class="page_nav_items common clearfix">
 			<div class="page_nav_inner">
-			<a class="page_nav_left" href="{{ page.page_nav_left_path }}">
+			<a class="page_nav_left" href="{{ site.data.footernav[page.footer_left].path }}">
 			<div class="page_nav_item_box">
-			<img src="{{ page.page_nav_left_imagepath }}" />
-			<button class="button button_primary page_nav_button">{{ page.page_nav_btn_left_text }}</button>
+			<img src="{{ site.data.footernav[page.footer_left].image }}" />
+			<button class="button button_primary page_nav_button">{{ site.data.footernav[page.footer_left].title }}</button>
 			</div>
 			</a>
-			<a class="page_nav_right" href="{{ page.page_nav_right_path }}">
+			<a class="page_nav_right" href="{{ site.data.footernav[page.footer_right].path }}">
 			<div class="page_nav_item_box">
-			<img src="{{ page.page_nav_right_imagepath }}" />
-			<button class="button button_primary page_nav_button">{{ page.page_nav_btn_right_text }}</button>
+			<img src="{{ site.data.footernav[page.footer_right].image }}" />
+			<button class="button button_primary page_nav_button">{{ site.data.footernav[page.footer_right].title }}</button>
 			</div>
 			</a>
 			</div>
