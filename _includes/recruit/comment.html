@@ -1,14 +1,14 @@
-<!-- {{ include.body }} -->
+{% assign content = site.data.recruit.comment[include.key] %}
 <h2>メンバーからコメント</h2>
 <div>
   <div class="commenter">
-    <img src="/images/recruit/comment/yamagata.jpg" class="img-circle" />
-    <p>エンジニア 山形 孝造</p>
+    <img src="{{ content.image }}" class="img-circle" />
+    <p>{{ content.name }}</p>
   </div>
   <div class="well comment">
-    <h3>社内勉強会が活発で技術対する熱量が高い</h3>
+    <h3>{{ content.title }}</h3>
     <p>
-      頻繁に機械学習勉強会やVue.js勉強会など、社内勉強会が活発に行われていて、技術に対する熱量が非常に高いと感じます。一緒に働いているだけでも刺激を受けるので、技術を伸ばすには持ってこいの場所だと思っています！
+      {{ content.comment }}
     </p>
   </div>
   <div class="clearfix" />

@@ -37,7 +37,7 @@ mofmof inc.では、機械学習やフロントエンドのJSフレームワー�
 
 [img] -->
 
-{% include recruit/comment.html body="hogehoge" %}
+{% include recruit/comment.html key="study_meeting" %}
 
 ## 採用情報コンテンツ
 - [募集要項](/recruit.html)
