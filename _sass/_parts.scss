@@ -23,6 +23,24 @@
 .middle {
 	width: 200px;
 }
+
 .large {
 	width: 300px;
+}
+
+.well {
+	padding: 25px;
+	background: $background-color;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-small {
+  width: 150px;
+}
+
+.text-center {
+  text-align: center;
 }

@@ -144,3 +144,29 @@
 		right: 10%;
 	}
 }
+
+.commenter {
+  float: left;
+	width: 20%;
+	text-align: center;
+
+	img {
+		width: 100%;
+	}
+
+	@media screen and (max-width: 1024px) {
+		width: 100%;
+	}
+}
+
+.comment {
+	float: left;
+	width: 60%;
+	margin-left: 15px;
+	min-height: 130px;
+	@media screen and (max-width: 1024px) {
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 90%;
+	}
+}
